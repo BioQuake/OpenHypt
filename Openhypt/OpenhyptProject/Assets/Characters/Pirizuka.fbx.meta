@@ -1,0 +1,3073 @@
+fileFormatVersion: 2
+guid: 55f08f036e5674f4bb6029a6cf5c2b07
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: Armature|Abdomen
+  - first:
+      1: 100004
+    second: Armature|Head
+  - first:
+      1: 100006
+    second: Armature|L.Ankle
+  - first:
+      1: 100008
+    second: Armature|L.Arm
+  - first:
+      1: 100010
+    second: Armature|L.Foot
+  - first:
+      1: 100012
+    second: Armature|L.Forearm
+  - first:
+      1: 100014
+    second: Armature|L.Hand
+  - first:
+      1: 100016
+    second: Armature|L.Shoulder
+  - first:
+      1: 100018
+    second: Armature|L.Thigh
+  - first:
+      1: 100020
+    second: Armature|L.Toe
+  - first:
+      1: 100022
+    second: Armature|LeftBosom
+  - first:
+      1: 100024
+    second: Armature|Neck
+  - first:
+      1: 100026
+    second: Armature|R.Ankle
+  - first:
+      1: 100028
+    second: Armature|R.Arm
+  - first:
+      1: 100030
+    second: Armature|R.Foot
+  - first:
+      1: 100032
+    second: Armature|R.Forearm
+  - first:
+      1: 100034
+    second: Armature|R.Hand
+  - first:
+      1: 100036
+    second: Armature|R.Shoulder
+  - first:
+      1: 100038
+    second: Armature|R.Thigh
+  - first:
+      1: 100040
+    second: Armature|R.Toe
+  - first:
+      1: 100042
+    second: Armature|RightBosom
+  - first:
+      1: 100044
+    second: Armature|Torso
+  - first:
+      1: 100046
+    second: Body
+  - first:
+      1: 100048
+    second: Camera
+  - first:
+      1: 100050
+    second: Eye
+  - first:
+      1: 100052
+    second: Eyelids
+  - first:
+      1: 100054
+    second: Eyelids2
+  - first:
+      1: 100056
+    second: Hand
+  - first:
+      1: 100058
+    second: Lamp
+  - first:
+      1: 100060
+    second: //RootNode
+  - first:
+      1: 100062
+    second: HandGunHold
+  - first:
+      1: 100064
+    second: PiriArmature
+  - first:
+      1: 100066
+    second: PiriArmature|Abdomen
+  - first:
+      1: 100068
+    second: PiriArmature|Head
+  - first:
+      1: 100070
+    second: PiriArmature|L.Ankle
+  - first:
+      1: 100072
+    second: PiriArmature|L.Arm
+  - first:
+      1: 100074
+    second: PiriArmature|L.Foot
+  - first:
+      1: 100076
+    second: PiriArmature|L.Forearm
+  - first:
+      1: 100078
+    second: PiriArmature|L.Hand
+  - first:
+      1: 100080
+    second: PiriArmature|L.Shoulder
+  - first:
+      1: 100082
+    second: PiriArmature|L.Thigh
+  - first:
+      1: 100084
+    second: PiriArmature|L.Toe
+  - first:
+      1: 100086
+    second: PiriArmature|LeftBosom
+  - first:
+      1: 100088
+    second: PiriArmature|Neck
+  - first:
+      1: 100090
+    second: PiriArmature|R.Ankle
+  - first:
+      1: 100092
+    second: PiriArmature|R.Arm
+  - first:
+      1: 100094
+    second: PiriArmature|R.Foot
+  - first:
+      1: 100096
+    second: PiriArmature|R.Forearm
+  - first:
+      1: 100098
+    second: PiriArmature|R.Hand
+  - first:
+      1: 100100
+    second: PiriArmature|R.Shoulder
+  - first:
+      1: 100102
+    second: PiriArmature|R.Thigh
+  - first:
+      1: 100104
+    second: PiriArmature|R.Toe
+  - first:
+      1: 100106
+    second: PiriArmature|RightBosom
+  - first:
+      1: 100108
+    second: PiriArmature|Torso
+  - first:
+      1: 100110
+    second: Piricol1
+  - first:
+      1: 100112
+    second: Piricol2
+  - first:
+      1: 100114
+    second: Abdomen
+  - first:
+      1: 100116
+    second: Head
+  - first:
+      1: 100118
+    second: Head_end
+  - first:
+      1: 100120
+    second: L.Ankle
+  - first:
+      1: 100122
+    second: L.Arm
+  - first:
+      1: 100124
+    second: L.Foot
+  - first:
+      1: 100126
+    second: L.Forearm
+  - first:
+      1: 100128
+    second: L.Hand
+  - first:
+      1: 100130
+    second: L.Hand_end
+  - first:
+      1: 100132
+    second: L.Shoulder
+  - first:
+      1: 100134
+    second: L.Thigh
+  - first:
+      1: 100136
+    second: L.Toe
+  - first:
+      1: 100138
+    second: L.Toe_end
+  - first:
+      1: 100140
+    second: LeftBosom
+  - first:
+      1: 100142
+    second: LeftBosom_end
+  - first:
+      1: 100144
+    second: Neck
+  - first:
+      1: 100146
+    second: R.Ankle
+  - first:
+      1: 100148
+    second: R.Arm
+  - first:
+      1: 100150
+    second: R.Foot
+  - first:
+      1: 100152
+    second: R.Forearm
+  - first:
+      1: 100154
+    second: R.Hand
+  - first:
+      1: 100156
+    second: R.Hand_end
+  - first:
+      1: 100158
+    second: R.Shoulder
+  - first:
+      1: 100160
+    second: R.Thigh
+  - first:
+      1: 100162
+    second: R.Toe
+  - first:
+      1: 100164
+    second: R.Toe_end
+  - first:
+      1: 100166
+    second: RightBosom
+  - first:
+      1: 100168
+    second: RightBosom_end
+  - first:
+      1: 100170
+    second: Torso
+  - first:
+      1: 100172
+    second: PlayerCol
+  - first:
+      1: 100174
+    second: PiriHair
+  - first:
+      1: 100176
+    second: PiriHead
+  - first:
+      1: 100178
+    second: PiriHeadL
+  - first:
+      1: 100180
+    second: PiriHeadL2
+  - first:
+      1: 100182
+    second: PiriHead2
+  - first:
+      1: 100184
+    second: PiriHead0
+  - first:
+      1: 100186
+    second: PiriHeadL0
+  - first:
+      1: 100188
+    second: PiriHeadU
+  - first:
+      1: 100190
+    second: PiriHeadU0
+  - first:
+      1: 100192
+    second: PiriHeadU2
+  - first:
+      1: 100194
+    second: Bone
+  - first:
+      1: 100196
+    second: LeftBrow
+  - first:
+      1: 100198
+    second: LeftBrow_end
+  - first:
+      1: 100200
+    second: LeftMouth
+  - first:
+      1: 100202
+    second: LeftMouth_end
+  - first:
+      1: 100204
+    second: PiriHead.001
+  - first:
+      1: 100206
+    second: PiriHeadArmature
+  - first:
+      1: 100208
+    second: RightBrow
+  - first:
+      1: 100210
+    second: RightBrow_end
+  - first:
+      1: 100212
+    second: RightMouth
+  - first:
+      1: 100214
+    second: RightMouth_end
+  - first:
+      1: 100216
+    second: PiriJaw
+  - first:
+      1: 100218
+    second: PiriJaw_end
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: Armature|Abdomen
+  - first:
+      4: 400004
+    second: Armature|Head
+  - first:
+      4: 400006
+    second: Armature|L.Ankle
+  - first:
+      4: 400008
+    second: Armature|L.Arm
+  - first:
+      4: 400010
+    second: Armature|L.Foot
+  - first:
+      4: 400012
+    second: Armature|L.Forearm
+  - first:
+      4: 400014
+    second: Armature|L.Hand
+  - first:
+      4: 400016
+    second: Armature|L.Shoulder
+  - first:
+      4: 400018
+    second: Armature|L.Thigh
+  - first:
+      4: 400020
+    second: Armature|L.Toe
+  - first:
+      4: 400022
+    second: Armature|LeftBosom
+  - first:
+      4: 400024
+    second: Armature|Neck
+  - first:
+      4: 400026
+    second: Armature|R.Ankle
+  - first:
+      4: 400028
+    second: Armature|R.Arm
+  - first:
+      4: 400030
+    second: Armature|R.Foot
+  - first:
+      4: 400032
+    second: Armature|R.Forearm
+  - first:
+      4: 400034
+    second: Armature|R.Hand
+  - first:
+      4: 400036
+    second: Armature|R.Shoulder
+  - first:
+      4: 400038
+    second: Armature|R.Thigh
+  - first:
+      4: 400040
+    second: Armature|R.Toe
+  - first:
+      4: 400042
+    second: Armature|RightBosom
+  - first:
+      4: 400044
+    second: Armature|Torso
+  - first:
+      4: 400046
+    second: Body
+  - first:
+      4: 400048
+    second: Camera
+  - first:
+      4: 400050
+    second: Eye
+  - first:
+      4: 400052
+    second: Eyelids
+  - first:
+      4: 400054
+    second: Eyelids2
+  - first:
+      4: 400056
+    second: Hand
+  - first:
+      4: 400058
+    second: Lamp
+  - first:
+      4: 400060
+    second: //RootNode
+  - first:
+      4: 400062
+    second: HandGunHold
+  - first:
+      4: 400064
+    second: PiriArmature
+  - first:
+      4: 400066
+    second: PiriArmature|Abdomen
+  - first:
+      4: 400068
+    second: PiriArmature|Head
+  - first:
+      4: 400070
+    second: PiriArmature|L.Ankle
+  - first:
+      4: 400072
+    second: PiriArmature|L.Arm
+  - first:
+      4: 400074
+    second: PiriArmature|L.Foot
+  - first:
+      4: 400076
+    second: PiriArmature|L.Forearm
+  - first:
+      4: 400078
+    second: PiriArmature|L.Hand
+  - first:
+      4: 400080
+    second: PiriArmature|L.Shoulder
+  - first:
+      4: 400082
+    second: PiriArmature|L.Thigh
+  - first:
+      4: 400084
+    second: PiriArmature|L.Toe
+  - first:
+      4: 400086
+    second: PiriArmature|LeftBosom
+  - first:
+      4: 400088
+    second: PiriArmature|Neck
+  - first:
+      4: 400090
+    second: PiriArmature|R.Ankle
+  - first:
+      4: 400092
+    second: PiriArmature|R.Arm
+  - first:
+      4: 400094
+    second: PiriArmature|R.Foot
+  - first:
+      4: 400096
+    second: PiriArmature|R.Forearm
+  - first:
+      4: 400098
+    second: PiriArmature|R.Hand
+  - first:
+      4: 400100
+    second: PiriArmature|R.Shoulder
+  - first:
+      4: 400102
+    second: PiriArmature|R.Thigh
+  - first:
+      4: 400104
+    second: PiriArmature|R.Toe
+  - first:
+      4: 400106
+    second: PiriArmature|RightBosom
+  - first:
+      4: 400108
+    second: PiriArmature|Torso
+  - first:
+      4: 400110
+    second: Piricol1
+  - first:
+      4: 400112
+    second: Piricol2
+  - first:
+      4: 400114
+    second: Abdomen
+  - first:
+      4: 400116
+    second: Head
+  - first:
+      4: 400118
+    second: Head_end
+  - first:
+      4: 400120
+    second: L.Ankle
+  - first:
+      4: 400122
+    second: L.Arm
+  - first:
+      4: 400124
+    second: L.Foot
+  - first:
+      4: 400126
+    second: L.Forearm
+  - first:
+      4: 400128
+    second: L.Hand
+  - first:
+      4: 400130
+    second: L.Hand_end
+  - first:
+      4: 400132
+    second: L.Shoulder
+  - first:
+      4: 400134
+    second: L.Thigh
+  - first:
+      4: 400136
+    second: L.Toe
+  - first:
+      4: 400138
+    second: L.Toe_end
+  - first:
+      4: 400140
+    second: LeftBosom
+  - first:
+      4: 400142
+    second: LeftBosom_end
+  - first:
+      4: 400144
+    second: Neck
+  - first:
+      4: 400146
+    second: R.Ankle
+  - first:
+      4: 400148
+    second: R.Arm
+  - first:
+      4: 400150
+    second: R.Foot
+  - first:
+      4: 400152
+    second: R.Forearm
+  - first:
+      4: 400154
+    second: R.Hand
+  - first:
+      4: 400156
+    second: R.Hand_end
+  - first:
+      4: 400158
+    second: R.Shoulder
+  - first:
+      4: 400160
+    second: R.Thigh
+  - first:
+      4: 400162
+    second: R.Toe
+  - first:
+      4: 400164
+    second: R.Toe_end
+  - first:
+      4: 400166
+    second: RightBosom
+  - first:
+      4: 400168
+    second: RightBosom_end
+  - first:
+      4: 400170
+    second: Torso
+  - first:
+      4: 400172
+    second: PlayerCol
+  - first:
+      4: 400174
+    second: PiriHair
+  - first:
+      4: 400176
+    second: PiriHead
+  - first:
+      4: 400178
+    second: PiriHeadL
+  - first:
+      4: 400180
+    second: PiriHeadL2
+  - first:
+      4: 400182
+    second: PiriHead2
+  - first:
+      4: 400184
+    second: PiriHead0
+  - first:
+      4: 400186
+    second: PiriHeadL0
+  - first:
+      4: 400188
+    second: PiriHeadU
+  - first:
+      4: 400190
+    second: PiriHeadU0
+  - first:
+      4: 400192
+    second: PiriHeadU2
+  - first:
+      4: 400194
+    second: Bone
+  - first:
+      4: 400196
+    second: LeftBrow
+  - first:
+      4: 400198
+    second: LeftBrow_end
+  - first:
+      4: 400200
+    second: LeftMouth
+  - first:
+      4: 400202
+    second: LeftMouth_end
+  - first:
+      4: 400204
+    second: PiriHead.001
+  - first:
+      4: 400206
+    second: PiriHeadArmature
+  - first:
+      4: 400208
+    second: RightBrow
+  - first:
+      4: 400210
+    second: RightBrow_end
+  - first:
+      4: 400212
+    second: RightMouth
+  - first:
+      4: 400214
+    second: RightMouth_end
+  - first:
+      4: 400216
+    second: PiriJaw
+  - first:
+      4: 400218
+    second: PiriJaw_end
+  - first:
+      23: 2300000
+    second: Eye
+  - first:
+      23: 2300002
+    second: Eyelids
+  - first:
+      23: 2300004
+    second: Eyelids2
+  - first:
+      23: 2300006
+    second: Hand
+  - first:
+      23: 2300008
+    second: HandGunHold
+  - first:
+      23: 2300010
+    second: Piricol1
+  - first:
+      23: 2300012
+    second: Piricol2
+  - first:
+      23: 2300014
+    second: PlayerCol
+  - first:
+      23: 2300016
+    second: PiriHair
+  - first:
+      23: 2300018
+    second: PiriHead
+  - first:
+      23: 2300020
+    second: PiriHeadL
+  - first:
+      23: 2300022
+    second: PiriHeadL2
+  - first:
+      23: 2300024
+    second: PiriHead2
+  - first:
+      23: 2300026
+    second: PiriHead0
+  - first:
+      23: 2300028
+    second: PiriHeadL0
+  - first:
+      23: 2300030
+    second: PiriHeadU
+  - first:
+      23: 2300032
+    second: PiriHeadU0
+  - first:
+      23: 2300034
+    second: PiriHeadU2
+  - first:
+      23: 2300036
+    second: PiriHead.001
+  - first:
+      33: 3300000
+    second: Eye
+  - first:
+      33: 3300002
+    second: Eyelids
+  - first:
+      33: 3300004
+    second: Eyelids2
+  - first:
+      33: 3300006
+    second: Hand
+  - first:
+      33: 3300008
+    second: HandGunHold
+  - first:
+      33: 3300010
+    second: Piricol1
+  - first:
+      33: 3300012
+    second: Piricol2
+  - first:
+      33: 3300014
+    second: PlayerCol
+  - first:
+      33: 3300016
+    second: PiriHair
+  - first:
+      33: 3300018
+    second: PiriHead
+  - first:
+      33: 3300020
+    second: PiriHeadL
+  - first:
+      33: 3300022
+    second: PiriHeadL2
+  - first:
+      33: 3300024
+    second: PiriHead2
+  - first:
+      33: 3300026
+    second: PiriHead0
+  - first:
+      33: 3300028
+    second: PiriHeadL0
+  - first:
+      33: 3300030
+    second: PiriHeadU
+  - first:
+      33: 3300032
+    second: PiriHeadU0
+  - first:
+      33: 3300034
+    second: PiriHeadU2
+  - first:
+      33: 3300036
+    second: PiriHead.001
+  - first:
+      43: 4300000
+    second: Hand
+  - first:
+      43: 4300002
+    second: Eyelids2
+  - first:
+      43: 4300004
+    second: Body
+  - first:
+      43: 4300006
+    second: Eyelids
+  - first:
+      43: 4300008
+    second: Eye
+  - first:
+      43: 4300010
+    second: HandGunHold
+  - first:
+      43: 4300012
+    second: Piricol2
+  - first:
+      43: 4300014
+    second: Piricol1
+  - first:
+      43: 4300016
+    second: PlayerCol
+  - first:
+      43: 4300018
+    second: PiriHair
+  - first:
+      43: 4300020
+    second: PiriHead
+  - first:
+      43: 4300022
+    second: PiriHeadL
+  - first:
+      43: 4300024
+    second: PiriHeadL2
+  - first:
+      43: 4300026
+    second: PiriHead2
+  - first:
+      43: 4300028
+    second: PiriHead0
+  - first:
+      43: 4300030
+    second: PiriHeadL0
+  - first:
+      43: 4300032
+    second: PiriHeadU0
+  - first:
+      43: 4300034
+    second: PiriHeadU2
+  - first:
+      43: 4300036
+    second: PiriHeadU
+  - first:
+      43: 4300038
+    second: PiriHead.001
+  - first:
+      64: 6400000
+    second: Eye
+  - first:
+      64: 6400002
+    second: Eyelids
+  - first:
+      64: 6400004
+    second: Eyelids2
+  - first:
+      64: 6400006
+    second: Hand
+  - first:
+      64: 6400008
+    second: HandGunHold
+  - first:
+      64: 6400010
+    second: Piricol1
+  - first:
+      64: 6400012
+    second: Piricol2
+  - first:
+      64: 6400014
+    second: PlayerCol
+  - first:
+      64: 6400016
+    second: PiriHair
+  - first:
+      64: 6400018
+    second: PiriHead
+  - first:
+      64: 6400020
+    second: PiriHeadL
+  - first:
+      64: 6400022
+    second: PiriHeadL2
+  - first:
+      64: 6400024
+    second: PiriHead2
+  - first:
+      64: 6400026
+    second: PiriHead0
+  - first:
+      64: 6400028
+    second: PiriHeadL0
+  - first:
+      64: 6400030
+    second: PiriHeadU
+  - first:
+      64: 6400032
+    second: PiriHeadU0
+  - first:
+      64: 6400034
+    second: PiriHeadU2
+  - first:
+      64: 6400036
+    second: PiriHead.001
+  - first:
+      74: 7400000
+    second: Walk
+  - first:
+      74: 7400002
+    second: Armature|Faceplant
+  - first:
+      74: 7400004
+    second: Armature|Falling
+  - first:
+      74: 7400006
+    second: Armature|Inert
+  - first:
+      74: 7400008
+    second: Armature|Jogging
+  - first:
+      74: 7400010
+    second: Armature|Stand
+  - first:
+      74: 7400012
+    second: Armature|Stand 2
+  - first:
+      74: 7400014
+    second: Armature|Walking
+  - first:
+      74: 7400016
+    second: Armature|Walking.001
+  - first:
+      74: 7400018
+    second: Armature|DropThing
+  - first:
+      74: 7402948
+    second: Armature|WalkingLB
+  - first:
+      74: 7402950
+    second: PiriArmature|Faceplant
+  - first:
+      74: 7402952
+    second: PiriArmature|Falling
+  - first:
+      74: 7402954
+    second: PiriArmature|Jogging
+  - first:
+      74: 7402956
+    second: PiriArmature|Stand
+  - first:
+      74: 7402958
+    second: PiriArmature|Stand 2
+  - first:
+      74: 7402960
+    second: PiriArmature|Walking
+  - first:
+      74: 7402962
+    second: PiriArmature|DropThing
+  - first:
+      74: 7402964
+    second: PiriArmature|Jump
+  - first:
+      74: 7402966
+    second: PiriArmature|Land
+  - first:
+      74: 7402968
+    second: PiriArmature|MotusRide
+  - first:
+      74: 7402970
+    second: PiriArmature|Kick
+  - first:
+      74: 7402972
+    second: PiriArmature|Floating
+  - first:
+      74: 7402974
+    second: PiriArmature|FloatingF
+  - first:
+      74: 7402976
+    second: PiriArmature|Swimming
+  - first:
+      74: 7402978
+    second: PiriArmature|CepstolRide
+  - first:
+      74: 7402980
+    second: PiriArmature|Holding
+  - first:
+      74: 7402982
+    second: PiriArmature|HoldingOn
+  - first:
+      74: 7402984
+    second: PiriArmature|HoldingW
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      111: 11100002
+    second: Armature
+  - first:
+      111: 11100004
+    second: Armature|Abdomen
+  - first:
+      111: 11100006
+    second: Armature|Head
+  - first:
+      111: 11100008
+    second: Armature|L.Ankle
+  - first:
+      111: 11100010
+    second: Armature|L.Arm
+  - first:
+      111: 11100012
+    second: Armature|L.Foot
+  - first:
+      111: 11100014
+    second: Armature|L.Forearm
+  - first:
+      111: 11100016
+    second: Armature|L.Hand
+  - first:
+      111: 11100018
+    second: Armature|L.Shoulder
+  - first:
+      111: 11100020
+    second: Armature|L.Thigh
+  - first:
+      111: 11100022
+    second: Armature|L.Toe
+  - first:
+      111: 11100024
+    second: Armature|LeftBosom
+  - first:
+      111: 11100026
+    second: Armature|Neck
+  - first:
+      111: 11100028
+    second: Armature|R.Ankle
+  - first:
+      111: 11100030
+    second: Armature|R.Arm
+  - first:
+      111: 11100032
+    second: Armature|R.Foot
+  - first:
+      111: 11100034
+    second: Armature|R.Forearm
+  - first:
+      111: 11100036
+    second: Armature|R.Hand
+  - first:
+      111: 11100038
+    second: Armature|R.Shoulder
+  - first:
+      111: 11100040
+    second: Armature|R.Thigh
+  - first:
+      111: 11100042
+    second: Armature|R.Toe
+  - first:
+      111: 11100044
+    second: Armature|RightBosom
+  - first:
+      111: 11100046
+    second: Armature|Torso
+  - first:
+      111: 11100048
+    second: Body
+  - first:
+      111: 11100050
+    second: Camera
+  - first:
+      111: 11100052
+    second: Eye
+  - first:
+      111: 11100054
+    second: Eyelids
+  - first:
+      111: 11100056
+    second: Eyelids2
+  - first:
+      111: 11100058
+    second: Hand
+  - first:
+      111: 11100060
+    second: Lamp
+  - first:
+      137: 13700000
+    second: Body
+  - first:
+      137: 13700002
+    second: PiriHead
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PiriArmature|Faceplant
+      takeName: PiriArmature|Faceplant
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 98
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Abdomen
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|LeftBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|RightBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm/Armature|L.Hand
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm/Armature|R.Hand
+        weight: 1
+      - path: Armature/Armature|L.Thigh
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot/Armature|L.Toe
+        weight: 1
+      - path: Armature/Armature|R.Thigh
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot/Armature|R.Toe
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|Falling
+      takeName: PiriArmature|Falling
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Abdomen
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|LeftBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|RightBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm/Armature|L.Hand
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm/Armature|R.Hand
+        weight: 1
+      - path: Armature/Armature|L.Thigh
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot/Armature|L.Toe
+        weight: 1
+      - path: Armature/Armature|R.Thigh
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot/Armature|R.Toe
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|Jogging
+      takeName: PiriArmature|Jogging
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Abdomen
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|LeftBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|RightBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm/Armature|L.Hand
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm/Armature|R.Hand
+        weight: 1
+      - path: Armature/Armature|L.Thigh
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot/Armature|L.Toe
+        weight: 1
+      - path: Armature/Armature|R.Thigh
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot/Armature|R.Toe
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|Stand
+      takeName: PiriArmature|Stand
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Abdomen
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|LeftBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|RightBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm/Armature|L.Hand
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm/Armature|R.Hand
+        weight: 1
+      - path: Armature/Armature|L.Thigh
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot/Armature|L.Toe
+        weight: 1
+      - path: Armature/Armature|R.Thigh
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot/Armature|R.Toe
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|Stand 2
+      takeName: PiriArmature|Stand 2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Abdomen
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|LeftBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|RightBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm/Armature|L.Hand
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm/Armature|R.Hand
+        weight: 1
+      - path: Armature/Armature|L.Thigh
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot/Armature|L.Toe
+        weight: 1
+      - path: Armature/Armature|R.Thigh
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot/Armature|R.Toe
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|Walking
+      takeName: PiriArmature|Walking
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Abdomen
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|LeftBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|RightBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm/Armature|L.Hand
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm/Armature|R.Hand
+        weight: 1
+      - path: Armature/Armature|L.Thigh
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot/Armature|L.Toe
+        weight: 1
+      - path: Armature/Armature|R.Thigh
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot/Armature|R.Toe
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|DropThing
+      takeName: PiriArmature|DropThing
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Abdomen
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|LeftBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|RightBosom
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|L.Shoulder/Armature|L.Arm/Armature|L.Forearm/Armature|L.Hand
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|Neck/Armature|Head
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm
+        weight: 1
+      - path: Armature/Armature|Abdomen/Armature|Torso/Armature|R.Shoulder/Armature|R.Arm/Armature|R.Forearm/Armature|R.Hand
+        weight: 1
+      - path: Armature/Armature|L.Thigh
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot
+        weight: 1
+      - path: Armature/Armature|L.Thigh/Armature|L.Ankle/Armature|L.Foot/Armature|L.Toe
+        weight: 1
+      - path: Armature/Armature|R.Thigh
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot
+        weight: 1
+      - path: Armature/Armature|R.Thigh/Armature|R.Ankle/Armature|R.Foot/Armature|R.Toe
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|Jump
+      takeName: PiriArmature|Jump
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandGunHold
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: PiriArmature
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|LeftBosom
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|RightBosom
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|L.Shoulder
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|L.Shoulder/PiriArmature|L.Arm
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|L.Shoulder/PiriArmature|L.Arm/PiriArmature|L.Forearm
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|L.Shoulder/PiriArmature|L.Arm/PiriArmature|L.Forearm/PiriArmature|L.Hand
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|Neck
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|Neck/PiriArmature|Head
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|R.Shoulder
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|R.Shoulder/PiriArmature|R.Arm
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|R.Shoulder/PiriArmature|R.Arm/PiriArmature|R.Forearm
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|R.Shoulder/PiriArmature|R.Arm/PiriArmature|R.Forearm/PiriArmature|R.Hand
+        weight: 1
+      - path: PiriArmature/PiriArmature|L.Thigh
+        weight: 1
+      - path: PiriArmature/PiriArmature|L.Thigh/PiriArmature|L.Ankle
+        weight: 1
+      - path: PiriArmature/PiriArmature|L.Thigh/PiriArmature|L.Ankle/PiriArmature|L.Foot
+        weight: 1
+      - path: PiriArmature/PiriArmature|L.Thigh/PiriArmature|L.Ankle/PiriArmature|L.Foot/PiriArmature|L.Toe
+        weight: 1
+      - path: PiriArmature/PiriArmature|R.Thigh
+        weight: 1
+      - path: PiriArmature/PiriArmature|R.Thigh/PiriArmature|R.Ankle
+        weight: 1
+      - path: PiriArmature/PiriArmature|R.Thigh/PiriArmature|R.Ankle/PiriArmature|R.Foot
+        weight: 1
+      - path: PiriArmature/PiriArmature|R.Thigh/PiriArmature|R.Ankle/PiriArmature|R.Foot/PiriArmature|R.Toe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|Land
+      takeName: PiriArmature|Land
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandGunHold
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: PiriArmature
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|LeftBosom
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|RightBosom
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|L.Shoulder
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|L.Shoulder/PiriArmature|L.Arm
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|L.Shoulder/PiriArmature|L.Arm/PiriArmature|L.Forearm
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|L.Shoulder/PiriArmature|L.Arm/PiriArmature|L.Forearm/PiriArmature|L.Hand
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|Neck
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|Neck/PiriArmature|Head
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|R.Shoulder
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|R.Shoulder/PiriArmature|R.Arm
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|R.Shoulder/PiriArmature|R.Arm/PiriArmature|R.Forearm
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|R.Shoulder/PiriArmature|R.Arm/PiriArmature|R.Forearm/PiriArmature|R.Hand
+        weight: 1
+      - path: PiriArmature/PiriArmature|L.Thigh
+        weight: 1
+      - path: PiriArmature/PiriArmature|L.Thigh/PiriArmature|L.Ankle
+        weight: 1
+      - path: PiriArmature/PiriArmature|L.Thigh/PiriArmature|L.Ankle/PiriArmature|L.Foot
+        weight: 1
+      - path: PiriArmature/PiriArmature|L.Thigh/PiriArmature|L.Ankle/PiriArmature|L.Foot/PiriArmature|L.Toe
+        weight: 1
+      - path: PiriArmature/PiriArmature|R.Thigh
+        weight: 1
+      - path: PiriArmature/PiriArmature|R.Thigh/PiriArmature|R.Ankle
+        weight: 1
+      - path: PiriArmature/PiriArmature|R.Thigh/PiriArmature|R.Ankle/PiriArmature|R.Foot
+        weight: 1
+      - path: PiriArmature/PiriArmature|R.Thigh/PiriArmature|R.Ankle/PiriArmature|R.Foot/PiriArmature|R.Toe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|MotusRide
+      takeName: PiriArmature|MotusRide
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandGunHold
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: PiriArmature
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|LeftBosom
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|RightBosom
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|L.Shoulder
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|L.Shoulder/PiriArmature|L.Arm
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|L.Shoulder/PiriArmature|L.Arm/PiriArmature|L.Forearm
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|L.Shoulder/PiriArmature|L.Arm/PiriArmature|L.Forearm/PiriArmature|L.Hand
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|Neck
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|Neck/PiriArmature|Head
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|R.Shoulder
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|R.Shoulder/PiriArmature|R.Arm
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|R.Shoulder/PiriArmature|R.Arm/PiriArmature|R.Forearm
+        weight: 1
+      - path: PiriArmature/PiriArmature|Abdomen/PiriArmature|Torso/PiriArmature|R.Shoulder/PiriArmature|R.Arm/PiriArmature|R.Forearm/PiriArmature|R.Hand
+        weight: 1
+      - path: PiriArmature/PiriArmature|L.Thigh
+        weight: 1
+      - path: PiriArmature/PiriArmature|L.Thigh/PiriArmature|L.Ankle
+        weight: 1
+      - path: PiriArmature/PiriArmature|L.Thigh/PiriArmature|L.Ankle/PiriArmature|L.Foot
+        weight: 1
+      - path: PiriArmature/PiriArmature|L.Thigh/PiriArmature|L.Ankle/PiriArmature|L.Foot/PiriArmature|L.Toe
+        weight: 1
+      - path: PiriArmature/PiriArmature|R.Thigh
+        weight: 1
+      - path: PiriArmature/PiriArmature|R.Thigh/PiriArmature|R.Ankle
+        weight: 1
+      - path: PiriArmature/PiriArmature|R.Thigh/PiriArmature|R.Ankle/PiriArmature|R.Foot
+        weight: 1
+      - path: PiriArmature/PiriArmature|R.Thigh/PiriArmature|R.Ankle/PiriArmature|R.Foot/PiriArmature|R.Toe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|Kick
+      takeName: PiriArmature|Kick
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandGunHold
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: PiriArmature
+        weight: 1
+      - path: PiriArmature/Abdomen
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom/LeftBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom/RightBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand/L.Hand_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand/R.Hand_end
+        weight: 1
+      - path: PiriArmature/L.Thigh
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe/L.Toe_end
+        weight: 1
+      - path: PiriArmature/R.Thigh
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe/R.Toe_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|Floating
+      takeName: PiriArmature|Floating
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandGunHold
+        weight: 1
+      - path: PiriArmature
+        weight: 1
+      - path: PiriArmature/Abdomen
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom/LeftBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom/RightBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand/L.Hand_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand/R.Hand_end
+        weight: 1
+      - path: PiriArmature/L.Thigh
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe/L.Toe_end
+        weight: 1
+      - path: PiriArmature/R.Thigh
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe/R.Toe_end
+        weight: 1
+      - path: PlayerCol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|FloatingF
+      takeName: PiriArmature|FloatingF
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandGunHold
+        weight: 1
+      - path: PiriArmature
+        weight: 1
+      - path: PiriArmature/Abdomen
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom/LeftBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom/RightBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand/L.Hand_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand/R.Hand_end
+        weight: 1
+      - path: PiriArmature/L.Thigh
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe/L.Toe_end
+        weight: 1
+      - path: PiriArmature/R.Thigh
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe/R.Toe_end
+        weight: 1
+      - path: PlayerCol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|Swimming
+      takeName: PiriArmature|Swimming
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandGunHold
+        weight: 1
+      - path: PiriArmature
+        weight: 1
+      - path: PiriArmature/Abdomen
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom/LeftBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom/RightBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand/L.Hand_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand/R.Hand_end
+        weight: 1
+      - path: PiriArmature/L.Thigh
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe/L.Toe_end
+        weight: 1
+      - path: PiriArmature/R.Thigh
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe/R.Toe_end
+        weight: 1
+      - path: PiriHair
+        weight: 1
+      - path: PiriHead
+        weight: 1
+      - path: PiriHeadArmature
+        weight: 1
+      - path: PiriHeadArmature/Bone
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftBrow
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftBrow/LeftBrow_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftMouth
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftMouth/LeftMouth_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/PiriJaw
+        weight: 1
+      - path: PiriHeadArmature/Bone/PiriJaw/PiriJaw_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightBrow
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightBrow/RightBrow_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightMouth
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightMouth/RightMouth_end
+        weight: 1
+      - path: PlayerCol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|CepstolRide
+      takeName: PiriArmature|CepstolRide
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandGunHold
+        weight: 1
+      - path: PiriArmature
+        weight: 1
+      - path: PiriArmature/Abdomen
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom/LeftBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom/RightBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand/L.Hand_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand/R.Hand_end
+        weight: 1
+      - path: PiriArmature/L.Thigh
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe/L.Toe_end
+        weight: 1
+      - path: PiriArmature/R.Thigh
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe/R.Toe_end
+        weight: 1
+      - path: PiriHair
+        weight: 1
+      - path: PiriHead
+        weight: 1
+      - path: PiriHeadArmature
+        weight: 1
+      - path: PiriHeadArmature/Bone
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftBrow
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftBrow/LeftBrow_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftMouth
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftMouth/LeftMouth_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/PiriJaw
+        weight: 1
+      - path: PiriHeadArmature/Bone/PiriJaw/PiriJaw_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightBrow
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightBrow/RightBrow_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightMouth
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightMouth/RightMouth_end
+        weight: 1
+      - path: PlayerCol
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|Holding
+      takeName: PiriArmature|Holding
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandGunHold
+        weight: 1
+      - path: PiriArmature
+        weight: 1
+      - path: PiriArmature/Abdomen
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom/LeftBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom/RightBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand/L.Hand_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand/R.Hand_end
+        weight: 1
+      - path: PiriArmature/L.Thigh
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe/L.Toe_end
+        weight: 1
+      - path: PiriArmature/R.Thigh
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe/R.Toe_end
+        weight: 1
+      - path: PiriHair
+        weight: 1
+      - path: PiriHead
+        weight: 1
+      - path: PiriHeadArmature
+        weight: 1
+      - path: PiriHeadArmature/Bone
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftBrow
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftBrow/LeftBrow_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftMouth
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftMouth/LeftMouth_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/PiriJaw
+        weight: 1
+      - path: PiriHeadArmature/Bone/PiriJaw/PiriJaw_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightBrow
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightBrow/RightBrow_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightMouth
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightMouth/RightMouth_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|HoldingOn
+      takeName: PiriArmature|HoldingOn
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandGunHold
+        weight: 1
+      - path: PiriArmature
+        weight: 1
+      - path: PiriArmature/Abdomen
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom/LeftBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom/RightBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand/L.Hand_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand/R.Hand_end
+        weight: 1
+      - path: PiriArmature/L.Thigh
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe/L.Toe_end
+        weight: 1
+      - path: PiriArmature/R.Thigh
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe/R.Toe_end
+        weight: 1
+      - path: PiriHair
+        weight: 1
+      - path: PiriHead
+        weight: 1
+      - path: PiriHeadArmature
+        weight: 1
+      - path: PiriHeadArmature/Bone
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftBrow
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftBrow/LeftBrow_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftMouth
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftMouth/LeftMouth_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/PiriJaw
+        weight: 1
+      - path: PiriHeadArmature/Bone/PiriJaw/PiriJaw_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightBrow
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightBrow/RightBrow_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightMouth
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightMouth/RightMouth_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PiriArmature|HoldingW
+      takeName: PiriArmature|HoldingW
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eye
+        weight: 1
+      - path: Eyelids
+        weight: 1
+      - path: Eyelids2
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandGunHold
+        weight: 1
+      - path: PiriArmature
+        weight: 1
+      - path: PiriArmature/Abdomen
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/LeftBosom/LeftBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom
+        weight: 1
+      - path: PiriArmature/Abdomen/RightBosom/RightBosom_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/L.Shoulder/L.Arm/L.Forearm/L.Hand/L.Hand_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/Neck/Head/Head_end
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand
+        weight: 1
+      - path: PiriArmature/Abdomen/Torso/R.Shoulder/R.Arm/R.Forearm/R.Hand/R.Hand_end
+        weight: 1
+      - path: PiriArmature/L.Thigh
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe
+        weight: 1
+      - path: PiriArmature/L.Thigh/L.Ankle/L.Foot/L.Toe/L.Toe_end
+        weight: 1
+      - path: PiriArmature/R.Thigh
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe
+        weight: 1
+      - path: PiriArmature/R.Thigh/R.Ankle/R.Foot/R.Toe/R.Toe_end
+        weight: 1
+      - path: PiriHair
+        weight: 1
+      - path: PiriHead
+        weight: 1
+      - path: PiriHeadArmature
+        weight: 1
+      - path: PiriHeadArmature/Bone
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftBrow
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftBrow/LeftBrow_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftMouth
+        weight: 1
+      - path: PiriHeadArmature/Bone/LeftMouth/LeftMouth_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/PiriJaw
+        weight: 1
+      - path: PiriHeadArmature/Bone/PiriJaw/PiriJaw_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightBrow
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightBrow/RightBrow_end
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightMouth
+        weight: 1
+      - path: PiriHeadArmature/Bone/RightMouth/RightMouth_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.4
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 45
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.4
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

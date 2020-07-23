@@ -1,0 +1,323 @@
+fileFormatVersion: 2
+guid: 46cc71951c059fa42a7e8a6b14baa030
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Cube
+  - first:
+      1: 100004
+    second: Cube_001
+  - first:
+      1: 100006
+    second: Cube_002
+  - first:
+      1: 100008
+    second: Cube_003
+  - first:
+      1: 100010
+    second: Cube_004
+  - first:
+      1: 100012
+    second: PiriEstimate
+  - first:
+      1: 100014
+    second: Vessel
+  - first:
+      1: 100016
+    second: Kleiremus1Axel
+  - first:
+      1: 100018
+    second: Kleiremus1Chassi
+  - first:
+      1: 100020
+    second: Kleiremus1Wheel
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Cube
+  - first:
+      4: 400004
+    second: Cube_001
+  - first:
+      4: 400006
+    second: Cube_002
+  - first:
+      4: 400008
+    second: Cube_003
+  - first:
+      4: 400010
+    second: Cube_004
+  - first:
+      4: 400012
+    second: PiriEstimate
+  - first:
+      4: 400014
+    second: Vessel
+  - first:
+      4: 400016
+    second: Kleiremus1Axel
+  - first:
+      4: 400018
+    second: Kleiremus1Chassi
+  - first:
+      4: 400020
+    second: Kleiremus1Wheel
+  - first:
+      23: 2300000
+    second: Cube
+  - first:
+      23: 2300002
+    second: Cube_001
+  - first:
+      23: 2300004
+    second: Cube_002
+  - first:
+      23: 2300006
+    second: Cube_003
+  - first:
+      23: 2300008
+    second: Cube_004
+  - first:
+      23: 2300010
+    second: PiriEstimate
+  - first:
+      23: 2300012
+    second: Vessel
+  - first:
+      23: 2300014
+    second: Kleiremus1Axel
+  - first:
+      23: 2300016
+    second: Kleiremus1Chassi
+  - first:
+      23: 2300018
+    second: Kleiremus1Wheel
+  - first:
+      33: 3300000
+    second: Cube
+  - first:
+      33: 3300002
+    second: Cube_001
+  - first:
+      33: 3300004
+    second: Cube_002
+  - first:
+      33: 3300006
+    second: Cube_003
+  - first:
+      33: 3300008
+    second: Cube_004
+  - first:
+      33: 3300010
+    second: PiriEstimate
+  - first:
+      33: 3300012
+    second: Vessel
+  - first:
+      33: 3300014
+    second: Kleiremus1Axel
+  - first:
+      33: 3300016
+    second: Kleiremus1Chassi
+  - first:
+      33: 3300018
+    second: Kleiremus1Wheel
+  - first:
+      43: 4300000
+    second: Cube_002
+  - first:
+      43: 4300002
+    second: Cube_001
+  - first:
+      43: 4300004
+    second: Cube
+  - first:
+      43: 4300006
+    second: Cube_004
+  - first:
+      43: 4300008
+    second: Cube_003
+  - first:
+      43: 4300010
+    second: PiriEstimate
+  - first:
+      43: 4300012
+    second: Vessel
+  - first:
+      43: 4300014
+    second: Kleiremus1Axel
+  - first:
+      43: 4300016
+    second: Kleiremus1Chassi
+  - first:
+      43: 4300018
+    second: Kleiremus1Wheel
+  - first:
+      64: 6400000
+    second: Cube
+  - first:
+      64: 6400002
+    second: Cube_001
+  - first:
+      64: 6400004
+    second: Cube_002
+  - first:
+      64: 6400006
+    second: Cube_003
+  - first:
+      64: 6400008
+    second: Cube_004
+  - first:
+      64: 6400010
+    second: PiriEstimate
+  - first:
+      64: 6400012
+    second: Vessel
+  - first:
+      64: 6400014
+    second: Kleiremus1Axel
+  - first:
+      64: 6400016
+    second: Kleiremus1Chassi
+  - first:
+      64: 6400018
+    second: Kleiremus1Wheel
+  - first:
+      74: 7400000
+    second: Default Take
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 2
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 20
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Afazis Kleiremus
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube
+      parentName: 
+      position: {x: 0, y: 1.3504435, z: -0.00000005902976}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.70710665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube_001
+      parentName: 
+      position: {x: 0, y: 1.3504435, z: -0.00000005902976}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.70710665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube_002
+      parentName: 
+      position: {x: 0, y: 1.3504435, z: -0.00000005902976}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.70710665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube_003
+      parentName: 
+      position: {x: 0.010726843, y: 1.1931006, z: -0.9276852}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.70710665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube_004
+      parentName: 
+      position: {x: 0.010726843, y: 1.1931006, z: -0.9276852}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.70710665}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

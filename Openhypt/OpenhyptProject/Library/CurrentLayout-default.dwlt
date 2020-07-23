@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 133
+  controlID: 55
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,7 +177,8 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LoadedToolbars: []
+  m_LoadedToolbars:
+  - {fileID: 19}
   m_MainToolbar: {fileID: 19}
   m_LastLoadedLayoutName: 
 --- !u!114 &8
@@ -225,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 85
+  controlID: 105
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 86
+  controlID: 106
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -342,21 +343,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Zerahypt/MAPS/Dutvutan
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Zerahypt/MAPS/Dutvutan
   m_LastFoldersGridSize: -1
   m_LastProjectPath: G:\Game Development\Projects\OpenHypt\Openhypt\OpenhyptProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 023f0000
-    m_LastClickedID: 16130
-    m_ExpandedIDs: 00000000023f000000ca9a3b
+    scrollPos: {x: 0, y: 369}
+    m_SelectedIDs: 16fc0400
+    m_LastClickedID: 326678
+    m_ExpandedIDs: 00000000be3600004cfd0400b008050000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -384,7 +385,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000be360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -508,7 +509,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 26fbffff
+      m_ExpandedIDs: b0c8f5ff60fbffff12190500a42005000c2b0500e0300500
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -568,9 +569,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -891.2863, y: 369.71722, z: 2305.283}
     speed: 2
-    m_Value: {x: -380.7, y: -34.7, z: -66.79993}
+    m_Value: {x: -891.2863, y: 369.71722, z: 2305.283}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -617,13 +618,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.036826942, y: 0.9628734, z: -0.20101504, w: -0.17640708}
     speed: 2
-    m_Value: {x: -0.079597406, y: 0.91905683, z: -0.24577816, w: -0.29764414}
+    m_Value: {x: -0.036525235, y: 0.9631331, z: -0.20106927, w: -0.1749619}
   m_Size:
     m_Target: 10
     speed: 2
-    m_Value: 1.4660254
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
