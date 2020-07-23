@@ -36,7 +36,7 @@ Fog{
 
 		CGPROGRAM
 #pragma surface surf BlinnPhongEditor  vertex:vert
-#pragma target 2.0
+#pragma target 3.0
 
 
 float4 _ColorTint;
@@ -115,6 +115,7 @@ float3 simpleWorldRefl;
 			};
 
 			void vert (inout appdata_full v, out Input o) {
+				UNITY_INITIALIZE_OUTPUT(Input,o);
 float4 VertexOutputMaster0_0_NoInput = float4(0,0,0,0);
 float4 VertexOutputMaster0_1_NoInput = float4(0,0,0,0);
 float4 VertexOutputMaster0_2_NoInput = float4(0,0,0,0);
