@@ -1,278 +1,104 @@
 fileFormatVersion: 2
 guid: 7b9622c778cff674bb4b4a20c86f0a7e
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Cube_001
-  - first:
-      1: 100002
-    second: //RootNode
-  - first:
-      1: 100004
-    second: KeiganEscortWagon
-  - first:
-      1: 100006
-    second: KeiganEscortWagonLeg
-  - first:
-      1: 100008
-    second: KeiganEscortWagonWheel
-  - first:
-      1: 100010
-    second: KeiganEscortWagon2
-  - first:
-      1: 100012
-    second: KeiganEscortWagonLeg2
-  - first:
-      1: 100014
-    second: KeiganEscortWagonWheel2
-  - first:
-      1: 100016
-    second: KeiganEscortWagon_001
-  - first:
-      1: 100018
-    second: KeiganEscortWagonFAxel
-  - first:
-      1: 100020
-    second: KeiganEscortWagonRAxel
-  - first:
-      1: 100022
-    second: KeiganEscortWagonBoxback
-  - first:
-      1: 100024
-    second: KeiganEscortWagonBoxbackGate
-  - first:
-      1: 100026
-    second: KeiganEscortWagonFlatback
-  - first:
-      4: 400000
-    second: Cube_001
-  - first:
-      4: 400002
-    second: //RootNode
-  - first:
-      4: 400004
-    second: KeiganEscortWagon
-  - first:
-      4: 400006
-    second: KeiganEscortWagonLeg
-  - first:
-      4: 400008
-    second: KeiganEscortWagonWheel
-  - first:
-      4: 400010
-    second: KeiganEscortWagon2
-  - first:
-      4: 400012
-    second: KeiganEscortWagonLeg2
-  - first:
-      4: 400014
-    second: KeiganEscortWagonWheel2
-  - first:
-      4: 400016
-    second: KeiganEscortWagon_001
-  - first:
-      4: 400018
-    second: KeiganEscortWagonFAxel
-  - first:
-      4: 400020
-    second: KeiganEscortWagonRAxel
-  - first:
-      4: 400022
-    second: KeiganEscortWagonBoxback
-  - first:
-      4: 400024
-    second: KeiganEscortWagonBoxbackGate
-  - first:
-      4: 400026
-    second: KeiganEscortWagonFlatback
-  - first:
-      23: 2300000
-    second: Cube_001
-  - first:
-      23: 2300002
-    second: KeiganEscortWagon
-  - first:
-      23: 2300004
-    second: KeiganEscortWagonLeg
-  - first:
-      23: 2300006
-    second: KeiganEscortWagonWheel
-  - first:
-      23: 2300008
-    second: KeiganEscortWagon2
-  - first:
-      23: 2300010
-    second: KeiganEscortWagonLeg2
-  - first:
-      23: 2300012
-    second: KeiganEscortWagonWheel2
-  - first:
-      23: 2300014
-    second: KeiganEscortWagon_001
-  - first:
-      23: 2300016
-    second: KeiganEscortWagonFAxel
-  - first:
-      23: 2300018
-    second: KeiganEscortWagonRAxel
-  - first:
-      23: 2300020
-    second: KeiganEscortWagonBoxback
-  - first:
-      23: 2300022
-    second: KeiganEscortWagonBoxbackGate
-  - first:
-      23: 2300024
-    second: KeiganEscortWagonFlatback
-  - first:
-      33: 3300000
-    second: Cube_001
-  - first:
-      33: 3300002
-    second: KeiganEscortWagon
-  - first:
-      33: 3300004
-    second: KeiganEscortWagonLeg
-  - first:
-      33: 3300006
-    second: KeiganEscortWagonWheel
-  - first:
-      33: 3300008
-    second: KeiganEscortWagon2
-  - first:
-      33: 3300010
-    second: KeiganEscortWagonLeg2
-  - first:
-      33: 3300012
-    second: KeiganEscortWagonWheel2
-  - first:
-      33: 3300014
-    second: KeiganEscortWagon_001
-  - first:
-      33: 3300016
-    second: KeiganEscortWagonFAxel
-  - first:
-      33: 3300018
-    second: KeiganEscortWagonRAxel
-  - first:
-      33: 3300020
-    second: KeiganEscortWagonBoxback
-  - first:
-      33: 3300022
-    second: KeiganEscortWagonBoxbackGate
-  - first:
-      33: 3300024
-    second: KeiganEscortWagonFlatback
-  - first:
-      43: 4300000
-    second: Cube_001
-  - first:
-      43: 4300002
-    second: KeiganEscortWagon
-  - first:
-      43: 4300004
-    second: KeiganEscortWagonWheel
-  - first:
-      43: 4300006
-    second: KeiganEscortWagonLeg
-  - first:
-      43: 4300008
-    second: KeiganEscortWagonWheel2
-  - first:
-      43: 4300010
-    second: KeiganEscortWagonLeg2
-  - first:
-      43: 4300012
-    second: KeiganEscortWagon2
-  - first:
-      43: 4300014
-    second: KeiganEscortWagon_001
-  - first:
-      43: 4300016
-    second: KeiganEscortWagonFAxel
-  - first:
-      43: 4300018
-    second: KeiganEscortWagonRAxel
-  - first:
-      43: 4300020
-    second: KeiganEscortWagonBoxbackGate
-  - first:
-      43: 4300022
-    second: KeiganEscortWagonBoxback
-  - first:
-      43: 4300024
-    second: KeiganEscortWagonFlatback
-  - first:
-      64: 6400000
-    second: KeiganEscortWagon
-  - first:
-      64: 6400002
-    second: KeiganEscortWagonLeg
-  - first:
-      64: 6400004
-    second: KeiganEscortWagonWheel
-  - first:
-      64: 6400006
-    second: KeiganEscortWagon2
-  - first:
-      64: 6400008
-    second: KeiganEscortWagonLeg2
-  - first:
-      64: 6400010
-    second: KeiganEscortWagonWheel2
-  - first:
-      64: 6400012
-    second: KeiganEscortWagon_001
-  - first:
-      64: 6400014
-    second: KeiganEscortWagonFAxel
-  - first:
-      64: 6400016
-    second: KeiganEscortWagonRAxel
-  - first:
-      64: 6400018
-    second: KeiganEscortWagonBoxback
-  - first:
-      64: 6400020
-    second: KeiganEscortWagonBoxbackGate
-  - first:
-      64: 6400022
-    second: KeiganEscortWagonFlatback
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Cube_001
+    100002: //RootNode
+    100004: KeiganEscortWagon
+    100006: KeiganEscortWagonLeg
+    100008: KeiganEscortWagonWheel
+    100010: KeiganEscortWagon2
+    100012: KeiganEscortWagonLeg2
+    100014: KeiganEscortWagonWheel2
+    100016: KeiganEscortWagon_001
+    100018: KeiganEscortWagonFAxel
+    100020: KeiganEscortWagonRAxel
+    100022: KeiganEscortWagonBoxback
+    100024: KeiganEscortWagonBoxbackGate
+    100026: KeiganEscortWagonFlatback
+    400000: Cube_001
+    400002: //RootNode
+    400004: KeiganEscortWagon
+    400006: KeiganEscortWagonLeg
+    400008: KeiganEscortWagonWheel
+    400010: KeiganEscortWagon2
+    400012: KeiganEscortWagonLeg2
+    400014: KeiganEscortWagonWheel2
+    400016: KeiganEscortWagon_001
+    400018: KeiganEscortWagonFAxel
+    400020: KeiganEscortWagonRAxel
+    400022: KeiganEscortWagonBoxback
+    400024: KeiganEscortWagonBoxbackGate
+    400026: KeiganEscortWagonFlatback
+    2300000: Cube_001
+    2300002: KeiganEscortWagon
+    2300004: KeiganEscortWagonLeg
+    2300006: KeiganEscortWagonWheel
+    2300008: KeiganEscortWagon2
+    2300010: KeiganEscortWagonLeg2
+    2300012: KeiganEscortWagonWheel2
+    2300014: KeiganEscortWagon_001
+    2300016: KeiganEscortWagonFAxel
+    2300018: KeiganEscortWagonRAxel
+    2300020: KeiganEscortWagonBoxback
+    2300022: KeiganEscortWagonBoxbackGate
+    2300024: KeiganEscortWagonFlatback
+    3300000: Cube_001
+    3300002: KeiganEscortWagon
+    3300004: KeiganEscortWagonLeg
+    3300006: KeiganEscortWagonWheel
+    3300008: KeiganEscortWagon2
+    3300010: KeiganEscortWagonLeg2
+    3300012: KeiganEscortWagonWheel2
+    3300014: KeiganEscortWagon_001
+    3300016: KeiganEscortWagonFAxel
+    3300018: KeiganEscortWagonRAxel
+    3300020: KeiganEscortWagonBoxback
+    3300022: KeiganEscortWagonBoxbackGate
+    3300024: KeiganEscortWagonFlatback
+    4300000: Cube_001
+    4300002: KeiganEscortWagon
+    4300004: KeiganEscortWagonWheel
+    4300006: KeiganEscortWagonLeg
+    4300008: KeiganEscortWagonWheel2
+    4300010: KeiganEscortWagonLeg2
+    4300012: KeiganEscortWagon2
+    4300014: KeiganEscortWagon_001
+    4300016: KeiganEscortWagonFAxel
+    4300018: KeiganEscortWagonRAxel
+    4300020: KeiganEscortWagonBoxbackGate
+    4300022: KeiganEscortWagonBoxback
+    4300024: KeiganEscortWagonFlatback
+    6400000: KeiganEscortWagon
+    6400002: KeiganEscortWagonLeg
+    6400004: KeiganEscortWagonWheel
+    6400006: KeiganEscortWagon2
+    6400008: KeiganEscortWagonLeg2
+    6400010: KeiganEscortWagonWheel2
+    6400012: KeiganEscortWagon_001
+    6400014: KeiganEscortWagonFAxel
+    6400016: KeiganEscortWagonRAxel
+    6400018: KeiganEscortWagonBoxback
+    6400020: KeiganEscortWagonBoxbackGate
+    6400022: KeiganEscortWagonFlatback
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 1
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -280,65 +106,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 20
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

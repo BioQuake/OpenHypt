@@ -1,227 +1,87 @@
 fileFormatVersion: 2
 guid: 646b67e959ede854fb620483a92661a7
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Jolt_Missile_1
-  - first:
-      1: 100002
-    second: MevNav_Battledrone
-  - first:
-      1: 100004
-    second: MevNav_BattledroneWing1
-  - first:
-      1: 100006
-    second: MevNav_Scoutdrone
-  - first:
-      1: 100008
-    second: //RootNode
-  - first:
-      1: 100010
-    second: MevNav_Cannondrone
-  - first:
-      1: 100012
-    second: MevNav_CannondroneWing
-  - first:
-      1: 100014
-    second: MevNav_Wardrone
-  - first:
-      1: 100016
-    second: MicroSM
-  - first:
-      1: 100018
-    second: MevNav_Shield
-  - first:
-      1: 100020
-    second: MicroSM2
-  - first:
-      4: 400000
-    second: Jolt_Missile_1
-  - first:
-      4: 400002
-    second: MevNav_Battledrone
-  - first:
-      4: 400004
-    second: MevNav_BattledroneWing1
-  - first:
-      4: 400006
-    second: MevNav_Scoutdrone
-  - first:
-      4: 400008
-    second: //RootNode
-  - first:
-      4: 400010
-    second: MevNav_Cannondrone
-  - first:
-      4: 400012
-    second: MevNav_CannondroneWing
-  - first:
-      4: 400014
-    second: MevNav_Wardrone
-  - first:
-      4: 400016
-    second: MicroSM
-  - first:
-      4: 400018
-    second: MevNav_Shield
-  - first:
-      4: 400020
-    second: MicroSM2
-  - first:
-      23: 2300000
-    second: Jolt_Missile_1
-  - first:
-      23: 2300002
-    second: MevNav_Battledrone
-  - first:
-      23: 2300004
-    second: MevNav_BattledroneWing1
-  - first:
-      23: 2300006
-    second: MevNav_Scoutdrone
-  - first:
-      23: 2300008
-    second: MevNav_Cannondrone
-  - first:
-      23: 2300010
-    second: MevNav_CannondroneWing
-  - first:
-      23: 2300012
-    second: MevNav_Wardrone
-  - first:
-      23: 2300014
-    second: MicroSM
-  - first:
-      23: 2300016
-    second: MevNav_Shield
-  - first:
-      23: 2300018
-    second: MicroSM2
-  - first:
-      33: 3300000
-    second: Jolt_Missile_1
-  - first:
-      33: 3300002
-    second: MevNav_Battledrone
-  - first:
-      33: 3300004
-    second: MevNav_BattledroneWing1
-  - first:
-      33: 3300006
-    second: MevNav_Scoutdrone
-  - first:
-      33: 3300008
-    second: MevNav_Cannondrone
-  - first:
-      33: 3300010
-    second: MevNav_CannondroneWing
-  - first:
-      33: 3300012
-    second: MevNav_Wardrone
-  - first:
-      33: 3300014
-    second: MicroSM
-  - first:
-      33: 3300016
-    second: MevNav_Shield
-  - first:
-      33: 3300018
-    second: MicroSM2
-  - first:
-      43: 4300000
-    second: MevNav_Scoutdrone
-  - first:
-      43: 4300002
-    second: Jolt_Missile_1
-  - first:
-      43: 4300004
-    second: MevNav_BattledroneWing1
-  - first:
-      43: 4300006
-    second: MevNav_Battledrone
-  - first:
-      43: 4300008
-    second: MevNav_CannondroneWing
-  - first:
-      43: 4300010
-    second: MevNav_Cannondrone
-  - first:
-      43: 4300012
-    second: MevNav_Wardrone
-  - first:
-      43: 4300014
-    second: MicroSM
-  - first:
-      43: 4300016
-    second: MevNav_Shield
-  - first:
-      43: 4300018
-    second: MicroSM2
-  - first:
-      64: 6400000
-    second: Jolt_Missile_1
-  - first:
-      64: 6400002
-    second: MevNav_Battledrone
-  - first:
-      64: 6400004
-    second: MevNav_BattledroneWing1
-  - first:
-      64: 6400006
-    second: MevNav_Scoutdrone
-  - first:
-      64: 6400008
-    second: MevNav_Cannondrone
-  - first:
-      64: 6400010
-    second: MevNav_CannondroneWing
-  - first:
-      64: 6400012
-    second: MevNav_Wardrone
-  - first:
-      64: 6400014
-    second: MicroSM
-  - first:
-      64: 6400016
-    second: MevNav_Shield
-  - first:
-      64: 6400018
-    second: MicroSM2
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Jolt_Missile_1
+    100002: MevNav_Battledrone
+    100004: MevNav_BattledroneWing1
+    100006: MevNav_Scoutdrone
+    100008: //RootNode
+    100010: MevNav_Cannondrone
+    100012: MevNav_CannondroneWing
+    100014: MevNav_Wardrone
+    100016: MicroSM
+    100018: MevNav_Shield
+    100020: MicroSM2
+    400000: Jolt_Missile_1
+    400002: MevNav_Battledrone
+    400004: MevNav_BattledroneWing1
+    400006: MevNav_Scoutdrone
+    400008: //RootNode
+    400010: MevNav_Cannondrone
+    400012: MevNav_CannondroneWing
+    400014: MevNav_Wardrone
+    400016: MicroSM
+    400018: MevNav_Shield
+    400020: MicroSM2
+    2300000: Jolt_Missile_1
+    2300002: MevNav_Battledrone
+    2300004: MevNav_BattledroneWing1
+    2300006: MevNav_Scoutdrone
+    2300008: MevNav_Cannondrone
+    2300010: MevNav_CannondroneWing
+    2300012: MevNav_Wardrone
+    2300014: MicroSM
+    2300016: MevNav_Shield
+    2300018: MicroSM2
+    3300000: Jolt_Missile_1
+    3300002: MevNav_Battledrone
+    3300004: MevNav_BattledroneWing1
+    3300006: MevNav_Scoutdrone
+    3300008: MevNav_Cannondrone
+    3300010: MevNav_CannondroneWing
+    3300012: MevNav_Wardrone
+    3300014: MicroSM
+    3300016: MevNav_Shield
+    3300018: MicroSM2
+    4300000: MevNav_Scoutdrone
+    4300002: Jolt_Missile_1
+    4300004: MevNav_BattledroneWing1
+    4300006: MevNav_Battledrone
+    4300008: MevNav_CannondroneWing
+    4300010: MevNav_Cannondrone
+    4300012: MevNav_Wardrone
+    4300014: MicroSM
+    4300016: MevNav_Shield
+    4300018: MicroSM2
+    6400000: Jolt_Missile_1
+    6400002: MevNav_Battledrone
+    6400004: MevNav_BattledroneWing1
+    6400006: MevNav_Scoutdrone
+    6400008: MevNav_Cannondrone
+    6400010: MevNav_CannondroneWing
+    6400012: MevNav_Wardrone
+    6400014: MicroSM
+    6400016: MevNav_Shield
+    6400018: MicroSM2
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -229,65 +89,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 20
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

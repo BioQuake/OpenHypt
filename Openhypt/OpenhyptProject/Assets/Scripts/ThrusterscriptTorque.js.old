@@ -1,0 +1,14 @@
+#pragma strict
+var YawLeftSpeed : float = -100;
+var YawRightSpeed : float = 100;
+
+function FixedUpdate () {
+	if(WorldInformation.playerCar == transform.parent.name){
+		if(Input.GetKey("z"))
+			GetComponent.<Rigidbody>().AddTorque(transform.right * YawLeftSpeed);
+	
+		if(Input.GetKey("x"))
+			GetComponent.<Rigidbody>().AddTorque(transform.right * YawRightSpeed);
+		
+	}
+}

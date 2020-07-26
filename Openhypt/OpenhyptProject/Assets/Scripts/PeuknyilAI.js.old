@@ -1,0 +1,165 @@
+﻿var Aimer : GameObject;
+var Hoverer : GameObject;
+var Thruster : GameObject;
+var Nudger : GameObject;
+
+var Blasteffect1 : GameObject;
+var Blasteffect2 : GameObject;
+var Blasteffect3 : GameObject;
+var Blasteffect4 : GameObject;
+var Blasteffect5 : GameObject;
+var Blasteffect6 : GameObject;
+
+var HowlSound : GameObject;
+var HowlSoundFar : GameObject;
+var AirSound : GameObject;
+var BlasterSound : GameObject;
+
+var Presence : GameObject;
+
+var maxVolume: float = 1;
+private var AirincrementValue: float = 0.005;
+private var HowlfarincrementValue: float = 0.005;
+private var incrementValue: float = 0.05;
+private var AirdecrementValue: float = 0.008;
+private var HowlfardecrementValue: float = 0.005;
+private var decrementValue: float = 0.05;
+var state: String;
+var state2: String;
+
+var ForwardSpeed : float = 1;
+var fuel : float = 0.0;
+
+var Eating : boolean;
+var Flying : boolean;
+
+InvokeRepeating("Metabolize", 1, 0.2);
+
+function Start () {
+StuffSpawner.TheNPC004N += 1;
+}
+
+function Metabolize () {
+if (Eating)
+fuel += 2;
+
+if (Flying)
+fuel -= 1;
+
+if (fuel > 0)
+fuel -= 0.4;
+
+
+if (fuel > 200)
+fuel = 200;
+
+if (fuel < 1){
+Presence.SetActive (false);
+Aimer.GetComponent("PeuknythAimer").target = null;
+Aimer.GetComponent.<Rigidbody>().freezeRotation = false;
+}
+}
+
+function OnTriggerEnter (other : Collider) {
+
+if(other.name.Contains("svibra")){
+  Eating = true;
+  Aimer.GetComponent("PeuknythAimer").target = other.gameObject.transform;
+  }
+}
+
+function OnTriggerExit (other : Collider) {
+
+if(other.name.Contains("svibra")){
+  Eating = false;
+  }
+}
+
+function Update () {
+	if(Flying == true)
+		state = "increment";
+	if(Flying == false)
+		state = "decrement";
+	if(state == "increment"){
+		increment();
+	} else if(state == "decrement") {
+		decrement();
+	}
+	
+	if(Eating == true)
+		state2 = "increment2";
+	if(Eating == false)
+		state2 = "decrement2";
+	if(state2 == "increment2"){
+		increment2();
+	} else if(state2 == "decrement2") {
+		decrement2();
+	}
+}
+
+function FixedUpdate () {
+		if(fuel > 30){
+			Hoverer.SetActive (true);
+			Nudger.SetActive (true);
+			Thruster.SetActive (true);
+			Blasteffect1.GetComponent.<ParticleSystem>().enableEmission = true;
+			Blasteffect2.GetComponent.<ParticleSystem>().enableEmission = true;
+			Blasteffect3.GetComponent.<ParticleSystem>().enableEmission = true;
+			Blasteffect4.GetComponent.<ParticleSystem>().enableEmission = true;
+			Blasteffect5.GetComponent.<ParticleSystem>().enableEmission = true;
+			Blasteffect6.GetComponent.<ParticleSystem>().enableEmission = true;
+			Aimer.GetComponent.<Rigidbody>().freezeRotation = true;
+		    Flying = true;
+		    } else {
+            Flying = false;
+            Hoverer.SetActive (false);
+            Nudger.SetActive (false);
+            Thruster.SetActive (false);
+            Blasteffect1.GetComponent.<ParticleSystem>().enableEmission = false;
+			Blasteffect2.GetComponent.<ParticleSystem>().enableEmission = false;
+			Blasteffect3.GetComponent.<ParticleSystem>().enableEmission = false;
+			Blasteffect4.GetComponent.<ParticleSystem>().enableEmission = false;
+			Blasteffect5.GetComponent.<ParticleSystem>().enableEmission = false;
+			Blasteffect6.GetComponent.<ParticleSystem>().enableEmission = false;
+		}
+}
+
+function decrement () {
+	if(HowlSoundFar.GetComponent.<AudioSource>().volume > 0){
+		HowlSound.GetComponent.<AudioSource>().volume -= decrementValue;
+		HowlSoundFar.GetComponent.<AudioSource>().volume -= HowlfardecrementValue;
+		BlasterSound.GetComponent.<AudioSource>().volume -= decrementValue;
+	} else {
+		state = "";
+	}
+}
+
+function increment () {
+	if(HowlSoundFar.GetComponent.<AudioSource>().volume < maxVolume) {
+		HowlSound.GetComponent.<AudioSource>().volume += incrementValue;
+		HowlSoundFar.GetComponent.<AudioSource>().volume += HowlfarincrementValue;
+		BlasterSound.GetComponent.<AudioSource>().volume += incrementValue;
+	} else {
+		state = "";
+}
+}
+
+function decrement2 () {
+	if(AirSound.GetComponent.<AudioSource>().volume > 0){
+		AirSound.GetComponent.<AudioSource>().volume -= AirdecrementValue;
+	} else {
+		state2 = "";
+	}
+}
+
+function increment2 () {
+	if(AirSound.GetComponent.<AudioSource>().volume < maxVolume) {
+		AirSound.GetComponent.<AudioSource>().volume += AirincrementValue;
+	} else {
+		state2 = "";
+}
+}
+
+function Damage () {
+StuffSpawner.TheNPC004N += 1;
+}

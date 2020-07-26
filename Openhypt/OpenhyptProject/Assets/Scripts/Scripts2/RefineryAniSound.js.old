@@ -1,0 +1,36 @@
+﻿#pragma strict
+
+var Dump : AudioClip;
+var Refine : AudioClip;
+var Dispense : AudioClip;
+
+static var IsDumping : boolean = false;
+static var IsRefining : boolean = false;
+static var IsDispensing : boolean = false;
+
+function Update (){
+if(IsDumping == true){
+SoundDump();
+IsDumping = false;
+}
+if(IsRefining == true){
+SoundRefine();
+IsRefining = false;
+}
+if(IsDispensing == true){
+SoundDispense();
+IsDispensing = false;
+}
+}
+
+function SoundDump (){
+GetComponent.<AudioSource>().PlayOneShot(Dump);
+}
+
+function SoundRefine (){
+GetComponent.<AudioSource>().PlayOneShot(Refine);
+}
+
+function SoundDispense (){
+GetComponent.<AudioSource>().PlayOneShot(Dispense);
+}

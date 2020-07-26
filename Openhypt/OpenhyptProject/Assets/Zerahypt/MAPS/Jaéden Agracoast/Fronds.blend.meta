@@ -1,293 +1,109 @@
 fileFormatVersion: 2
 guid: cac91cb51afe4bd4192915d189d75862
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Frond
-  - first:
-      1: 100002
-    second: //RootNode
-  - first:
-      1: 100004
-    second: FrondTop
-  - first:
-      1: 100006
-    second: FrondBase1
-  - first:
-      1: 100008
-    second: FrondShoot1
-  - first:
-      1: 100010
-    second: FrondTop1
-  - first:
-      1: 100012
-    second: FrondBasePart1
-  - first:
-      1: 100014
-    second: FrondBasePart2
-  - first:
-      1: 100016
-    second: FrondBasePart3
-  - first:
-      1: 100018
-    second: FrondBase2
-  - first:
-      1: 100020
-    second: FrondBase3
-  - first:
-      1: 100022
-    second: FrondTopPart1
-  - first:
-      1: 100024
-    second: Frondit
-  - first:
-      1: 100026
-    second: FrondBaseDist
-  - first:
-      1: 100028
-    second: FrondTop1Dist
-  - first:
-      4: 400000
-    second: Frond
-  - first:
-      4: 400002
-    second: //RootNode
-  - first:
-      4: 400004
-    second: FrondTop
-  - first:
-      4: 400006
-    second: FrondBase1
-  - first:
-      4: 400008
-    second: FrondShoot1
-  - first:
-      4: 400010
-    second: FrondTop1
-  - first:
-      4: 400012
-    second: FrondBasePart1
-  - first:
-      4: 400014
-    second: FrondBasePart2
-  - first:
-      4: 400016
-    second: FrondBasePart3
-  - first:
-      4: 400018
-    second: FrondBase2
-  - first:
-      4: 400020
-    second: FrondBase3
-  - first:
-      4: 400022
-    second: FrondTopPart1
-  - first:
-      4: 400024
-    second: Frondit
-  - first:
-      4: 400026
-    second: FrondBaseDist
-  - first:
-      4: 400028
-    second: FrondTop1Dist
-  - first:
-      23: 2300000
-    second: Frond
-  - first:
-      23: 2300002
-    second: FrondTop
-  - first:
-      23: 2300004
-    second: FrondBase1
-  - first:
-      23: 2300006
-    second: FrondShoot1
-  - first:
-      23: 2300008
-    second: FrondTop1
-  - first:
-      23: 2300010
-    second: FrondBasePart1
-  - first:
-      23: 2300012
-    second: FrondBasePart2
-  - first:
-      23: 2300014
-    second: FrondBasePart3
-  - first:
-      23: 2300016
-    second: FrondBase2
-  - first:
-      23: 2300018
-    second: FrondBase3
-  - first:
-      23: 2300020
-    second: FrondTopPart1
-  - first:
-      23: 2300022
-    second: Frondit
-  - first:
-      23: 2300024
-    second: FrondBaseDist
-  - first:
-      23: 2300026
-    second: FrondTop1Dist
-  - first:
-      33: 3300000
-    second: Frond
-  - first:
-      33: 3300002
-    second: FrondTop
-  - first:
-      33: 3300004
-    second: FrondBase1
-  - first:
-      33: 3300006
-    second: FrondShoot1
-  - first:
-      33: 3300008
-    second: FrondTop1
-  - first:
-      33: 3300010
-    second: FrondBasePart1
-  - first:
-      33: 3300012
-    second: FrondBasePart2
-  - first:
-      33: 3300014
-    second: FrondBasePart3
-  - first:
-      33: 3300016
-    second: FrondBase2
-  - first:
-      33: 3300018
-    second: FrondBase3
-  - first:
-      33: 3300020
-    second: FrondTopPart1
-  - first:
-      33: 3300022
-    second: Frondit
-  - first:
-      33: 3300024
-    second: FrondBaseDist
-  - first:
-      33: 3300026
-    second: FrondTop1Dist
-  - first:
-      43: 4300000
-    second: FrondTop
-  - first:
-      43: 4300002
-    second: Frond
-  - first:
-      43: 4300004
-    second: FrondShoot1
-  - first:
-      43: 4300006
-    second: FrondTop1
-  - first:
-      43: 4300008
-    second: FrondBase1
-  - first:
-      43: 4300010
-    second: FrondBasePart2
-  - first:
-      43: 4300012
-    second: FrondBasePart1
-  - first:
-      43: 4300014
-    second: FrondBasePart3
-  - first:
-      43: 4300016
-    second: FrondBase3
-  - first:
-      43: 4300018
-    second: FrondBase2
-  - first:
-      43: 4300020
-    second: FrondTopPart1
-  - first:
-      43: 4300022
-    second: Frondit
-  - first:
-      43: 4300024
-    second: FrondBaseDist
-  - first:
-      43: 4300026
-    second: FrondTop1Dist
-  - first:
-      64: 6400000
-    second: FrondBase1
-  - first:
-      64: 6400002
-    second: FrondShoot1
-  - first:
-      64: 6400004
-    second: FrondTop1
-  - first:
-      64: 6400006
-    second: FrondBasePart1
-  - first:
-      64: 6400008
-    second: FrondBasePart2
-  - first:
-      64: 6400010
-    second: FrondBasePart3
-  - first:
-      64: 6400012
-    second: FrondBase2
-  - first:
-      64: 6400014
-    second: FrondBase3
-  - first:
-      64: 6400016
-    second: FrondTopPart1
-  - first:
-      64: 6400018
-    second: Frondit
-  - first:
-      64: 6400020
-    second: FrondBaseDist
-  - first:
-      64: 6400022
-    second: FrondTop1Dist
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Frond
+    100002: //RootNode
+    100004: FrondTop
+    100006: FrondBase1
+    100008: FrondShoot1
+    100010: FrondTop1
+    100012: FrondBasePart1
+    100014: FrondBasePart2
+    100016: FrondBasePart3
+    100018: FrondBase2
+    100020: FrondBase3
+    100022: FrondTopPart1
+    100024: Frondit
+    100026: FrondBaseDist
+    100028: FrondTop1Dist
+    400000: Frond
+    400002: //RootNode
+    400004: FrondTop
+    400006: FrondBase1
+    400008: FrondShoot1
+    400010: FrondTop1
+    400012: FrondBasePart1
+    400014: FrondBasePart2
+    400016: FrondBasePart3
+    400018: FrondBase2
+    400020: FrondBase3
+    400022: FrondTopPart1
+    400024: Frondit
+    400026: FrondBaseDist
+    400028: FrondTop1Dist
+    2300000: Frond
+    2300002: FrondTop
+    2300004: FrondBase1
+    2300006: FrondShoot1
+    2300008: FrondTop1
+    2300010: FrondBasePart1
+    2300012: FrondBasePart2
+    2300014: FrondBasePart3
+    2300016: FrondBase2
+    2300018: FrondBase3
+    2300020: FrondTopPart1
+    2300022: Frondit
+    2300024: FrondBaseDist
+    2300026: FrondTop1Dist
+    3300000: Frond
+    3300002: FrondTop
+    3300004: FrondBase1
+    3300006: FrondShoot1
+    3300008: FrondTop1
+    3300010: FrondBasePart1
+    3300012: FrondBasePart2
+    3300014: FrondBasePart3
+    3300016: FrondBase2
+    3300018: FrondBase3
+    3300020: FrondTopPart1
+    3300022: Frondit
+    3300024: FrondBaseDist
+    3300026: FrondTop1Dist
+    4300000: FrondTop
+    4300002: Frond
+    4300004: FrondShoot1
+    4300006: FrondTop1
+    4300008: FrondBase1
+    4300010: FrondBasePart2
+    4300012: FrondBasePart1
+    4300014: FrondBasePart3
+    4300016: FrondBase3
+    4300018: FrondBase2
+    4300020: FrondTopPart1
+    4300022: Frondit
+    4300024: FrondBaseDist
+    4300026: FrondTop1Dist
+    6400000: FrondBase1
+    6400002: FrondShoot1
+    6400004: FrondTop1
+    6400006: FrondBasePart1
+    6400008: FrondBasePart2
+    6400010: FrondBasePart3
+    6400012: FrondBase2
+    6400014: FrondBase3
+    6400016: FrondTopPart1
+    6400018: Frondit
+    6400020: FrondBaseDist
+    6400022: FrondTop1Dist
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -295,65 +111,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

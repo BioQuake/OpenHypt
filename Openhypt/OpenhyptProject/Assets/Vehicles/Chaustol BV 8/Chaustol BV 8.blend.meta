@@ -1,278 +1,104 @@
 fileFormatVersion: 2
 guid: 8070347ba8ec3014999c98733db4e667
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Challone1Chassis
-  - first:
-      1: 100002
-    second: Challone1ChassisCol
-  - first:
-      1: 100004
-    second: Challone1ChassisColSide
-  - first:
-      1: 100006
-    second: Challone1Gun
-  - first:
-      1: 100008
-    second: Challone1Gunbase
-  - first:
-      1: 100010
-    second: Challone1Turret
-  - first:
-      1: 100012
-    second: Challone1TurretCol
-  - first:
-      1: 100014
-    second: //RootNode
-  - first:
-      1: 100016
-    second: Chaustol1Chassis
-  - first:
-      1: 100018
-    second: Chaustol1ChassisCol
-  - first:
-      1: 100020
-    second: Chaustol1ChassisColSide
-  - first:
-      1: 100022
-    second: Chaustol1Gun
-  - first:
-      1: 100024
-    second: Chaustol1Gunbase
-  - first:
-      1: 100026
-    second: Chaustol1Turret
-  - first:
-      1: 100028
-    second: Chaustol1TurretCol
-  - first:
-      4: 400000
-    second: Challone1Chassis
-  - first:
-      4: 400002
-    second: Challone1ChassisCol
-  - first:
-      4: 400004
-    second: Challone1ChassisColSide
-  - first:
-      4: 400006
-    second: Challone1Gun
-  - first:
-      4: 400008
-    second: Challone1Gunbase
-  - first:
-      4: 400010
-    second: Challone1Turret
-  - first:
-      4: 400012
-    second: Challone1TurretCol
-  - first:
-      4: 400014
-    second: //RootNode
-  - first:
-      4: 400016
-    second: Chaustol1Chassis
-  - first:
-      4: 400018
-    second: Chaustol1ChassisCol
-  - first:
-      4: 400020
-    second: Chaustol1ChassisColSide
-  - first:
-      4: 400022
-    second: Chaustol1Gun
-  - first:
-      4: 400024
-    second: Chaustol1Gunbase
-  - first:
-      4: 400026
-    second: Chaustol1Turret
-  - first:
-      4: 400028
-    second: Chaustol1TurretCol
-  - first:
-      23: 2300000
-    second: Challone1Chassis
-  - first:
-      23: 2300002
-    second: Challone1ChassisCol
-  - first:
-      23: 2300004
-    second: Challone1ChassisColSide
-  - first:
-      23: 2300006
-    second: Challone1Gun
-  - first:
-      23: 2300008
-    second: Challone1Gunbase
-  - first:
-      23: 2300010
-    second: Challone1Turret
-  - first:
-      23: 2300012
-    second: Challone1TurretCol
-  - first:
-      23: 2300014
-    second: Chaustol1Chassis
-  - first:
-      23: 2300016
-    second: Chaustol1ChassisCol
-  - first:
-      23: 2300018
-    second: Chaustol1ChassisColSide
-  - first:
-      23: 2300020
-    second: Chaustol1Gun
-  - first:
-      23: 2300022
-    second: Chaustol1Gunbase
-  - first:
-      23: 2300024
-    second: Chaustol1Turret
-  - first:
-      23: 2300026
-    second: Chaustol1TurretCol
-  - first:
-      33: 3300000
-    second: Challone1Chassis
-  - first:
-      33: 3300002
-    second: Challone1ChassisCol
-  - first:
-      33: 3300004
-    second: Challone1ChassisColSide
-  - first:
-      33: 3300006
-    second: Challone1Gun
-  - first:
-      33: 3300008
-    second: Challone1Gunbase
-  - first:
-      33: 3300010
-    second: Challone1Turret
-  - first:
-      33: 3300012
-    second: Challone1TurretCol
-  - first:
-      33: 3300014
-    second: Chaustol1Chassis
-  - first:
-      33: 3300016
-    second: Chaustol1ChassisCol
-  - first:
-      33: 3300018
-    second: Chaustol1ChassisColSide
-  - first:
-      33: 3300020
-    second: Chaustol1Gun
-  - first:
-      33: 3300022
-    second: Chaustol1Gunbase
-  - first:
-      33: 3300024
-    second: Chaustol1Turret
-  - first:
-      33: 3300026
-    second: Chaustol1TurretCol
-  - first:
-      43: 4300000
-    second: Challone1TurretCol
-  - first:
-      43: 4300002
-    second: Challone1ChassisCol
-  - first:
-      43: 4300004
-    second: Challone1ChassisColSide
-  - first:
-      43: 4300006
-    second: Challone1Gunbase
-  - first:
-      43: 4300008
-    second: Challone1Gun
-  - first:
-      43: 4300010
-    second: Challone1Turret
-  - first:
-      43: 4300012
-    second: Challone1Chassis
-  - first:
-      43: 4300014
-    second: Chaustol1TurretCol
-  - first:
-      43: 4300016
-    second: Chaustol1ChassisCol
-  - first:
-      43: 4300018
-    second: Chaustol1ChassisColSide
-  - first:
-      43: 4300020
-    second: Chaustol1Gunbase
-  - first:
-      43: 4300022
-    second: Chaustol1Gun
-  - first:
-      43: 4300024
-    second: Chaustol1Turret
-  - first:
-      43: 4300026
-    second: Chaustol1Chassis
-  - first:
-      64: 6400000
-    second: Chaustol1Chassis
-  - first:
-      64: 6400002
-    second: Chaustol1ChassisCol
-  - first:
-      64: 6400004
-    second: Chaustol1ChassisColSide
-  - first:
-      64: 6400006
-    second: Chaustol1Gun
-  - first:
-      64: 6400008
-    second: Chaustol1Gunbase
-  - first:
-      64: 6400010
-    second: Chaustol1Turret
-  - first:
-      64: 6400012
-    second: Chaustol1TurretCol
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Challone1Chassis
+    100002: Challone1ChassisCol
+    100004: Challone1ChassisColSide
+    100006: Challone1Gun
+    100008: Challone1Gunbase
+    100010: Challone1Turret
+    100012: Challone1TurretCol
+    100014: //RootNode
+    100016: Chaustol1Chassis
+    100018: Chaustol1ChassisCol
+    100020: Chaustol1ChassisColSide
+    100022: Chaustol1Gun
+    100024: Chaustol1Gunbase
+    100026: Chaustol1Turret
+    100028: Chaustol1TurretCol
+    400000: Challone1Chassis
+    400002: Challone1ChassisCol
+    400004: Challone1ChassisColSide
+    400006: Challone1Gun
+    400008: Challone1Gunbase
+    400010: Challone1Turret
+    400012: Challone1TurretCol
+    400014: //RootNode
+    400016: Chaustol1Chassis
+    400018: Chaustol1ChassisCol
+    400020: Chaustol1ChassisColSide
+    400022: Chaustol1Gun
+    400024: Chaustol1Gunbase
+    400026: Chaustol1Turret
+    400028: Chaustol1TurretCol
+    2300000: Challone1Chassis
+    2300002: Challone1ChassisCol
+    2300004: Challone1ChassisColSide
+    2300006: Challone1Gun
+    2300008: Challone1Gunbase
+    2300010: Challone1Turret
+    2300012: Challone1TurretCol
+    2300014: Chaustol1Chassis
+    2300016: Chaustol1ChassisCol
+    2300018: Chaustol1ChassisColSide
+    2300020: Chaustol1Gun
+    2300022: Chaustol1Gunbase
+    2300024: Chaustol1Turret
+    2300026: Chaustol1TurretCol
+    3300000: Challone1Chassis
+    3300002: Challone1ChassisCol
+    3300004: Challone1ChassisColSide
+    3300006: Challone1Gun
+    3300008: Challone1Gunbase
+    3300010: Challone1Turret
+    3300012: Challone1TurretCol
+    3300014: Chaustol1Chassis
+    3300016: Chaustol1ChassisCol
+    3300018: Chaustol1ChassisColSide
+    3300020: Chaustol1Gun
+    3300022: Chaustol1Gunbase
+    3300024: Chaustol1Turret
+    3300026: Chaustol1TurretCol
+    4300000: Challone1TurretCol
+    4300002: Challone1ChassisCol
+    4300004: Challone1ChassisColSide
+    4300006: Challone1Gunbase
+    4300008: Challone1Gun
+    4300010: Challone1Turret
+    4300012: Challone1Chassis
+    4300014: Chaustol1TurretCol
+    4300016: Chaustol1ChassisCol
+    4300018: Chaustol1ChassisColSide
+    4300020: Chaustol1Gunbase
+    4300022: Chaustol1Gun
+    4300024: Chaustol1Turret
+    4300026: Chaustol1Chassis
+    6400000: Chaustol1Chassis
+    6400002: Chaustol1ChassisCol
+    6400004: Chaustol1ChassisColSide
+    6400006: Chaustol1Gun
+    6400008: Chaustol1Gunbase
+    6400010: Chaustol1Turret
+    6400012: Chaustol1TurretCol
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -280,65 +106,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

@@ -1,0 +1,8 @@
+var Force : float = 0;
+var ForwardForce : float = 0;
+
+function FixedUpdate () {
+			
+         GetComponent.<Rigidbody>().AddForce(transform.up * Force);
+         GetComponent.<Rigidbody>().AddForce(transform.forward * ForwardForce);
+}

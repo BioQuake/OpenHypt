@@ -1,0 +1,51 @@
+#pragma strict
+
+var NPC : GameObject;
+var forwardSpeed = 1F;
+var sprintSpeed = 1F;
+var WalkingThreshold = 2.5F;
+var Idle : String;
+var forward : String;
+var sprint : String;
+var falling : String;
+var backward : String;
+var targetRigidbody : GameObject;
+enum npcState { Idle, WalkForward, WalkBackward, Sprinting }
+var state : npcState;
+private var relative : Vector3;
+ 
+function Start () {
+
+}
+ 
+function Update () {
+    relative = transform.InverseTransformDirection(targetRigidbody.GetComponent.<Rigidbody>().velocity);
+   
+        if(relative.z > relative.x && relative.z > 0.4){
+                if(relative.z < WalkingThreshold){
+                        if(state != npcState.WalkForward){
+                                GetComponent.<Animation>().CrossFade(forward);
+                                state = npcState.WalkForward;
+                        }
+                        if(GetComponent.<Animation>().IsPlaying(forward))
+                        GetComponent.<Animation>()[forward].speed = ((relative.z) * forwardSpeed);
+                } else {
+                        if(state != npcState.Sprinting){
+                                GetComponent.<Animation>().CrossFade(sprint);
+                                state = npcState.Sprinting;
+                        }
+                        if(GetComponent.<Animation>().IsPlaying(sprint))
+                        GetComponent.<Animation>()[sprint].speed = ((relative.z) * sprintSpeed);
+                }
+        }
+      reset();
+}
+ 
+function reset () {
+    if(relative.x >= -0.4 && relative.x < 0.4 && relative.z >= -0.4 && relative.z < 0.4){
+        if(!GetComponent.<Animation>().IsPlaying(Idle)){
+            GetComponent.<Animation>().CrossFade(Idle, 0.5);
+            state = npcState.Idle;
+        }
+    }
+}

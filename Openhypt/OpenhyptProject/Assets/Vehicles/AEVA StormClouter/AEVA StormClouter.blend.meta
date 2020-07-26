@@ -1,131 +1,55 @@
 fileFormatVersion: 2
 guid: 236571dcc89ecf341843b287c8f7f341
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: Bejsirf6Engines
-  - first:
-      1: 100004
-    second: Bejsirf6EnginesTMod
-  - first:
-      1: 100006
-    second: PiriComparison
-  - first:
-      1: 100008
-    second: AEVA_StormClouter
-  - first:
-      1: 100010
-    second: AEVA_StormClouterC
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: Bejsirf6Engines
-  - first:
-      4: 400004
-    second: Bejsirf6EnginesTMod
-  - first:
-      4: 400006
-    second: PiriComparison
-  - first:
-      4: 400008
-    second: AEVA_StormClouter
-  - first:
-      4: 400010
-    second: AEVA_StormClouterC
-  - first:
-      23: 2300000
-    second: Bejsirf6Engines
-  - first:
-      23: 2300002
-    second: Bejsirf6EnginesTMod
-  - first:
-      23: 2300004
-    second: PiriComparison
-  - first:
-      23: 2300006
-    second: AEVA_StormClouter
-  - first:
-      23: 2300008
-    second: AEVA_StormClouterC
-  - first:
-      33: 3300000
-    second: Bejsirf6Engines
-  - first:
-      33: 3300002
-    second: Bejsirf6EnginesTMod
-  - first:
-      33: 3300004
-    second: PiriComparison
-  - first:
-      33: 3300006
-    second: AEVA_StormClouter
-  - first:
-      33: 3300008
-    second: AEVA_StormClouterC
-  - first:
-      43: 4300000
-    second: Bejsirf6EnginesTMod
-  - first:
-      43: 4300002
-    second: Bejsirf6Engines
-  - first:
-      43: 4300004
-    second: PiriComparison
-  - first:
-      43: 4300006
-    second: AEVA_StormClouter
-  - first:
-      43: 4300008
-    second: AEVA_StormClouterC
-  - first:
-      64: 6400000
-    second: AEVA_StormClouter
-  - first:
-      64: 6400002
-    second: PiriComparison
-  - first:
-      64: 6400004
-    second: AEVA_StormClouterC
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bejsirf6Engines
+    100004: Bejsirf6EnginesTMod
+    100006: PiriComparison
+    100008: AEVA_StormClouter
+    100010: AEVA_StormClouterC
+    400000: //RootNode
+    400002: Bejsirf6Engines
+    400004: Bejsirf6EnginesTMod
+    400006: PiriComparison
+    400008: AEVA_StormClouter
+    400010: AEVA_StormClouterC
+    2300000: Bejsirf6Engines
+    2300002: Bejsirf6EnginesTMod
+    2300004: PiriComparison
+    2300006: AEVA_StormClouter
+    2300008: AEVA_StormClouterC
+    3300000: Bejsirf6Engines
+    3300002: Bejsirf6EnginesTMod
+    3300004: PiriComparison
+    3300006: AEVA_StormClouter
+    3300008: AEVA_StormClouterC
+    4300000: Bejsirf6EnginesTMod
+    4300002: Bejsirf6Engines
+    4300004: PiriComparison
+    4300006: AEVA_StormClouter
+    4300008: AEVA_StormClouterC
+    6400000: AEVA_StormClouter
+    6400002: PiriComparison
+    6400004: AEVA_StormClouterC
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -133,65 +57,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

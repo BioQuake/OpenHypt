@@ -1,0 +1,28 @@
+﻿#pragma strict
+
+var Amb1Vol : float = 1;
+var Amb2Vol : float = 0;
+
+var IsAmb1 : boolean;
+var IsAmb2 : boolean;
+
+function Start () {
+
+}
+
+function FixedUpdate () {
+if(IsAmb1){
+if(GetComponent.<AudioSource>().volume > Amb1Vol)
+GetComponent.<AudioSource>().volume -= 0.002;
+
+if(GetComponent.<AudioSource>().volume < Amb1Vol)
+GetComponent.<AudioSource>().volume += 0.002;
+}
+if(IsAmb2){
+if(GetComponent.<AudioSource>().volume > Amb2Vol)
+GetComponent.<AudioSource>().volume -= 0.002;
+
+if(GetComponent.<AudioSource>().volume < Amb2Vol)
+GetComponent.<AudioSource>().volume += 0.002;
+}
+}

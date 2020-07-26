@@ -1,0 +1,103 @@
+﻿var Creature : GameObject;
+
+var IsPeuktato : boolean;
+var IsPeuktorb : boolean;
+
+var Target : Transform;
+
+var Power : float = 0.01;
+var Torque : float = 0.01;
+var Spin : float = 0;
+
+var upnudge : Upnudge;
+
+var AttractedTo : String = "HeatSource";
+
+var NoticeRadius = 200;
+
+var UseOutOfBounds : boolean;
+var OutOfBounds = 5000;
+var FromWhat : Transform;
+
+var Tick : boolean;
+
+InvokeRepeating("Regenerator", 1, 0.2);
+
+function Start () {
+if(IsPeuktato)
+StuffSpawner.TheNPC000N += 1;
+if(IsPeuktorb)
+StuffSpawner.TheNPC001N += 1;
+}
+
+function FixedUpdate () {
+Notice();
+
+if(Spin > 0)
+ Creature.GetComponent.<Rigidbody>().AddTorque(transform.up * Spin);
+ else
+ Creature.GetComponent.<Rigidbody>().AddTorque(transform.up * Random.Range (-Torque, Torque));
+ 
+ Creature.GetComponent.<Rigidbody>().AddTorque(transform.right * Random.Range (-Torque, Torque));
+ Creature.GetComponent.<Rigidbody>().AddTorque(transform.forward * Random.Range (-Torque, Torque));
+
+if(Target != null){
+   Creature.GetComponent.<Rigidbody>().AddForce((Target.transform.position - Creature.transform.position).normalized * Power);
+   }else{
+   Creature.GetComponent.<Rigidbody>().AddForce(transform.up * Power);
+   }
+
+if(UseOutOfBounds){
+
+if(FromWhat)
+if(Vector3.Distance(transform.position, WorldInformation.instance.transform.position) > OutOfBounds)
+Creature.GetComponent.<Rigidbody>().AddForce((FromWhat.position - Creature.transform.position).normalized * Power);
+
+}
+}
+
+function Notice () {
+if(Tick)
+return;
+
+Tick = true;
+yield WaitForSeconds (0.8);
+Target = null;
+gameObject.GetComponent(SphereCollider).radius = NoticeRadius;
+yield WaitForSeconds (0.2);
+gameObject.GetComponent(SphereCollider).radius = 0.01;
+Tick = false;
+}
+
+function OnTriggerStay (other : Collider) {
+if(other.GetComponent.<Collider>().name.Contains (AttractedTo)){
+Target = other.gameObject.transform;
+}
+}
+
+function Regenerator () {
+if(IsPeuktato)
+if(upnudge.isTouching)
+upnudge.nudge = true;
+}
+
+function decrement () {
+	if(GetComponent.<AudioSource>().volume > 0.2)
+		GetComponent.<AudioSource>().volume -= 0.004;
+	if(GetComponent.<AudioSource>().pitch > 0.6)
+		GetComponent.<AudioSource>().pitch -= 0.002;
+}
+
+function increment () {
+	if(GetComponent.<AudioSource>().volume < 0.5)
+		GetComponent.<AudioSource>().volume += 0.01;
+    if(GetComponent.<AudioSource>().pitch < 0.8)
+		GetComponent.<AudioSource>().pitch += 0.01;
+}
+
+function Damage () {
+if(IsPeuktato)
+StuffSpawner.TheNPC000N -= 1;
+if(IsPeuktorb)
+StuffSpawner.TheNPC001N -= 1;
+}

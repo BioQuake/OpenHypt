@@ -1,0 +1,41 @@
+#pragma strict
+var MainVessel: Transform;
+
+var YawSpeed : float = 100;
+
+var YawSpeedOriginal : float = 100;
+var YawSpeedAlternated : float = 100;
+
+var SpeedAlternation : boolean;
+
+var StrongTorque : boolean;
+
+function FixedUpdate () {
+	if(WorldInformation.playerCar == MainVessel.name){
+		if(Input.GetKey("a")){
+			GetComponent.<Rigidbody>().AddTorque(transform.up * -YawSpeed);
+			
+			if(StrongTorque){
+			GetComponent.<Rigidbody>().AddForceAtPosition(transform.forward * YawSpeed, transform.right * 20);
+            GetComponent.<Rigidbody>().AddForceAtPosition(-transform.forward * YawSpeed, -transform.right * 20);
+            }
+            }
+	
+		if(Input.GetKey("d")){
+			GetComponent.<Rigidbody>().AddTorque(transform.up * YawSpeed);
+			
+			if(StrongTorque){
+			GetComponent.<Rigidbody>().AddForceAtPosition(transform.forward * YawSpeed, -transform.right * 20);
+            GetComponent.<Rigidbody>().AddForceAtPosition(-transform.forward * YawSpeed, transform.right * 20);
+            }
+            }
+		
+		if(SpeedAlternation){
+		if(GetComponent.<Rigidbody>().velocity.magnitude > 50)
+		YawSpeed = YawSpeedAlternated;
+		if(GetComponent.<Rigidbody>().velocity.magnitude < 50)
+		YawSpeed = YawSpeedOriginal;
+		}
+		
+	}
+}

@@ -1,191 +1,75 @@
 fileFormatVersion: 2
 guid: 5df23f5e40309b842bc880c97058ba71
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: AVAD_Fusopod1
-  - first:
-      1: 100004
-    second: AVAD_Fusopod1_001
-  - first:
-      1: 100006
-    second: FusopodBlade1
-  - first:
-      1: 100008
-    second: PiriComparison
-  - first:
-      1: 100010
-    second: AVAD_Fusopod1FX
-  - first:
-      1: 100012
-    second: DMA_Fusopod1
-  - first:
-      1: 100014
-    second: DMA_Fusopod1FX
-  - first:
-      1: 100016
-    second: DMA_FusopodBlade1
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: AVAD_Fusopod1
-  - first:
-      4: 400004
-    second: AVAD_Fusopod1_001
-  - first:
-      4: 400006
-    second: FusopodBlade1
-  - first:
-      4: 400008
-    second: PiriComparison
-  - first:
-      4: 400010
-    second: AVAD_Fusopod1FX
-  - first:
-      4: 400012
-    second: DMA_Fusopod1
-  - first:
-      4: 400014
-    second: DMA_Fusopod1FX
-  - first:
-      4: 400016
-    second: DMA_FusopodBlade1
-  - first:
-      23: 2300000
-    second: AVAD_Fusopod1
-  - first:
-      23: 2300002
-    second: AVAD_Fusopod1_001
-  - first:
-      23: 2300004
-    second: FusopodBlade1
-  - first:
-      23: 2300006
-    second: PiriComparison
-  - first:
-      23: 2300008
-    second: AVAD_Fusopod1FX
-  - first:
-      23: 2300010
-    second: DMA_Fusopod1
-  - first:
-      23: 2300012
-    second: DMA_Fusopod1FX
-  - first:
-      23: 2300014
-    second: DMA_FusopodBlade1
-  - first:
-      33: 3300000
-    second: AVAD_Fusopod1
-  - first:
-      33: 3300002
-    second: AVAD_Fusopod1_001
-  - first:
-      33: 3300004
-    second: FusopodBlade1
-  - first:
-      33: 3300006
-    second: PiriComparison
-  - first:
-      33: 3300008
-    second: AVAD_Fusopod1FX
-  - first:
-      33: 3300010
-    second: DMA_Fusopod1
-  - first:
-      33: 3300012
-    second: DMA_Fusopod1FX
-  - first:
-      33: 3300014
-    second: DMA_FusopodBlade1
-  - first:
-      43: 4300000
-    second: AVAD_Fusopod1_001
-  - first:
-      43: 4300002
-    second: FusopodBlade1
-  - first:
-      43: 4300004
-    second: AVAD_Fusopod1
-  - first:
-      43: 4300006
-    second: PiriComparison
-  - first:
-      43: 4300008
-    second: AVAD_Fusopod1FX
-  - first:
-      43: 4300010
-    second: DMA_Fusopod1FX
-  - first:
-      43: 4300012
-    second: DMA_FusopodBlade1
-  - first:
-      43: 4300014
-    second: DMA_Fusopod1
-  - first:
-      64: 6400000
-    second: AVAD_Fusopod1
-  - first:
-      64: 6400002
-    second: AVAD_Fusopod1_001
-  - first:
-      64: 6400004
-    second: FusopodBlade1
-  - first:
-      64: 6400006
-    second: PiriComparison
-  - first:
-      64: 6400008
-    second: AVAD_Fusopod1FX
-  - first:
-      64: 6400010
-    second: DMA_Fusopod1
-  - first:
-      64: 6400012
-    second: DMA_Fusopod1FX
-  - first:
-      64: 6400014
-    second: DMA_FusopodBlade1
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: AVAD_Fusopod1
+    100004: AVAD_Fusopod1_001
+    100006: FusopodBlade1
+    100008: PiriComparison
+    100010: AVAD_Fusopod1FX
+    100012: DMA_Fusopod1
+    100014: DMA_Fusopod1FX
+    100016: DMA_FusopodBlade1
+    400000: //RootNode
+    400002: AVAD_Fusopod1
+    400004: AVAD_Fusopod1_001
+    400006: FusopodBlade1
+    400008: PiriComparison
+    400010: AVAD_Fusopod1FX
+    400012: DMA_Fusopod1
+    400014: DMA_Fusopod1FX
+    400016: DMA_FusopodBlade1
+    2300000: AVAD_Fusopod1
+    2300002: AVAD_Fusopod1_001
+    2300004: FusopodBlade1
+    2300006: PiriComparison
+    2300008: AVAD_Fusopod1FX
+    2300010: DMA_Fusopod1
+    2300012: DMA_Fusopod1FX
+    2300014: DMA_FusopodBlade1
+    3300000: AVAD_Fusopod1
+    3300002: AVAD_Fusopod1_001
+    3300004: FusopodBlade1
+    3300006: PiriComparison
+    3300008: AVAD_Fusopod1FX
+    3300010: DMA_Fusopod1
+    3300012: DMA_Fusopod1FX
+    3300014: DMA_FusopodBlade1
+    4300000: AVAD_Fusopod1_001
+    4300002: FusopodBlade1
+    4300004: AVAD_Fusopod1
+    4300006: PiriComparison
+    4300008: AVAD_Fusopod1FX
+    4300010: DMA_Fusopod1FX
+    4300012: DMA_FusopodBlade1
+    4300014: DMA_Fusopod1
+    6400000: AVAD_Fusopod1
+    6400002: AVAD_Fusopod1_001
+    6400004: FusopodBlade1
+    6400006: PiriComparison
+    6400008: AVAD_Fusopod1FX
+    6400010: DMA_Fusopod1
+    6400012: DMA_Fusopod1FX
+    6400014: DMA_FusopodBlade1
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -193,65 +77,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 20
+    splitTangentsAcrossUV: 1
     normalImportMode: 1
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

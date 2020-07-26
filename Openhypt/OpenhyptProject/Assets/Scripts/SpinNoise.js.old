@@ -1,0 +1,221 @@
+var Stopped : boolean;
+
+var Vessel: GameObject;
+
+var UseOtherV : boolean;
+var UseOtherV2 : boolean;
+
+var AccurateVolume : boolean;
+
+var UseSpecificAxis : boolean;
+var UseX : boolean;
+
+var OtherV2: GameObject;
+var OtherV3: GameObject;
+var OtherV4: GameObject;
+
+var audioClipSpeed = 20.0;
+var MaxPitch : float = 1.0;
+var MinPitch : float = 0.0;
+
+var curve : AnimationCurve = new AnimationCurve();
+var VolumeAmount : float = 0;
+var VolumeMod : float = 1.0;
+
+var AngVel : float = 0;
+
+var AngVel1 : float = 0;
+var AngVel2 : float = 0;
+
+function Start () {
+Stopped = true;
+}
+
+function FixedUpdate () {
+
+if(Vessel){
+
+if(!UseOtherV && !UseOtherV2 && UseSpecificAxis){
+if(Vessel.GetComponent.<Rigidbody>().angularVelocity.magnitude > 0.1) {
+
+var localV = Vessel.transform.InverseTransformDirection(Vessel.GetComponent.<Rigidbody>().angularVelocity);
+
+if(!UseX)
+AngVel = Mathf.Abs(localV.y);
+else
+AngVel = Mathf.Abs(localV.x);
+
+var p = AngVel / audioClipSpeed;
+
+GetComponent.<AudioSource>().pitch = Mathf.Clamp( p * 1 , MinPitch, MaxPitch);
+
+VolumeAmount = curve.Evaluate(p) * VolumeMod;
+
+GetComponent.<AudioSource>().volume = VolumeAmount;
+
+if(GetComponent.<AudioSource>().volume < 0.05 && !AccurateVolume)
+GetComponent.<AudioSource>().volume = 0.04;
+
+}
+
+if(!Stopped)
+if(GetComponent.<AudioSource>().volume < 0.05)
+GetComponent.<AudioSource>().volume -= 0.005;
+
+if(Stopped)
+if(GetComponent.<AudioSource>().volume > 0.001){
+GetComponent.<AudioSource>().Play();
+Stopped = false;
+}
+
+if(!Stopped)
+if(GetComponent.<AudioSource>().volume == 0){
+GetComponent.<AudioSource>().Stop();
+Stopped = true;
+}
+}
+
+if(UseOtherV2 && UseSpecificAxis){
+if(Vessel.GetComponent.<Rigidbody>().angularVelocity.magnitude > 0.1 || OtherV2.GetComponent.<Rigidbody>().angularVelocity.magnitude > 0.1) {
+
+var localV1 = Vessel.transform.InverseTransformDirection(Vessel.GetComponent.<Rigidbody>().angularVelocity);
+             
+var localV2 = OtherV2.transform.InverseTransformDirection(OtherV2.GetComponent.<Rigidbody>().angularVelocity);
+
+if(!UseX){
+AngVel1 = Mathf.Abs(localV1.y);
+AngVel2 = Mathf.Abs(localV2.y);
+}else{
+AngVel1 = Mathf.Abs(localV1.x);
+AngVel2 = Mathf.Abs(localV2.x);
+}
+
+var AngVel3 = Mathf.Abs(AngVel1 + AngVel2);
+
+var p4 = AngVel3 / audioClipSpeed;
+GetComponent.<AudioSource>().pitch = Mathf.Clamp( p4 * 1 , MinPitch, MaxPitch);
+
+VolumeAmount = curve.Evaluate(p4) * VolumeMod;
+
+GetComponent.<AudioSource>().volume = VolumeAmount;
+
+if(GetComponent.<AudioSource>().volume < 0.05 && !AccurateVolume)
+GetComponent.<AudioSource>().volume = 0.04;
+
+}
+if(!Stopped)
+if(GetComponent.<AudioSource>().volume < 0.05)
+GetComponent.<AudioSource>().volume -= 0.005;
+
+if(Stopped)
+if(GetComponent.<AudioSource>().volume > 0.001){
+GetComponent.<AudioSource>().Play();
+Stopped = false;
+}
+
+if(!Stopped)
+if(GetComponent.<AudioSource>().volume == 0){
+GetComponent.<AudioSource>().Stop();
+Stopped = true;
+}
+}
+
+if(!UseOtherV && !UseOtherV2 && !UseSpecificAxis){
+if(Vessel.GetComponent.<Rigidbody>().angularVelocity.magnitude > 0.1) {
+
+var p1 = Vessel.GetComponent.<Rigidbody>().angularVelocity.magnitude / audioClipSpeed;
+GetComponent.<AudioSource>().pitch = Mathf.Clamp( p1 * 1 , MinPitch, MaxPitch);
+
+VolumeAmount = curve.Evaluate(p1) * VolumeMod;
+
+GetComponent.<AudioSource>().volume = VolumeAmount;
+
+if(GetComponent.<AudioSource>().volume < 0.05 && !AccurateVolume)
+GetComponent.<AudioSource>().volume = 0.04;
+
+}
+if(!Stopped)
+if(GetComponent.<AudioSource>().volume < 0.05)
+GetComponent.<AudioSource>().volume -= 0.005;
+
+if(Stopped)
+if(GetComponent.<AudioSource>().volume > 0.001){
+GetComponent.<AudioSource>().Play();
+Stopped = false;
+}
+
+if(!Stopped)
+if(GetComponent.<AudioSource>().volume == 0){
+GetComponent.<AudioSource>().Stop();
+Stopped = true;
+}
+}
+
+if(UseOtherV){
+if(OtherV2 && OtherV3 && OtherV4){
+if(Vessel.GetComponent.<Rigidbody>().angularVelocity.magnitude > 0.1) {
+
+var OV = Vessel.GetComponent.<Rigidbody>().angularVelocity.magnitude +
+         OtherV2.GetComponent.<Rigidbody>().angularVelocity.magnitude + 
+         OtherV3.GetComponent.<Rigidbody>().angularVelocity.magnitude + 
+         OtherV4.GetComponent.<Rigidbody>().angularVelocity.magnitude;
+
+var p2 = OV / audioClipSpeed;
+GetComponent.<AudioSource>().pitch = Mathf.Clamp( p2 * 1 , MinPitch, MaxPitch);
+
+VolumeAmount = curve.Evaluate(p2) * VolumeMod;
+
+GetComponent.<AudioSource>().volume = VolumeAmount;
+
+}
+if(!Stopped)
+if(GetComponent.<AudioSource>().volume < 0.05)
+GetComponent.<AudioSource>().volume -= 0.005;
+
+if(Stopped)
+if(GetComponent.<AudioSource>().volume > 0.001){
+GetComponent.<AudioSource>().Play();
+Stopped = false;
+}
+
+if(!Stopped)
+if(GetComponent.<AudioSource>().volume == 0){
+GetComponent.<AudioSource>().Stop();
+Stopped = true;
+}
+}
+}
+
+if(UseOtherV2 && !UseSpecificAxis){
+if(Vessel.GetComponent.<Rigidbody>().angularVelocity.magnitude > 0.1) {
+
+var OV2 = Vessel.GetComponent.<Rigidbody>().angularVelocity.magnitude +
+         OtherV2.GetComponent.<Rigidbody>().angularVelocity.magnitude;
+
+var p3 = OV2 / audioClipSpeed;
+GetComponent.<AudioSource>().pitch = Mathf.Clamp( p3 * 1 , MinPitch, MaxPitch);
+
+VolumeAmount = curve.Evaluate(p3) * VolumeMod;
+
+GetComponent.<AudioSource>().volume = VolumeAmount;
+
+}
+if(!Stopped)
+if(GetComponent.<AudioSource>().volume < 0.05)
+GetComponent.<AudioSource>().volume -= 0.005;
+
+if(Stopped)
+if(GetComponent.<AudioSource>().volume > 0.001){
+GetComponent.<AudioSource>().Play();
+Stopped = false;
+}
+
+if(!Stopped)
+if(GetComponent.<AudioSource>().volume == 0){
+GetComponent.<AudioSource>().Stop();
+Stopped = true;
+}
+}
+
+}
+}

@@ -1,209 +1,81 @@
 fileFormatVersion: 2
 guid: 0a00745083e377840a094f575b62ec9c
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: AgrianNode
-  - first:
-      1: 100002
-    second: AgrianPivotGear2
-  - first:
-      1: 100004
-    second: AgrianSandGate
-  - first:
-      1: 100006
-    second: AgrianShortMContainer
-  - first:
-      1: 100008
-    second: //RootNode
-  - first:
-      1: 100010
-    second: AgrianTruss
-  - first:
-      1: 100012
-    second: AgrianTubeBase
-  - first:
-      1: 100014
-    second: Helirotor1Body
-  - first:
-      1: 100016
-    second: PiriComparison
-  - first:
-      1: 100018
-    second: AgrianMetalStretch
-  - first:
-      4: 400000
-    second: AgrianNode
-  - first:
-      4: 400002
-    second: AgrianPivotGear2
-  - first:
-      4: 400004
-    second: AgrianSandGate
-  - first:
-      4: 400006
-    second: AgrianShortMContainer
-  - first:
-      4: 400008
-    second: //RootNode
-  - first:
-      4: 400010
-    second: AgrianTruss
-  - first:
-      4: 400012
-    second: AgrianTubeBase
-  - first:
-      4: 400014
-    second: Helirotor1Body
-  - first:
-      4: 400016
-    second: PiriComparison
-  - first:
-      4: 400018
-    second: AgrianMetalStretch
-  - first:
-      23: 2300000
-    second: AgrianNode
-  - first:
-      23: 2300002
-    second: AgrianPivotGear2
-  - first:
-      23: 2300004
-    second: AgrianSandGate
-  - first:
-      23: 2300006
-    second: AgrianShortMContainer
-  - first:
-      23: 2300008
-    second: AgrianTruss
-  - first:
-      23: 2300010
-    second: AgrianTubeBase
-  - first:
-      23: 2300012
-    second: Helirotor1Body
-  - first:
-      23: 2300014
-    second: PiriComparison
-  - first:
-      23: 2300016
-    second: AgrianMetalStretch
-  - first:
-      33: 3300000
-    second: AgrianNode
-  - first:
-      33: 3300002
-    second: AgrianPivotGear2
-  - first:
-      33: 3300004
-    second: AgrianSandGate
-  - first:
-      33: 3300006
-    second: AgrianShortMContainer
-  - first:
-      33: 3300008
-    second: AgrianTruss
-  - first:
-      33: 3300010
-    second: AgrianTubeBase
-  - first:
-      33: 3300012
-    second: Helirotor1Body
-  - first:
-      33: 3300014
-    second: PiriComparison
-  - first:
-      33: 3300016
-    second: AgrianMetalStretch
-  - first:
-      43: 4300000
-    second: AgrianNode
-  - first:
-      43: 4300002
-    second: AgrianShortMContainer
-  - first:
-      43: 4300004
-    second: AgrianSandGate
-  - first:
-      43: 4300006
-    second: AgrianPivotGear2
-  - first:
-      43: 4300008
-    second: AgrianTubeBase
-  - first:
-      43: 4300010
-    second: AgrianTruss
-  - first:
-      43: 4300012
-    second: Helirotor1Body
-  - first:
-      43: 4300014
-    second: PiriComparison
-  - first:
-      43: 4300016
-    second: AgrianMetalStretch
-  - first:
-      64: 6400000
-    second: AgrianNode
-  - first:
-      64: 6400002
-    second: AgrianPivotGear2
-  - first:
-      64: 6400004
-    second: AgrianSandGate
-  - first:
-      64: 6400006
-    second: AgrianShortMContainer
-  - first:
-      64: 6400008
-    second: AgrianTruss
-  - first:
-      64: 6400010
-    second: AgrianTubeBase
-  - first:
-      64: 6400012
-    second: Helirotor1Body
-  - first:
-      64: 6400014
-    second: PiriComparison
-  - first:
-      64: 6400016
-    second: AgrianMetalStretch
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: AgrianNode
+    100002: AgrianPivotGear2
+    100004: AgrianSandGate
+    100006: AgrianShortMContainer
+    100008: //RootNode
+    100010: AgrianTruss
+    100012: AgrianTubeBase
+    100014: Helirotor1Body
+    100016: PiriComparison
+    100018: AgrianMetalStretch
+    400000: AgrianNode
+    400002: AgrianPivotGear2
+    400004: AgrianSandGate
+    400006: AgrianShortMContainer
+    400008: //RootNode
+    400010: AgrianTruss
+    400012: AgrianTubeBase
+    400014: Helirotor1Body
+    400016: PiriComparison
+    400018: AgrianMetalStretch
+    2300000: AgrianNode
+    2300002: AgrianPivotGear2
+    2300004: AgrianSandGate
+    2300006: AgrianShortMContainer
+    2300008: AgrianTruss
+    2300010: AgrianTubeBase
+    2300012: Helirotor1Body
+    2300014: PiriComparison
+    2300016: AgrianMetalStretch
+    3300000: AgrianNode
+    3300002: AgrianPivotGear2
+    3300004: AgrianSandGate
+    3300006: AgrianShortMContainer
+    3300008: AgrianTruss
+    3300010: AgrianTubeBase
+    3300012: Helirotor1Body
+    3300014: PiriComparison
+    3300016: AgrianMetalStretch
+    4300000: AgrianNode
+    4300002: AgrianShortMContainer
+    4300004: AgrianSandGate
+    4300006: AgrianPivotGear2
+    4300008: AgrianTubeBase
+    4300010: AgrianTruss
+    4300012: Helirotor1Body
+    4300014: PiriComparison
+    4300016: AgrianMetalStretch
+    6400000: AgrianNode
+    6400002: AgrianPivotGear2
+    6400004: AgrianSandGate
+    6400006: AgrianShortMContainer
+    6400008: AgrianTruss
+    6400010: AgrianTubeBase
+    6400012: Helirotor1Body
+    6400014: PiriComparison
+    6400016: AgrianMetalStretch
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -211,65 +83,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 20
+    splitTangentsAcrossUV: 1
     normalImportMode: 1
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

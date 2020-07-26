@@ -1,0 +1,14 @@
+﻿#pragma strict
+
+static var Activated : boolean;
+
+function Start () {
+
+}
+
+function Update () {
+if(GetComponent.<Light>().intensity < 1 && Activated)
+GetComponent.<Light>().intensity += 0.01;
+if(GetComponent.<Light>().intensity > 0 && !Activated)
+GetComponent.<Light>().intensity -= 0.01;
+}

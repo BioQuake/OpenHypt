@@ -1,314 +1,116 @@
 fileFormatVersion: 2
 guid: 36e2216ef5c79224bbf07c94b93b3015
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: EzymusAptaFlatbackChassis
-  - first:
-      1: 100004
-    second: PiriComparison
-  - first:
-      1: 100006
-    second: EzymusAptaFlatbackAkbar
-  - first:
-      1: 100008
-    second: EzymusAptaFlatbackCol
-  - first:
-      1: 100010
-    second: AkbarEzymusTransfer
-  - first:
-      1: 100012
-    second: AEVAAptaCBDoor
-  - first:
-      1: 100014
-    second: AEVAAptaCBPart
-  - first:
-      1: 100016
-    second: AEVAAptaFBPart
-  - first:
-      1: 100018
-    second: AEVAAptaFlatback
-  - first:
-      1: 100020
-    second: AEVAAptaFlatbackCol
-  - first:
-      1: 100022
-    second: AEVAAptaFlatbed1
-  - first:
-      1: 100024
-    second: AEVAAptaFlatbed2
-  - first:
-      1: 100026
-    second: Al-AtibaAptaFlatback
-  - first:
-      1: 100028
-    second: Al-AtibaWeaponMount
-  - first:
-      1: 100030
-    second: AEVAAptaCBPartCol
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: EzymusAptaFlatbackChassis
-  - first:
-      4: 400004
-    second: PiriComparison
-  - first:
-      4: 400006
-    second: EzymusAptaFlatbackAkbar
-  - first:
-      4: 400008
-    second: EzymusAptaFlatbackCol
-  - first:
-      4: 400010
-    second: AkbarEzymusTransfer
-  - first:
-      4: 400012
-    second: AEVAAptaCBDoor
-  - first:
-      4: 400014
-    second: AEVAAptaCBPart
-  - first:
-      4: 400016
-    second: AEVAAptaFBPart
-  - first:
-      4: 400018
-    second: AEVAAptaFlatback
-  - first:
-      4: 400020
-    second: AEVAAptaFlatbackCol
-  - first:
-      4: 400022
-    second: AEVAAptaFlatbed1
-  - first:
-      4: 400024
-    second: AEVAAptaFlatbed2
-  - first:
-      4: 400026
-    second: Al-AtibaAptaFlatback
-  - first:
-      4: 400028
-    second: Al-AtibaWeaponMount
-  - first:
-      4: 400030
-    second: AEVAAptaCBPartCol
-  - first:
-      23: 2300000
-    second: EzymusAptaFlatbackChassis
-  - first:
-      23: 2300002
-    second: PiriComparison
-  - first:
-      23: 2300004
-    second: EzymusAptaFlatbackAkbar
-  - first:
-      23: 2300006
-    second: EzymusAptaFlatbackCol
-  - first:
-      23: 2300008
-    second: AkbarEzymusTransfer
-  - first:
-      23: 2300010
-    second: AEVAAptaCBDoor
-  - first:
-      23: 2300012
-    second: AEVAAptaCBPart
-  - first:
-      23: 2300014
-    second: AEVAAptaFBPart
-  - first:
-      23: 2300016
-    second: AEVAAptaFlatback
-  - first:
-      23: 2300018
-    second: AEVAAptaFlatbackCol
-  - first:
-      23: 2300020
-    second: AEVAAptaFlatbed1
-  - first:
-      23: 2300022
-    second: AEVAAptaFlatbed2
-  - first:
-      23: 2300024
-    second: Al-AtibaAptaFlatback
-  - first:
-      23: 2300026
-    second: Al-AtibaWeaponMount
-  - first:
-      23: 2300028
-    second: AEVAAptaCBPartCol
-  - first:
-      33: 3300000
-    second: EzymusAptaFlatbackChassis
-  - first:
-      33: 3300002
-    second: PiriComparison
-  - first:
-      33: 3300004
-    second: EzymusAptaFlatbackAkbar
-  - first:
-      33: 3300006
-    second: EzymusAptaFlatbackCol
-  - first:
-      33: 3300008
-    second: AkbarEzymusTransfer
-  - first:
-      33: 3300010
-    second: AEVAAptaCBDoor
-  - first:
-      33: 3300012
-    second: AEVAAptaCBPart
-  - first:
-      33: 3300014
-    second: AEVAAptaFBPart
-  - first:
-      33: 3300016
-    second: AEVAAptaFlatback
-  - first:
-      33: 3300018
-    second: AEVAAptaFlatbackCol
-  - first:
-      33: 3300020
-    second: AEVAAptaFlatbed1
-  - first:
-      33: 3300022
-    second: AEVAAptaFlatbed2
-  - first:
-      33: 3300024
-    second: Al-AtibaAptaFlatback
-  - first:
-      33: 3300026
-    second: Al-AtibaWeaponMount
-  - first:
-      33: 3300028
-    second: AEVAAptaCBPartCol
-  - first:
-      43: 4300000
-    second: PiriComparison
-  - first:
-      43: 4300002
-    second: EzymusAptaFlatbackChassis
-  - first:
-      43: 4300004
-    second: EzymusAptaFlatbackAkbar
-  - first:
-      43: 4300006
-    second: EzymusAptaFlatbackCol
-  - first:
-      43: 4300008
-    second: AkbarEzymusTransfer
-  - first:
-      43: 4300010
-    second: AEVAAptaCBPart
-  - first:
-      43: 4300012
-    second: AEVAAptaCBDoor
-  - first:
-      43: 4300014
-    second: AEVAAptaFBPart
-  - first:
-      43: 4300016
-    second: AEVAAptaFlatbed1
-  - first:
-      43: 4300018
-    second: AEVAAptaFlatbed2
-  - first:
-      43: 4300020
-    second: AEVAAptaFlatbackCol
-  - first:
-      43: 4300022
-    second: AEVAAptaFlatback
-  - first:
-      43: 4300024
-    second: Al-AtibaAptaFlatback
-  - first:
-      43: 4300026
-    second: Al-AtibaWeaponMount
-  - first:
-      43: 4300028
-    second: AEVAAptaCBPartCol
-  - first:
-      64: 6400000
-    second: EzymusAptaFlatbackAkbar
-  - first:
-      64: 6400002
-    second: EzymusAptaFlatbackChassis
-  - first:
-      64: 6400004
-    second: EzymusAptaFlatbackCol
-  - first:
-      64: 6400006
-    second: AkbarEzymusTransfer
-  - first:
-      64: 6400008
-    second: AEVAAptaCBDoor
-  - first:
-      64: 6400010
-    second: AEVAAptaCBPart
-  - first:
-      64: 6400012
-    second: AEVAAptaFBPart
-  - first:
-      64: 6400014
-    second: AEVAAptaFlatback
-  - first:
-      64: 6400016
-    second: AEVAAptaFlatbackCol
-  - first:
-      64: 6400018
-    second: AEVAAptaFlatbed1
-  - first:
-      64: 6400020
-    second: AEVAAptaFlatbed2
-  - first:
-      64: 6400022
-    second: Al-AtibaAptaFlatback
-  - first:
-      64: 6400024
-    second: Al-AtibaWeaponMount
-  - first:
-      64: 6400026
-    second: AEVAAptaCBPartCol
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: EzymusAptaFlatbackChassis
+    100004: PiriComparison
+    100006: EzymusAptaFlatbackAkbar
+    100008: EzymusAptaFlatbackCol
+    100010: AkbarEzymusTransfer
+    100012: AEVAAptaCBDoor
+    100014: AEVAAptaCBPart
+    100016: AEVAAptaFBPart
+    100018: AEVAAptaFlatback
+    100020: AEVAAptaFlatbackCol
+    100022: AEVAAptaFlatbed1
+    100024: AEVAAptaFlatbed2
+    100026: Al-AtibaAptaFlatback
+    100028: Al-AtibaWeaponMount
+    100030: AEVAAptaCBPartCol
+    400000: //RootNode
+    400002: EzymusAptaFlatbackChassis
+    400004: PiriComparison
+    400006: EzymusAptaFlatbackAkbar
+    400008: EzymusAptaFlatbackCol
+    400010: AkbarEzymusTransfer
+    400012: AEVAAptaCBDoor
+    400014: AEVAAptaCBPart
+    400016: AEVAAptaFBPart
+    400018: AEVAAptaFlatback
+    400020: AEVAAptaFlatbackCol
+    400022: AEVAAptaFlatbed1
+    400024: AEVAAptaFlatbed2
+    400026: Al-AtibaAptaFlatback
+    400028: Al-AtibaWeaponMount
+    400030: AEVAAptaCBPartCol
+    2300000: EzymusAptaFlatbackChassis
+    2300002: PiriComparison
+    2300004: EzymusAptaFlatbackAkbar
+    2300006: EzymusAptaFlatbackCol
+    2300008: AkbarEzymusTransfer
+    2300010: AEVAAptaCBDoor
+    2300012: AEVAAptaCBPart
+    2300014: AEVAAptaFBPart
+    2300016: AEVAAptaFlatback
+    2300018: AEVAAptaFlatbackCol
+    2300020: AEVAAptaFlatbed1
+    2300022: AEVAAptaFlatbed2
+    2300024: Al-AtibaAptaFlatback
+    2300026: Al-AtibaWeaponMount
+    2300028: AEVAAptaCBPartCol
+    3300000: EzymusAptaFlatbackChassis
+    3300002: PiriComparison
+    3300004: EzymusAptaFlatbackAkbar
+    3300006: EzymusAptaFlatbackCol
+    3300008: AkbarEzymusTransfer
+    3300010: AEVAAptaCBDoor
+    3300012: AEVAAptaCBPart
+    3300014: AEVAAptaFBPart
+    3300016: AEVAAptaFlatback
+    3300018: AEVAAptaFlatbackCol
+    3300020: AEVAAptaFlatbed1
+    3300022: AEVAAptaFlatbed2
+    3300024: Al-AtibaAptaFlatback
+    3300026: Al-AtibaWeaponMount
+    3300028: AEVAAptaCBPartCol
+    4300000: PiriComparison
+    4300002: EzymusAptaFlatbackChassis
+    4300004: EzymusAptaFlatbackAkbar
+    4300006: EzymusAptaFlatbackCol
+    4300008: AkbarEzymusTransfer
+    4300010: AEVAAptaCBPart
+    4300012: AEVAAptaCBDoor
+    4300014: AEVAAptaFBPart
+    4300016: AEVAAptaFlatbed1
+    4300018: AEVAAptaFlatbed2
+    4300020: AEVAAptaFlatbackCol
+    4300022: AEVAAptaFlatback
+    4300024: Al-AtibaAptaFlatback
+    4300026: Al-AtibaWeaponMount
+    4300028: AEVAAptaCBPartCol
+    6400000: EzymusAptaFlatbackAkbar
+    6400002: EzymusAptaFlatbackChassis
+    6400004: EzymusAptaFlatbackCol
+    6400006: AkbarEzymusTransfer
+    6400008: AEVAAptaCBDoor
+    6400010: AEVAAptaCBPart
+    6400012: AEVAAptaFBPart
+    6400014: AEVAAptaFlatback
+    6400016: AEVAAptaFlatbackCol
+    6400018: AEVAAptaFlatbed1
+    6400020: AEVAAptaFlatbed2
+    6400022: Al-AtibaAptaFlatback
+    6400024: Al-AtibaWeaponMount
+    6400026: AEVAAptaCBPartCol
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -316,65 +118,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

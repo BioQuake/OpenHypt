@@ -1,194 +1,83 @@
 fileFormatVersion: 2
 guid: 17ec2fdea085b8e42aa23f3023a9dc96
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Head
-  - first:
-      1: 100002
-    second: LAnkle
-  - first:
-      1: 100004
-    second: LArm
-  - first:
-      1: 100006
-    second: LFoot
-  - first:
-      1: 100008
-    second: LForearm
-  - first:
-      1: 100010
-    second: LHand
-  - first:
-      1: 100012
-    second: LShoulder
-  - first:
-      1: 100014
-    second: LThigh
-  - first:
-      1: 100016
-    second: MevNav
-  - first:
-      1: 100018
-    second: MevNavArmature
-  - first:
-      1: 100020
-    second: MevNavEye
-  - first:
-      1: 100022
-    second: MevNavHand
-  - first:
-      1: 100024
-    second: MevNavHelmet
-  - first:
-      1: 100026
-    second: //RootNode
-  - first:
-      1: 100028
-    second: Neck
-  - first:
-      1: 100030
-    second: RAnkle
-  - first:
-      1: 100032
-    second: RArm
-  - first:
-      1: 100034
-    second: RFoot
-  - first:
-      1: 100036
-    second: RForearm
-  - first:
-      1: 100038
-    second: RHand
-  - first:
-      1: 100040
-    second: RShoulder
-  - first:
-      1: 100042
-    second: RThigh
-  - first:
-      1: 100044
-    second: Torso
-  - first:
-      4: 400000
-    second: Head
-  - first:
-      4: 400002
-    second: LAnkle
-  - first:
-      4: 400004
-    second: LArm
-  - first:
-      4: 400006
-    second: LFoot
-  - first:
-      4: 400008
-    second: LForearm
-  - first:
-      4: 400010
-    second: LHand
-  - first:
-      4: 400012
-    second: LShoulder
-  - first:
-      4: 400014
-    second: LThigh
-  - first:
-      4: 400016
-    second: MevNav
-  - first:
-      4: 400018
-    second: MevNavArmature
-  - first:
-      4: 400020
-    second: MevNavEye
-  - first:
-      4: 400022
-    second: MevNavHand
-  - first:
-      4: 400024
-    second: MevNavHelmet
-  - first:
-      4: 400026
-    second: //RootNode
-  - first:
-      4: 400028
-    second: Neck
-  - first:
-      4: 400030
-    second: RAnkle
-  - first:
-      4: 400032
-    second: RArm
-  - first:
-      4: 400034
-    second: RFoot
-  - first:
-      4: 400036
-    second: RForearm
-  - first:
-      4: 400038
-    second: RHand
-  - first:
-      4: 400040
-    second: RShoulder
-  - first:
-      4: 400042
-    second: RThigh
-  - first:
-      4: 400044
-    second: Torso
-  - first:
-      23: 2300000
-    second: MevNav
-  - first:
-      23: 2300002
-    second: MevNavEye
-  - first:
-      23: 2300004
-    second: MevNavHand
-  - first:
-      23: 2300006
-    second: MevNavHelmet
-  - first:
-      33: 3300000
-    second: MevNav
-  - first:
-      33: 3300002
-    second: MevNavEye
-  - first:
-      33: 3300004
-    second: MevNavHand
-  - first:
-      33: 3300006
-    second: MevNavHelmet
-  - first:
-      43: 4300000
-    second: MevNavHand
-  - first:
-      43: 4300002
-    second: MevNavEye
-  - first:
-      43: 4300004
-    second: MevNavHelmet
-  - first:
-      43: 4300006
-    second: MevNav
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  - first:
-      74: -623603649343465320
-    second: Scene
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Head
+    100002: LAnkle
+    100004: LArm
+    100006: LFoot
+    100008: LForearm
+    100010: LHand
+    100012: LShoulder
+    100014: LThigh
+    100016: MevNav
+    100018: MevNavArmature
+    100020: MevNavEye
+    100022: MevNavHand
+    100024: MevNavHelmet
+    100026: //RootNode
+    100028: Neck
+    100030: RAnkle
+    100032: RArm
+    100034: RFoot
+    100036: RForearm
+    100038: RHand
+    100040: RShoulder
+    100042: RThigh
+    100044: Torso
+    100046: Head_end
+    100048: LFoot_end
+    100050: LHand_end
+    100052: RFoot_end
+    100054: RHand_end
+    400000: Head
+    400002: LAnkle
+    400004: LArm
+    400006: LFoot
+    400008: LForearm
+    400010: LHand
+    400012: LShoulder
+    400014: LThigh
+    400016: MevNav
+    400018: MevNavArmature
+    400020: MevNavEye
+    400022: MevNavHand
+    400024: MevNavHelmet
+    400026: //RootNode
+    400028: Neck
+    400030: RAnkle
+    400032: RArm
+    400034: RFoot
+    400036: RForearm
+    400038: RHand
+    400040: RShoulder
+    400042: RThigh
+    400044: Torso
+    400046: Head_end
+    400048: LFoot_end
+    400050: LHand_end
+    400052: RFoot_end
+    400054: RHand_end
+    2300000: MevNav
+    2300002: MevNavEye
+    2300004: MevNavHand
+    2300006: MevNavHelmet
+    3300000: MevNav
+    3300002: MevNavEye
+    3300004: MevNavHand
+    3300006: MevNavHelmet
+    4300000: MevNavHand
+    4300002: MevNavEye
+    4300004: MevNavHelmet
+    4300006: MevNav
+    7400000: Default Take
+    7400002: Scene
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -220,31 +109,21 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
   tangentSpace:
@@ -252,13 +131,10 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 4
     normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -268,16 +144,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

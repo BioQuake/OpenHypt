@@ -1,308 +1,114 @@
 fileFormatVersion: 2
 guid: c35288c7f1639964ab8feeb7ae734f4a
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: AcriElevatorPlatform
-  - first:
-      1: 100004
-    second: AcriElevatorPlug
-  - first:
-      1: 100006
-    second: AcriEntrance
-  - first:
-      1: 100008
-    second: AcriLamp
-  - first:
-      1: 100010
-    second: AcriLantern
-  - first:
-      1: 100012
-    second: AcriOilLantern
-  - first:
-      1: 100014
-    second: AnDunalStatuette
-  - first:
-      1: 100016
-    second: Camera
-  - first:
-      1: 100018
-    second: DeepAcri
-  - first:
-      1: 100020
-    second: DuoPost
-  - first:
-      1: 100022
-    second: ElectricTorch
-  - first:
-      1: 100024
-    second: Lamp
-  - first:
-      1: 100026
-    second: UniPost
-  - first:
-      1: 100028
-    second: WallPost
-  - first:
-      1: 100030
-    second: Peukroot1
-  - first:
-      1: 100032
-    second: RopeLift
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: AcriElevatorPlatform
-  - first:
-      4: 400004
-    second: AcriElevatorPlug
-  - first:
-      4: 400006
-    second: AcriEntrance
-  - first:
-      4: 400008
-    second: AcriLamp
-  - first:
-      4: 400010
-    second: AcriLantern
-  - first:
-      4: 400012
-    second: AcriOilLantern
-  - first:
-      4: 400014
-    second: AnDunalStatuette
-  - first:
-      4: 400016
-    second: Camera
-  - first:
-      4: 400018
-    second: DeepAcri
-  - first:
-      4: 400020
-    second: DuoPost
-  - first:
-      4: 400022
-    second: ElectricTorch
-  - first:
-      4: 400024
-    second: Lamp
-  - first:
-      4: 400026
-    second: UniPost
-  - first:
-      4: 400028
-    second: WallPost
-  - first:
-      4: 400030
-    second: Peukroot1
-  - first:
-      4: 400032
-    second: RopeLift
-  - first:
-      23: 2300000
-    second: AcriElevatorPlatform
-  - first:
-      23: 2300002
-    second: AcriElevatorPlug
-  - first:
-      23: 2300004
-    second: AcriEntrance
-  - first:
-      23: 2300006
-    second: AcriLamp
-  - first:
-      23: 2300008
-    second: AcriLantern
-  - first:
-      23: 2300010
-    second: AcriOilLantern
-  - first:
-      23: 2300012
-    second: AnDunalStatuette
-  - first:
-      23: 2300014
-    second: DeepAcri
-  - first:
-      23: 2300016
-    second: DuoPost
-  - first:
-      23: 2300018
-    second: ElectricTorch
-  - first:
-      23: 2300020
-    second: UniPost
-  - first:
-      23: 2300022
-    second: WallPost
-  - first:
-      23: 2300024
-    second: Peukroot1
-  - first:
-      23: 2300026
-    second: RopeLift
-  - first:
-      33: 3300000
-    second: AcriElevatorPlatform
-  - first:
-      33: 3300002
-    second: AcriElevatorPlug
-  - first:
-      33: 3300004
-    second: AcriEntrance
-  - first:
-      33: 3300006
-    second: AcriLamp
-  - first:
-      33: 3300008
-    second: AcriLantern
-  - first:
-      33: 3300010
-    second: AcriOilLantern
-  - first:
-      33: 3300012
-    second: AnDunalStatuette
-  - first:
-      33: 3300014
-    second: DeepAcri
-  - first:
-      33: 3300016
-    second: DuoPost
-  - first:
-      33: 3300018
-    second: ElectricTorch
-  - first:
-      33: 3300020
-    second: UniPost
-  - first:
-      33: 3300022
-    second: WallPost
-  - first:
-      33: 3300024
-    second: Peukroot1
-  - first:
-      33: 3300026
-    second: RopeLift
-  - first:
-      43: 4300000
-    second: DeepAcri
-  - first:
-      43: 4300002
-    second: ElectricTorch
-  - first:
-      43: 4300004
-    second: AcriEntrance
-  - first:
-      43: 4300006
-    second: AcriLamp
-  - first:
-      43: 4300008
-    second: AnDunalStatuette
-  - first:
-      43: 4300010
-    second: WallPost
-  - first:
-      43: 4300012
-    second: UniPost
-  - first:
-      43: 4300014
-    second: DuoPost
-  - first:
-      43: 4300016
-    second: AcriLantern
-  - first:
-      43: 4300018
-    second: AcriOilLantern
-  - first:
-      43: 4300020
-    second: AcriElevatorPlatform
-  - first:
-      43: 4300022
-    second: AcriElevatorPlug
-  - first:
-      43: 4300024
-    second: Peukroot1
-  - first:
-      43: 4300026
-    second: RopeLift
-  - first:
-      64: 6400000
-    second: AcriElevatorPlatform
-  - first:
-      64: 6400002
-    second: AcriElevatorPlug
-  - first:
-      64: 6400004
-    second: AcriEntrance
-  - first:
-      64: 6400006
-    second: AcriLamp
-  - first:
-      64: 6400008
-    second: AcriLantern
-  - first:
-      64: 6400010
-    second: AcriOilLantern
-  - first:
-      64: 6400012
-    second: AnDunalStatuette
-  - first:
-      64: 6400014
-    second: DeepAcri
-  - first:
-      64: 6400016
-    second: DuoPost
-  - first:
-      64: 6400018
-    second: ElectricTorch
-  - first:
-      64: 6400020
-    second: UniPost
-  - first:
-      64: 6400022
-    second: WallPost
-  - first:
-      64: 6400024
-    second: Peukroot1
-  - first:
-      64: 6400026
-    second: RopeLift
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: AcriElevatorPlatform
+    100004: AcriElevatorPlug
+    100006: AcriEntrance
+    100008: AcriLamp
+    100010: AcriLantern
+    100012: AcriOilLantern
+    100014: AnDunalStatuette
+    100016: Camera
+    100018: DeepAcri
+    100020: DuoPost
+    100022: ElectricTorch
+    100024: Lamp
+    100026: UniPost
+    100028: WallPost
+    100030: Peukroot1
+    100032: RopeLift
+    400000: //RootNode
+    400002: AcriElevatorPlatform
+    400004: AcriElevatorPlug
+    400006: AcriEntrance
+    400008: AcriLamp
+    400010: AcriLantern
+    400012: AcriOilLantern
+    400014: AnDunalStatuette
+    400016: Camera
+    400018: DeepAcri
+    400020: DuoPost
+    400022: ElectricTorch
+    400024: Lamp
+    400026: UniPost
+    400028: WallPost
+    400030: Peukroot1
+    400032: RopeLift
+    2300000: AcriElevatorPlatform
+    2300002: AcriElevatorPlug
+    2300004: AcriEntrance
+    2300006: AcriLamp
+    2300008: AcriLantern
+    2300010: AcriOilLantern
+    2300012: AnDunalStatuette
+    2300014: DeepAcri
+    2300016: DuoPost
+    2300018: ElectricTorch
+    2300020: UniPost
+    2300022: WallPost
+    2300024: Peukroot1
+    2300026: RopeLift
+    3300000: AcriElevatorPlatform
+    3300002: AcriElevatorPlug
+    3300004: AcriEntrance
+    3300006: AcriLamp
+    3300008: AcriLantern
+    3300010: AcriOilLantern
+    3300012: AnDunalStatuette
+    3300014: DeepAcri
+    3300016: DuoPost
+    3300018: ElectricTorch
+    3300020: UniPost
+    3300022: WallPost
+    3300024: Peukroot1
+    3300026: RopeLift
+    4300000: DeepAcri
+    4300002: ElectricTorch
+    4300004: AcriEntrance
+    4300006: AcriLamp
+    4300008: AnDunalStatuette
+    4300010: WallPost
+    4300012: UniPost
+    4300014: DuoPost
+    4300016: AcriLantern
+    4300018: AcriOilLantern
+    4300020: AcriElevatorPlatform
+    4300022: AcriElevatorPlug
+    4300024: Peukroot1
+    4300026: RopeLift
+    6400000: AcriElevatorPlatform
+    6400002: AcriElevatorPlug
+    6400004: AcriEntrance
+    6400006: AcriLamp
+    6400008: AcriLantern
+    6400010: AcriOilLantern
+    6400012: AnDunalStatuette
+    6400014: DeepAcri
+    6400016: DuoPost
+    6400018: ElectricTorch
+    6400020: UniPost
+    6400022: WallPost
+    6400024: Peukroot1
+    6400026: RopeLift
+    9500000: //RootNode
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -310,65 +116,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 20
+    splitTangentsAcrossUV: 1
     normalImportMode: 1
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

@@ -1,0 +1,4 @@
+﻿function OnTriggerEnter (other : Collider) {
+   if(other.GetComponent.<Rigidbody>())
+    other.GetComponent.<Rigidbody>().useGravity = true;
+}

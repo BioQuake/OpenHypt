@@ -1,182 +1,72 @@
 fileFormatVersion: 2
 guid: 1483ac3b550b0f34791f6df1d395e7a0
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: Helior
-  - first:
-      1: 100004
-    second: PiriComparison
-  - first:
-      1: 100006
-    second: Cube
-  - first:
-      1: 100008
-    second: Cube_001
-  - first:
-      1: 100010
-    second: Plane
-  - first:
-      1: 100012
-    second: Cylinder
-  - first:
-      1: 100014
-    second: Cylinder_001
-  - first:
-      1: 100016
-    second: Cylinder_002
-  - first:
-      1: 100018
-    second: Cylinder_003
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: Helior
-  - first:
-      4: 400004
-    second: PiriComparison
-  - first:
-      4: 400006
-    second: Cube
-  - first:
-      4: 400008
-    second: Cube_001
-  - first:
-      4: 400010
-    second: Plane
-  - first:
-      4: 400012
-    second: Cylinder
-  - first:
-      4: 400014
-    second: Cylinder_001
-  - first:
-      4: 400016
-    second: Cylinder_002
-  - first:
-      4: 400018
-    second: Cylinder_003
-  - first:
-      23: 2300000
-    second: Helior
-  - first:
-      23: 2300002
-    second: PiriComparison
-  - first:
-      23: 2300004
-    second: Cube
-  - first:
-      23: 2300006
-    second: Cube_001
-  - first:
-      23: 2300008
-    second: Plane
-  - first:
-      23: 2300010
-    second: Cylinder
-  - first:
-      23: 2300012
-    second: Cylinder_001
-  - first:
-      23: 2300014
-    second: Cylinder_002
-  - first:
-      23: 2300016
-    second: Cylinder_003
-  - first:
-      33: 3300000
-    second: Helior
-  - first:
-      33: 3300002
-    second: PiriComparison
-  - first:
-      33: 3300004
-    second: Cube
-  - first:
-      33: 3300006
-    second: Cube_001
-  - first:
-      33: 3300008
-    second: Plane
-  - first:
-      33: 3300010
-    second: Cylinder
-  - first:
-      33: 3300012
-    second: Cylinder_001
-  - first:
-      33: 3300014
-    second: Cylinder_002
-  - first:
-      33: 3300016
-    second: Cylinder_003
-  - first:
-      43: 4300000
-    second: Helior
-  - first:
-      43: 4300002
-    second: PiriComparison
-  - first:
-      43: 4300004
-    second: Cube_001
-  - first:
-      43: 4300006
-    second: Cube
-  - first:
-      43: 4300008
-    second: Plane
-  - first:
-      43: 4300010
-    second: Cylinder
-  - first:
-      43: 4300012
-    second: Cylinder_001
-  - first:
-      43: 4300014
-    second: Cylinder_003
-  - first:
-      43: 4300016
-    second: Cylinder_002
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Helior
+    100004: PiriComparison
+    100006: Cube
+    100008: Cube_001
+    100010: Plane
+    100012: Cylinder
+    100014: Cylinder_001
+    100016: Cylinder_002
+    100018: Cylinder_003
+    400000: //RootNode
+    400002: Helior
+    400004: PiriComparison
+    400006: Cube
+    400008: Cube_001
+    400010: Plane
+    400012: Cylinder
+    400014: Cylinder_001
+    400016: Cylinder_002
+    400018: Cylinder_003
+    2300000: Helior
+    2300002: PiriComparison
+    2300004: Cube
+    2300006: Cube_001
+    2300008: Plane
+    2300010: Cylinder
+    2300012: Cylinder_001
+    2300014: Cylinder_002
+    2300016: Cylinder_003
+    3300000: Helior
+    3300002: PiriComparison
+    3300004: Cube
+    3300006: Cube_001
+    3300008: Plane
+    3300010: Cylinder
+    3300012: Cylinder_001
+    3300014: Cylinder_002
+    3300016: Cylinder_003
+    4300000: Helior
+    4300002: PiriComparison
+    4300004: Cube_001
+    4300006: Cube
+    4300008: Plane
+    4300010: Cylinder
+    4300012: Cylinder_001
+    4300014: Cylinder_003
+    4300016: Cylinder_002
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -184,65 +74,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

@@ -1,0 +1,22 @@
+var Vehicle : GameObject;
+var Broken: boolean;
+
+function Update () {
+
+if(Broken){
+GetComponent.<ParticleSystem>().enableEmission = false;
+}
+
+if(Broken)
+return;
+
+	if(WorldInformation.playerCar.Contains(Vehicle.name)){
+		if(Input.GetKeyDown("w")){
+			GetComponent.<Light>().intensity = 0.3;
+		} else if(Input.GetKeyUp("w")){
+			GetComponent.<Light>().intensity = 0;
+		}
+} else if(WorldInformation.playerCar == null){
+	GetComponent.<Light>().intensity = 0;
+}
+}
