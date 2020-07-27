@@ -3,7 +3,34 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Vehicle
+  - TerrainNoClip
+  - Water
+  - Body
+  - Item
+  - BodyPeuk
+  - TurretObscure
+  - Ghosts
+  - Mineral
+  - ElementMaterials
+  - Rocks
+  - Mnosters
+  - Archoneutralizer
+  - TransparentCol
+  - SoftTerrain
+  - Terrain
+  - TC
+  - MetalStructure
+  - Metal
+  - Structure
+  - Projectile
+  - Explosions
+  - Plants
+  - Svibra
+  - MapBrown
+  - SoftMapBeige
+  - TargetCol
   layers:
   - Default
   - TransparentFX
@@ -13,29 +40,29 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Camera
+  - Map
+  - DynamicObject
+  - MapPasser
+  - InvisibleRayCol
+  - DamageCol
+  - Item
+  - Ghosts
+  - LMapPasser
+  - LMapCol
+  - VesselInteriors
+  - VehicleWheel
+  - Player
+  - Projectiles
+  - Triggers
+  - NonTouchable
+  - InvisibleCol
+  - SMapPasser
+  - SMapCol
+  - BigCol
+  - MapCol
+  - Target
+  - XLMapPasser
   - 
   m_SortingLayers:
   - name: Default
