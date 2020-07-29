@@ -1,0 +1,12 @@
+
+function FixedUpdate () {
+
+if(GetComponent.<Rigidbody>().velocity.magnitude > 30) {
+if(gameObject.GetComponent.<HingeJoint>().spring.targetPosition < 20)
+gameObject.GetComponent.<HingeJoint>().spring.targetPosition += 0.2;
+}else{
+if(gameObject.GetComponent.<HingeJoint>().spring.targetPosition > 0)
+gameObject.GetComponent.<HingeJoint>().spring.targetPosition -= 0.2;
+}
+
+}

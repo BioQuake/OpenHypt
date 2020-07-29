@@ -1,0 +1,15 @@
+var explosion: GameObject;
+
+function OnJointBreak(breakForce : float) {
+
+    Instantiate(explosion, transform.position, transform.rotation);
+    
+    GetComponent.<Rigidbody>().AddTorque(transform.up * Random.Range (-1, 1));
+    GetComponent.<Rigidbody>().AddTorque(transform.right * Random.Range (-1, 1));
+    GetComponent.<Rigidbody>().AddTorque(transform.forward * Random.Range (-1, 1));
+    
+    GetComponent.<Rigidbody>().velocity = transform.up * Random.Range (-10, 10);
+    GetComponent.<Rigidbody>().velocity = transform.right * Random.Range (-10, 10);
+    
+    GetComponent.<Rigidbody>().velocity = transform.forward * 100;
+}

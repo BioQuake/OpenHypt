@@ -1,0 +1,28 @@
+﻿var force = 10.0;
+var AimForce = 10.0;
+var AimTarget : Transform;
+var TurnForce : float = 0;
+
+var Stabilize : boolean;
+
+var offset = 1.0;
+
+InvokeRepeating("Reset", 1, 1);
+
+function FixedUpdate (){
+
+GetComponent.<Rigidbody>().AddTorque(transform.up * TurnForce);
+
+if(AimTarget && Stabilize){
+    GetComponent.<Rigidbody>().AddForceAtPosition((AimTarget.transform.position - transform.position).normalized * AimForce, transform.forward*offset);
+    GetComponent.<Rigidbody>().AddForceAtPosition((AimTarget.transform.position - transform.position).normalized * -AimForce, -transform.forward*offset);
+}
+if(Stabilize){
+    GetComponent.<Rigidbody>().AddForceAtPosition(Vector3.up*force, transform.up*offset);
+    GetComponent.<Rigidbody>().AddForceAtPosition(-Vector3.up*force, -transform.up*offset);
+    }
+}
+
+function Reset (){
+Stabilize = true;
+}

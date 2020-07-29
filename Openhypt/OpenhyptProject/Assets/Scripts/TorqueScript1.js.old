@@ -1,0 +1,8 @@
+#pragma strict
+var Power : float = 100;
+
+function FixedUpdate () {
+			
+			GetComponent.<Rigidbody>().AddTorque(transform.up * Power);
+		
+	}

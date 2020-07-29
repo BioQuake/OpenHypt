@@ -1,260 +1,98 @@
 fileFormatVersion: 2
 guid: 89b9a691559d2b547af9b9ea96564f7b
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: Cubilla1
-  - first:
-      1: 100004
-    second: CublaACfan
-  - first:
-      1: 100006
-    second: PiriEstimate
-  - first:
-      1: 100008
-    second: WaterCondenser1
-  - first:
-      1: 100010
-    second: Lounger1
-  - first:
-      1: 100012
-    second: Sunrotor1
-  - first:
-      1: 100014
-    second: Sunrotor1Fan
-  - first:
-      1: 100016
-    second: WaterBarrel1
-  - first:
-      1: 100018
-    second: Cubilla2
-  - first:
-      1: 100020
-    second: WoodenCrate2
-  - first:
-      1: 100022
-    second: LRVcanister1
-  - first:
-      1: 100024
-    second: WaterContainer1
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: Cubilla1
-  - first:
-      4: 400004
-    second: CublaACfan
-  - first:
-      4: 400006
-    second: PiriEstimate
-  - first:
-      4: 400008
-    second: WaterCondenser1
-  - first:
-      4: 400010
-    second: Lounger1
-  - first:
-      4: 400012
-    second: Sunrotor1
-  - first:
-      4: 400014
-    second: Sunrotor1Fan
-  - first:
-      4: 400016
-    second: WaterBarrel1
-  - first:
-      4: 400018
-    second: Cubilla2
-  - first:
-      4: 400020
-    second: WoodenCrate2
-  - first:
-      4: 400022
-    second: LRVcanister1
-  - first:
-      4: 400024
-    second: WaterContainer1
-  - first:
-      23: 2300000
-    second: Cubilla1
-  - first:
-      23: 2300002
-    second: CublaACfan
-  - first:
-      23: 2300004
-    second: PiriEstimate
-  - first:
-      23: 2300006
-    second: WaterCondenser1
-  - first:
-      23: 2300008
-    second: Lounger1
-  - first:
-      23: 2300010
-    second: Sunrotor1
-  - first:
-      23: 2300012
-    second: Sunrotor1Fan
-  - first:
-      23: 2300014
-    second: WaterBarrel1
-  - first:
-      23: 2300016
-    second: Cubilla2
-  - first:
-      23: 2300018
-    second: WoodenCrate2
-  - first:
-      23: 2300020
-    second: LRVcanister1
-  - first:
-      23: 2300022
-    second: WaterContainer1
-  - first:
-      33: 3300000
-    second: Cubilla1
-  - first:
-      33: 3300002
-    second: CublaACfan
-  - first:
-      33: 3300004
-    second: PiriEstimate
-  - first:
-      33: 3300006
-    second: WaterCondenser1
-  - first:
-      33: 3300008
-    second: Lounger1
-  - first:
-      33: 3300010
-    second: Sunrotor1
-  - first:
-      33: 3300012
-    second: Sunrotor1Fan
-  - first:
-      33: 3300014
-    second: WaterBarrel1
-  - first:
-      33: 3300016
-    second: Cubilla2
-  - first:
-      33: 3300018
-    second: WoodenCrate2
-  - first:
-      33: 3300020
-    second: LRVcanister1
-  - first:
-      33: 3300022
-    second: WaterContainer1
-  - first:
-      43: 4300000
-    second: PiriEstimate
-  - first:
-      43: 4300002
-    second: Cubilla1
-  - first:
-      43: 4300004
-    second: CublaACfan
-  - first:
-      43: 4300006
-    second: WaterCondenser1
-  - first:
-      43: 4300008
-    second: Lounger1
-  - first:
-      43: 4300010
-    second: WaterBarrel1
-  - first:
-      43: 4300012
-    second: Sunrotor1
-  - first:
-      43: 4300014
-    second: Sunrotor1Fan
-  - first:
-      43: 4300016
-    second: Cubilla2
-  - first:
-      43: 4300018
-    second: WoodenCrate2
-  - first:
-      43: 4300020
-    second: LRVcanister1
-  - first:
-      43: 4300022
-    second: WaterContainer1
-  - first:
-      64: 6400000
-    second: Cubilla1
-  - first:
-      64: 6400002
-    second: CublaACfan
-  - first:
-      64: 6400004
-    second: PiriEstimate
-  - first:
-      64: 6400006
-    second: WaterCondenser1
-  - first:
-      64: 6400008
-    second: Lounger1
-  - first:
-      64: 6400010
-    second: Sunrotor1
-  - first:
-      64: 6400012
-    second: Sunrotor1Fan
-  - first:
-      64: 6400014
-    second: WaterBarrel1
-  - first:
-      64: 6400016
-    second: Cubilla2
-  - first:
-      64: 6400018
-    second: WoodenCrate2
-  - first:
-      64: 6400020
-    second: LRVcanister1
-  - first:
-      64: 6400022
-    second: WaterContainer1
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cubilla1
+    100004: CublaACfan
+    100006: PiriEstimate
+    100008: WaterCondenser1
+    100010: Lounger1
+    100012: Sunrotor1
+    100014: Sunrotor1Fan
+    100016: WaterBarrel1
+    100018: Cubilla2
+    100020: WoodenCrate2
+    100022: LRVcanister1
+    100024: WaterContainer1
+    400000: //RootNode
+    400002: Cubilla1
+    400004: CublaACfan
+    400006: PiriEstimate
+    400008: WaterCondenser1
+    400010: Lounger1
+    400012: Sunrotor1
+    400014: Sunrotor1Fan
+    400016: WaterBarrel1
+    400018: Cubilla2
+    400020: WoodenCrate2
+    400022: LRVcanister1
+    400024: WaterContainer1
+    2300000: Cubilla1
+    2300002: CublaACfan
+    2300004: PiriEstimate
+    2300006: WaterCondenser1
+    2300008: Lounger1
+    2300010: Sunrotor1
+    2300012: Sunrotor1Fan
+    2300014: WaterBarrel1
+    2300016: Cubilla2
+    2300018: WoodenCrate2
+    2300020: LRVcanister1
+    2300022: WaterContainer1
+    3300000: Cubilla1
+    3300002: CublaACfan
+    3300004: PiriEstimate
+    3300006: WaterCondenser1
+    3300008: Lounger1
+    3300010: Sunrotor1
+    3300012: Sunrotor1Fan
+    3300014: WaterBarrel1
+    3300016: Cubilla2
+    3300018: WoodenCrate2
+    3300020: LRVcanister1
+    3300022: WaterContainer1
+    4300000: PiriEstimate
+    4300002: Cubilla1
+    4300004: CublaACfan
+    4300006: WaterCondenser1
+    4300008: Lounger1
+    4300010: WaterBarrel1
+    4300012: Sunrotor1
+    4300014: Sunrotor1Fan
+    4300016: Cubilla2
+    4300018: WoodenCrate2
+    4300020: LRVcanister1
+    4300022: WaterContainer1
+    6400000: Cubilla1
+    6400002: CublaACfan
+    6400004: PiriEstimate
+    6400006: WaterCondenser1
+    6400008: Lounger1
+    6400010: Sunrotor1
+    6400012: Sunrotor1Fan
+    6400014: WaterBarrel1
+    6400016: Cubilla2
+    6400018: WoodenCrate2
+    6400020: LRVcanister1
+    6400022: WaterContainer1
+    9500000: //RootNode
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 1
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -262,65 +100,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 20
+    splitTangentsAcrossUV: 1
     normalImportMode: 1
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

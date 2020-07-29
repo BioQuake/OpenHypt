@@ -1,122 +1,52 @@
 fileFormatVersion: 2
 guid: bb8f8f497d607f741a5436befb1e8a5b
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: Ceptorylis2Hull
-  - first:
-      1: 100004
-    second: Ceptorylis2HullCol
-  - first:
-      1: 100006
-    second: Ceptorylis2Wing
-  - first:
-      1: 100008
-    second: PiriEstimate
-  - first:
-      1: 100010
-    second: Ceptorylis2WingBroken
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: Ceptorylis2Hull
-  - first:
-      4: 400004
-    second: Ceptorylis2HullCol
-  - first:
-      4: 400006
-    second: Ceptorylis2Wing
-  - first:
-      4: 400008
-    second: PiriEstimate
-  - first:
-      4: 400010
-    second: Ceptorylis2WingBroken
-  - first:
-      23: 2300000
-    second: Ceptorylis2Hull
-  - first:
-      23: 2300002
-    second: Ceptorylis2HullCol
-  - first:
-      23: 2300004
-    second: Ceptorylis2Wing
-  - first:
-      23: 2300006
-    second: PiriEstimate
-  - first:
-      23: 2300008
-    second: Ceptorylis2WingBroken
-  - first:
-      33: 3300000
-    second: Ceptorylis2Hull
-  - first:
-      33: 3300002
-    second: Ceptorylis2HullCol
-  - first:
-      33: 3300004
-    second: Ceptorylis2Wing
-  - first:
-      33: 3300006
-    second: PiriEstimate
-  - first:
-      33: 3300008
-    second: Ceptorylis2WingBroken
-  - first:
-      43: 4300000
-    second: Ceptorylis2HullCol
-  - first:
-      43: 4300002
-    second: Ceptorylis2Wing
-  - first:
-      43: 4300004
-    second: PiriEstimate
-  - first:
-      43: 4300006
-    second: Ceptorylis2Hull
-  - first:
-      43: 4300008
-    second: Ceptorylis2WingBroken
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ceptorylis2Hull
+    100004: Ceptorylis2HullCol
+    100006: Ceptorylis2Wing
+    100008: PiriEstimate
+    100010: Ceptorylis2WingBroken
+    400000: //RootNode
+    400002: Ceptorylis2Hull
+    400004: Ceptorylis2HullCol
+    400006: Ceptorylis2Wing
+    400008: PiriEstimate
+    400010: Ceptorylis2WingBroken
+    2300000: Ceptorylis2Hull
+    2300002: Ceptorylis2HullCol
+    2300004: Ceptorylis2Wing
+    2300006: PiriEstimate
+    2300008: Ceptorylis2WingBroken
+    3300000: Ceptorylis2Hull
+    3300002: Ceptorylis2HullCol
+    3300004: Ceptorylis2Wing
+    3300006: PiriEstimate
+    3300008: Ceptorylis2WingBroken
+    4300000: Ceptorylis2HullCol
+    4300002: Ceptorylis2Wing
+    4300004: PiriEstimate
+    4300006: Ceptorylis2Hull
+    4300008: Ceptorylis2WingBroken
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -124,65 +54,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

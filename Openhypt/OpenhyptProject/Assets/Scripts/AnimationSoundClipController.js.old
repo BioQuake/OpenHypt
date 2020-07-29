@@ -1,0 +1,20 @@
+﻿#pragma strict
+
+var Sound1 : AudioClip;
+var Sound2 : AudioClip;
+var Sound3 : AudioClip;
+
+function PlayS1 () {
+GetComponent.<AudioSource>().clip = Sound1;
+GetComponent.<AudioSource>().Play();
+}
+
+function PlayS2 () {
+GetComponent.<AudioSource>().clip = Sound2;
+GetComponent.<AudioSource>().Play();
+}
+
+function PlayS3 () {
+GetComponent.<AudioSource>().clip = Sound3;
+GetComponent.<AudioSource>().Play();
+}

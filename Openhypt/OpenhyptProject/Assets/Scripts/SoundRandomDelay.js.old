@@ -1,0 +1,40 @@
+﻿
+var MaxTime : float = 0.3;
+
+var AlterPitch : boolean;
+
+var Alteration : float = 0.2;
+
+var NoRandom : boolean;
+
+function Start () {
+
+var delayTime : float = Random.Range(0.1, MaxTime);
+
+if(AlterPitch)
+GetComponent.<AudioSource>().pitch = GetComponent.<AudioSource>().pitch += Random.Range(-Alteration, Alteration);
+
+if(!NoRandom){
+    GetComponent.<AudioSource>().playOnAwake = true;
+    
+       GetComponent.<AudioSource>().PlayDelayed(delayTime);
+       
+yield WaitForSeconds (MaxTime);
+
+if(GetComponent.<AudioSource>()){
+GetComponent.<AudioSource>().playOnAwake = true;
+GetComponent.<AudioSource>().Play();
+}
+
+}
+if(NoRandom){
+       
+yield WaitForSeconds (MaxTime);
+
+if(GetComponent.<AudioSource>()){
+GetComponent.<AudioSource>().playOnAwake = true;
+GetComponent.<AudioSource>().Play();
+}
+
+}
+}

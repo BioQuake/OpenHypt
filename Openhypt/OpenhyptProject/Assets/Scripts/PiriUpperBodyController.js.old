@@ -1,0 +1,390 @@
+﻿var target : Transform;
+var Recoiling : boolean;
+var Hand : GameObject;
+var HeadTF : Transform;
+var thisTransform : Transform;
+var HandGunHold : GameObject;
+var HeldWeapon : GameObject;
+var HeldToy : GameObject;
+var Reticle : Transform;
+var HeadInStuff : boolean;
+
+var TargetAnimation5: GameObject;
+
+private var NewRotation : Quaternion;
+
+static var Weight = 0;
+
+static var Resetting : boolean;
+static var CanShoot : boolean;
+static var IsAiming : boolean;
+static var Once : boolean;
+
+var CanHead : boolean;
+
+var targetLayers : LayerMask;
+
+function Start () {
+    
+    CanHead = false;
+    
+    Weight = 20;
+    
+    CanShoot = true;
+    IsAiming = false;
+	target = GameObject.Find("PiriAimFront").transform;
+    Reticle = Symbols.instance.Reticle;
+	yield WaitForSeconds (0.3);
+	Hand.gameObject.SetActive (true);
+	HandGunHold.gameObject.SetActive (false);
+	yield WaitForSeconds (0.3);
+	Hand.gameObject.SetActive (true);
+	HandGunHold.gameObject.SetActive (false);
+	yield WaitForSeconds (0.3);
+	Hand.gameObject.SetActive (true);
+	HandGunHold.gameObject.SetActive (false);
+	
+	CanHead = true;
+}
+
+function FixedUpdate () {
+	if (IsAiming) {
+		NewRotation = Quaternion.LookRotation(transform.position - target.position);
+		transform.rotation = Quaternion.Slerp(transform.rotation, NewRotation, Time.deltaTime * Weight);
+	}
+}
+
+function Update () {
+
+if(WorldInformation.FPMode || Input.GetMouseButton(1)){
+if (!Physics.Linecast (thisTransform.position, HeadTF.position, targetLayers)){
+if(HeadInStuff)
+Once = true;
+HeadInStuff = false;
+}else{
+if(!HeadInStuff)
+Once = true;
+HeadInStuff = true;
+}
+}else{
+if(HeadInStuff)
+Once = true;
+HeadInStuff = false;
+}
+
+if(Once && CanHead){
+Once = false;
+if(HeadInStuff){
+ScreenFadeScript.BlackOut = true;
+FurtherActionScript.instance.HeadStuck = true;
+FurtherActionScript.instance.ShowText();
+}else{
+ScreenFadeScript.BlackOut = false;
+}
+}
+
+if(Resetting){
+Resetting = false;
+Reset();
+}
+
+	if(Hand.activeSelf && HandGunHold.activeSelf)
+		HandGunHold.gameObject.SetActive (false);
+
+	if (CameraScript.InInterface == false && PlayerMotionAnimator.instance.CanMove && !PlayerMotionAnimator.instance.Landing) {
+		if (Input.GetMouseButtonDown(1)){
+		if(!WorldInformation.IsNopass){
+			IsAiming = true;
+			Reticle.gameObject.SetActive (true);
+			
+			if (ItemContainer.PiriContainer.ContainerItems.Count > 0) {
+			
+			
+				switch(ItemContainer.PiriContainer.ContainerItems[0].ID)
+				{
+				    case ItemEnum.TestGun:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+				    case ItemEnum.Trumpgun:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+					case ItemEnum.Anoca_PT13:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+					case ItemEnum.Posmer_HC40:
+						GetComponent.<Animation>().Play("PiriPullGunCannon");
+						break;
+					case ItemEnum.Posmer_10c:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+					case ItemEnum.Shakar_17:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+					case ItemEnum.Tothler_Tygria_M2:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+					case ItemEnum.AROT_Iter_1:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+					case ItemEnum.BK:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+				    case ItemEnum.TLF_PTSD_G1:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+					case ItemEnum.MevNav_MRCHg:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+					case ItemEnum.Anoca_PT32:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+					case ItemEnum.Posmer_10cR:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+					case ItemEnum.Metis_CAR_05:
+						GetComponent.<Animation>().Play("PiriPullGunRifle");
+						break;
+					case ItemEnum.DASMUN_SR2:
+						GetComponent.<Animation>().Play("PiriPullGunRifle");
+						break;
+					case ItemEnum.TRN_PTSD_Az:
+						GetComponent.<Animation>().Play("PiriPullGunSRifle");
+						break;
+				    case ItemEnum.Fawcett_Alton:
+						GetComponent.<Animation>().Play("PiriPullGunRifle");
+						break;
+					case ItemEnum.Katovari_MD:
+						GetComponent.<Animation>().Play("PiriPullGunRifle");
+						break;
+					case ItemEnum.Fidget_Spinner:
+						GetComponent.<Animation>().Play("PiriPullToy");
+						break;
+				}
+			}
+			Hand.gameObject.SetActive (false);
+			HandGunHold.gameObject.SetActive (true);
+		}
+		}
+
+		if (Input.GetMouseButtonUp(1)){
+			GetComponent.<Animation>().Stop();
+
+			if(HeldWeapon.transform.childCount > 0)
+			GetComponent.<Animation>().Play("PiriPutAwayGun");
+			
+			if(HeldToy.transform.childCount > 0)
+			GetComponent.<Animation>().Play("PiriPutAwayToy");
+
+			Hand.gameObject.SetActive (true);
+			HandGunHold.gameObject.SetActive (false);
+			Reticle.gameObject.SetActive (false);
+			IsAiming = false;
+		}
+	}
+
+if (Input.GetMouseButton(1) && Input.GetKeyDown(KeyCode.I) || Input.GetMouseButton(1) && Input.GetMouseButton(2)){
+if(!CameraScript.CamNoFP){
+GetComponent.<Animation>().Stop();
+GetComponent.<Animation>().Play("PiriPutAwayGun");
+Hand.gameObject.SetActive (true);
+HandGunHold.gameObject.SetActive (false);
+IsAiming = false;
+}
+Reticle.gameObject.SetActive (false);
+}
+
+if(IsAiming)
+if (Input.GetMouseButtonUp(1))
+IsAiming = false;
+
+}
+
+function Recoil () {
+	Recoiling = true;
+	PlayRecoilAnimation();
+	yield WaitForSeconds (0.1);
+	ResetRecoilAnimation();
+	yield WaitForSeconds (0.1);
+	Recoiling = false;
+}
+
+function Reset () {
+        GetComponent.<Animation>().Stop();
+		Hand.gameObject.SetActive (true);
+		HandGunHold.gameObject.SetActive (false);
+		Reticle.gameObject.SetActive (false);
+		IsAiming = false;
+}
+
+function PlayRecoilAnimation() {
+			switch(ItemContainer.PiriContainer.ContainerItems[0].ID)
+		{
+		    case ItemEnum.TestGun:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+		    case ItemEnum.Trumpgun:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+			case ItemEnum.Anoca_PT13:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+			case ItemEnum.Posmer_HC40:
+			    GetComponent.<Animation>().Play("PiriCannonRecoil");
+				break;
+			case ItemEnum.Posmer_10c:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+			case ItemEnum.Shakar_17:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+			case ItemEnum.Tothler_Tygria_M2:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+			case ItemEnum.AROT_Iter_1:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+			case ItemEnum.BK:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+			case ItemEnum.TLF_PTSD_G1:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+			case ItemEnum.MevNav_MRCHg:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+		    case ItemEnum.Anoca_PT32:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+			case ItemEnum.Posmer_10cR:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+			case ItemEnum.Metis_CAR_05:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriRifleRecoil");
+				break;
+			case ItemEnum.DASMUN_SR2:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriRifleRecoil");
+				break;
+			case ItemEnum.TRN_PTSD_Az:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriSRifleRecoil");
+				break;
+		    case ItemEnum.Fawcett_Alton:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriRifleRecoil");
+				break;
+			case ItemEnum.Katovari_MD:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriCannonRecoil");
+				break;
+			case ItemEnum.Fidget_Spinner:
+			    GetComponent.<Animation>().Stop();
+				GetComponent.<Animation>().Play("PiriToyFidget");
+				break;
+		}
+		
+		if(!IsAiming){
+			GetComponent.<Animation>().Stop();
+
+			if(HeldWeapon.transform.childCount > 0)
+			GetComponent.<Animation>().Play("PiriPutAwayGun");
+			
+			if(HeldToy.transform.childCount > 0)
+			GetComponent.<Animation>().Play("PiriPutAwayToy");
+
+			Hand.gameObject.SetActive (true);
+			HandGunHold.gameObject.SetActive (false);
+			Reticle.gameObject.SetActive (false);
+			IsAiming = false;
+		}
+}
+function ResetRecoilAnimation() {
+			switch(ItemContainer.PiriContainer.ContainerItems[0].ID)
+		{
+		    case ItemEnum.TestGun:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+		    case ItemEnum.Trumpgun:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+			case ItemEnum.Anoca_PT13:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+			case ItemEnum.Posmer_HC40:
+			    GetComponent.<Animation>().CrossFade("PiriHoldGunCannon");
+				break;
+			case ItemEnum.Posmer_10c:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+			case ItemEnum.Shakar_17:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+			case ItemEnum.Tothler_Tygria_M2:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+			case ItemEnum.AROT_Iter_1:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+			case ItemEnum.BK:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+			case ItemEnum.TLF_PTSD_G1:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+			case ItemEnum.MevNav_MRCHg:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+			case ItemEnum.Anoca_PT32:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+			case ItemEnum.Posmer_10cR:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+			case ItemEnum.Metis_CAR_05:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunRifle");
+				break;
+			case ItemEnum.DASMUN_SR2:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunRifle");
+				break;
+			case ItemEnum.TRN_PTSD_Az:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunSRifle");
+				break;
+		    case ItemEnum.Fawcett_Alton:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunRifle");
+				break;
+			case ItemEnum.Katovari_MD:
+				GetComponent.<Animation>().CrossFade("PiriHoldGunRifle");
+				break;
+			case ItemEnum.Fidget_Spinner:
+				GetComponent.<Animation>().CrossFade("PiriHoldToy");
+			    break;
+		}
+		
+		if(!IsAiming){
+			GetComponent.<Animation>().Stop();
+
+			if(HeldWeapon.transform.childCount > 0)
+			GetComponent.<Animation>().Play("PiriPutAwayGun");
+			
+			if(HeldToy.transform.childCount > 0)
+			GetComponent.<Animation>().Play("PiriPutAwayToy");
+
+			Hand.gameObject.SetActive (true);
+			HandGunHold.gameObject.SetActive (false);
+			Reticle.gameObject.SetActive (false);
+			IsAiming = false;
+		}
+}

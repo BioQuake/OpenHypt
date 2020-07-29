@@ -1,0 +1,17 @@
+﻿
+function Update () {
+
+if(GetComponent.<Rigidbody>().velocity.magnitude < 15){
+GetComponent(ConfigurableJoint).angularXDrive.positionDamper = 0;
+GetComponent(ConfigurableJoint).angularYZDrive.positionDamper = 0;
+}
+if(GetComponent.<Rigidbody>().velocity.magnitude > 15){
+GetComponent(ConfigurableJoint).angularXDrive.positionDamper = 0.0002;
+GetComponent(ConfigurableJoint).angularYZDrive.positionDamper = 0.0002;
+}
+if(GetComponent.<Rigidbody>().velocity.magnitude > 50){
+GetComponent(ConfigurableJoint).angularXDrive.positionDamper = 0.0005;
+GetComponent(ConfigurableJoint).angularYZDrive.positionDamper = 0.0005;
+}
+
+}

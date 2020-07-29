@@ -1,0 +1,16 @@
+﻿#pragma strict
+
+function Start () {
+
+}
+
+function Update () {
+if(GetComponent.<Rigidbody>().angularVelocity.magnitude > 0.1)
+GetComponent.<HingeJoint>().spring.damper = 0.8;
+if(GetComponent.<Rigidbody>().angularVelocity.magnitude > 0.2)
+GetComponent.<HingeJoint>().spring.damper = 0.6;
+if(GetComponent.<Rigidbody>().angularVelocity.magnitude > 0.4)
+GetComponent.<HingeJoint>().spring.damper = 0.5;
+if(GetComponent.<Rigidbody>().angularVelocity.magnitude > 0.6)
+GetComponent.<HingeJoint>().spring.damper = 0.4;
+}

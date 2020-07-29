@@ -1,0 +1,7 @@
+var Vessel: GameObject;
+var audioClipSpeed = 60.0;
+ 
+function Update() {
+    var p = Vessel.GetComponent.<Rigidbody>().velocity.magnitude / audioClipSpeed;
+    GetComponent.<AudioSource>().pitch = Mathf.Clamp( p, 0.0, 5.0);
+}

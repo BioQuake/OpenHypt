@@ -1,0 +1,73 @@
+﻿
+var ForceField : GameObject;
+var ForceCol : SphereCollider;
+var IsRunning : boolean;
+
+var maxVolume: float = 0.3;
+var entered : boolean = false;
+private var state: String;
+
+function Start () {
+ForceCol.radius = 0.001;
+ForceCol.center = Vector3(0,0,-0.5);
+ForceField.GetComponent("PlanetaryGravityWellFixed").enabled = false;
+}
+
+function OnTriggerEnter (other : Collider) {
+if(other.name.Contains("FPCnose")){
+	entered = true;
+}
+}
+
+function OnTriggerExit (other : Collider) {
+if(other.name.Contains("FPCnose")){
+	entered = false;
+}
+}
+
+function Update () {
+if(Input.GetKeyDown(KeyCode.E)){
+   if(entered == true && IsRunning == false){
+   IsRunning = true;
+   ForceCol.radius = 0.5;
+ForceCol.center = Vector3(0,0,0);
+ForceField.GetComponent("PlanetaryGravityWellFixed").enabled = true;
+   
+
+   }else if(entered == true && IsRunning == true){
+   IsRunning = false;
+   ForceCol.radius = 0.001;
+ForceCol.center = Vector3(0,0,-0.5);
+ForceField.GetComponent("PlanetaryGravityWellFixed").enabled = false;
+   
+}
+}
+
+if(IsRunning == true)
+		state = "increment";
+	if(IsRunning == false)
+		state = "decrement";
+	if(state == "increment"){
+		increment();
+	} else if(state == "decrement") {
+		decrement();
+	}
+}
+
+function decrement () {
+	if(GetComponent.<AudioSource>().volume > 0){
+		GetComponent.<AudioSource>().volume -= 0.05;
+	} else {
+		GetComponent.<AudioSource>().Stop();
+		state = "";
+	}
+}
+
+function increment () {
+	if(!GetComponent.<AudioSource>().isPlaying)
+		GetComponent.<AudioSource>().Play();
+	if(GetComponent.<AudioSource>().volume < maxVolume)
+		GetComponent.<AudioSource>().volume += 0.05;
+	else
+		state = "";
+}

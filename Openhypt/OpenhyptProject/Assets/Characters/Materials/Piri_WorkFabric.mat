@@ -45,7 +45,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Outline: 0.002
-    - _Shininess: 0.01
+    - _Shininess: 0.5198383
     m_Colors:
     - _Color: {r: 0.29682094, g: 0.32665408, b: 0.33088237, a: 1}
     - _ColorTint: {r: 0.2728698, g: 0.32773605, b: 0.3602941, a: 1}

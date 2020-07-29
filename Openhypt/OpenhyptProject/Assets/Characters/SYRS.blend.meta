@@ -1,173 +1,69 @@
 fileFormatVersion: 2
 guid: f7451a1fc00ddbb4c808992f49e6487a
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: SYRS
-  - first:
-      1: 100004
-    second: SyrsDesk
-  - first:
-      1: 100006
-    second: SyrsKeyboard
-  - first:
-      1: 100008
-    second: SyrsMic
-  - first:
-      1: 100010
-    second: SyrsMonitor
-  - first:
-      1: 100012
-    second: SyrsMouse
-  - first:
-      1: 100014
-    second: SyrsScreen
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: SYRS
-  - first:
-      4: 400004
-    second: SyrsDesk
-  - first:
-      4: 400006
-    second: SyrsKeyboard
-  - first:
-      4: 400008
-    second: SyrsMic
-  - first:
-      4: 400010
-    second: SyrsMonitor
-  - first:
-      4: 400012
-    second: SyrsMouse
-  - first:
-      4: 400014
-    second: SyrsScreen
-  - first:
-      23: 2300000
-    second: SYRS
-  - first:
-      23: 2300002
-    second: SyrsDesk
-  - first:
-      23: 2300004
-    second: SyrsKeyboard
-  - first:
-      23: 2300006
-    second: SyrsMic
-  - first:
-      23: 2300008
-    second: SyrsMonitor
-  - first:
-      23: 2300010
-    second: SyrsMouse
-  - first:
-      23: 2300012
-    second: SyrsScreen
-  - first:
-      33: 3300000
-    second: SYRS
-  - first:
-      33: 3300002
-    second: SyrsDesk
-  - first:
-      33: 3300004
-    second: SyrsKeyboard
-  - first:
-      33: 3300006
-    second: SyrsMic
-  - first:
-      33: 3300008
-    second: SyrsMonitor
-  - first:
-      33: 3300010
-    second: SyrsMouse
-  - first:
-      33: 3300012
-    second: SyrsScreen
-  - first:
-      43: 4300000
-    second: SyrsScreen
-  - first:
-      43: 4300002
-    second: SyrsMonitor
-  - first:
-      43: 4300004
-    second: SyrsKeyboard
-  - first:
-      43: 4300006
-    second: SyrsMouse
-  - first:
-      43: 4300008
-    second: SyrsMic
-  - first:
-      43: 4300010
-    second: SYRS
-  - first:
-      43: 4300012
-    second: SyrsDesk
-  - first:
-      64: 6400000
-    second: SYRS
-  - first:
-      64: 6400002
-    second: SyrsDesk
-  - first:
-      64: 6400004
-    second: SyrsKeyboard
-  - first:
-      64: 6400006
-    second: SyrsMic
-  - first:
-      64: 6400008
-    second: SyrsMonitor
-  - first:
-      64: 6400010
-    second: SyrsMouse
-  - first:
-      64: 6400012
-    second: SyrsScreen
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: SYRS
+    100004: SyrsDesk
+    100006: SyrsKeyboard
+    100008: SyrsMic
+    100010: SyrsMonitor
+    100012: SyrsMouse
+    100014: SyrsScreen
+    400000: //RootNode
+    400002: SYRS
+    400004: SyrsDesk
+    400006: SyrsKeyboard
+    400008: SyrsMic
+    400010: SyrsMonitor
+    400012: SyrsMouse
+    400014: SyrsScreen
+    2300000: SYRS
+    2300002: SyrsDesk
+    2300004: SyrsKeyboard
+    2300006: SyrsMic
+    2300008: SyrsMonitor
+    2300010: SyrsMouse
+    2300012: SyrsScreen
+    3300000: SYRS
+    3300002: SyrsDesk
+    3300004: SyrsKeyboard
+    3300006: SyrsMic
+    3300008: SyrsMonitor
+    3300010: SyrsMouse
+    3300012: SyrsScreen
+    4300000: SyrsScreen
+    4300002: SyrsMonitor
+    4300004: SyrsKeyboard
+    4300006: SyrsMouse
+    4300008: SyrsMic
+    4300010: SYRS
+    4300012: SyrsDesk
+    6400000: SYRS
+    6400002: SyrsDesk
+    6400004: SyrsKeyboard
+    6400006: SyrsMic
+    6400008: SyrsMonitor
+    6400010: SyrsMouse
+    6400012: SyrsScreen
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -175,65 +71,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

@@ -1,0 +1,77 @@
+﻿#pragma strict
+
+var Force : float = 1;
+var BreakForce : float = 1;
+var Tvelocity : float = 1500;
+var RTvelocity : float = 1500;
+var LeftTvelocity : float = 1500;
+var RightTvelocity : float = 1500;
+var breaksOn : boolean;
+
+function Start () {
+GetComponent.<HingeJoint>().spring.damper = BreakForce;
+}
+
+function Update () {
+if(WorldInformation.playerCar == transform.parent.parent.name){
+ParkBrake();
+SWBreak();
+if(breaksOn == false){
+if(Input.GetKey("w")){
+        GetComponent.<HingeJoint>().motor.force = Force;
+        GetComponent.<HingeJoint>().motor.targetVelocity = Tvelocity;
+}
+if(Input.GetKeyUp("w")){
+        GetComponent.<HingeJoint>().motor.force = 0;
+        GetComponent.<HingeJoint>().motor.targetVelocity = Tvelocity;
+}
+if(Input.GetKey("s")){
+        GetComponent.<HingeJoint>().motor.force = Force;
+        GetComponent.<HingeJoint>().motor.targetVelocity = RTvelocity;
+}
+if(Input.GetKeyUp("s")){
+        GetComponent.<HingeJoint>().motor.force = 0;
+        GetComponent.<HingeJoint>().motor.targetVelocity = RTvelocity;
+}
+if(Input.GetKey("a")){
+        GetComponent.<HingeJoint>().motor.force = Force;
+        GetComponent.<HingeJoint>().motor.targetVelocity = LeftTvelocity;
+}
+if(Input.GetKeyUp("a")){
+        GetComponent.<HingeJoint>().motor.force = 0;
+        GetComponent.<HingeJoint>().motor.targetVelocity = LeftTvelocity;
+}
+if(Input.GetKey("d")){
+        GetComponent.<HingeJoint>().motor.force = Force;
+        GetComponent.<HingeJoint>().motor.targetVelocity = RightTvelocity;
+}
+if(Input.GetKeyUp("d")){
+        GetComponent.<HingeJoint>().motor.force = 0;
+        GetComponent.<HingeJoint>().motor.targetVelocity = RightTvelocity;
+}
+}
+}
+}
+
+function SWBreak () {
+    if(Input.GetKey("s") && Input.GetKey("w")){
+    breaksOn = true;
+        GetComponent.<HingeJoint>().motor.force = 0;
+        GetComponent.<HingeJoint>().motor.force = 0;
+        GetComponent.<HingeJoint>().spring.damper = BreakForce;
+        }
+}
+
+function ParkBrake () {
+   if(Input.GetKeyDown(KeyCode.P)){
+        if(breaksOn == true){
+            breaksOn = false;
+            GetComponent.<HingeJoint>().motor.force = 0;
+            GetComponent.<HingeJoint>().spring.damper = 0;
+        } else {
+            breaksOn = true;
+            GetComponent.<HingeJoint>().motor.force = 0;
+            GetComponent.<HingeJoint>().spring.damper = BreakForce;
+        }
+    }
+}

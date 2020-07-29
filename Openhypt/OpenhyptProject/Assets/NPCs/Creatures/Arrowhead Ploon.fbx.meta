@@ -1,194 +1,76 @@
 fileFormatVersion: 2
 guid: dbe740aec021c0c4f81ecb591304d88f
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: ArrowheadPloonModel
-  - first:
-      1: 100004
-    second: Ploon2Armature
-  - first:
-      1: 100006
-    second: Ploon2Armature|Ploon2FL
-  - first:
-      1: 100008
-    second: Ploon2Armature|Ploon2FR
-  - first:
-      1: 100010
-    second: Ploon2Armature|Ploon2InnerFL
-  - first:
-      1: 100012
-    second: Ploon2Armature|Ploon2InnerFR
-  - first:
-      1: 100014
-    second: Ploon2Armature|Ploon2InnerRL
-  - first:
-      1: 100016
-    second: Ploon2Armature|Ploon2InnerRR
-  - first:
-      1: 100018
-    second: Ploon2Armature|Ploon2RL
-  - first:
-      1: 100020
-    second: Ploon2Armature|Ploon2RootBone
-  - first:
-      1: 100022
-    second: Ploon2Armature|Ploon2RR
-  - first:
-      1: 100024
-    second: Ploon2FL
-  - first:
-      1: 100026
-    second: Ploon2FL_end
-  - first:
-      1: 100028
-    second: Ploon2FR
-  - first:
-      1: 100030
-    second: Ploon2FR_end
-  - first:
-      1: 100032
-    second: Ploon2InnerFL
-  - first:
-      1: 100034
-    second: Ploon2InnerFR
-  - first:
-      1: 100036
-    second: Ploon2InnerRL
-  - first:
-      1: 100038
-    second: Ploon2InnerRR
-  - first:
-      1: 100040
-    second: Ploon2RL
-  - first:
-      1: 100042
-    second: Ploon2RL_end
-  - first:
-      1: 100044
-    second: Ploon2RootBone
-  - first:
-      1: 100046
-    second: Ploon2RR
-  - first:
-      1: 100048
-    second: Ploon2RR_end
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: ArrowheadPloonModel
-  - first:
-      4: 400004
-    second: Ploon2Armature
-  - first:
-      4: 400006
-    second: Ploon2Armature|Ploon2FL
-  - first:
-      4: 400008
-    second: Ploon2Armature|Ploon2FR
-  - first:
-      4: 400010
-    second: Ploon2Armature|Ploon2InnerFL
-  - first:
-      4: 400012
-    second: Ploon2Armature|Ploon2InnerFR
-  - first:
-      4: 400014
-    second: Ploon2Armature|Ploon2InnerRL
-  - first:
-      4: 400016
-    second: Ploon2Armature|Ploon2InnerRR
-  - first:
-      4: 400018
-    second: Ploon2Armature|Ploon2RL
-  - first:
-      4: 400020
-    second: Ploon2Armature|Ploon2RootBone
-  - first:
-      4: 400022
-    second: Ploon2Armature|Ploon2RR
-  - first:
-      4: 400024
-    second: Ploon2FL
-  - first:
-      4: 400026
-    second: Ploon2FL_end
-  - first:
-      4: 400028
-    second: Ploon2FR
-  - first:
-      4: 400030
-    second: Ploon2FR_end
-  - first:
-      4: 400032
-    second: Ploon2InnerFL
-  - first:
-      4: 400034
-    second: Ploon2InnerFR
-  - first:
-      4: 400036
-    second: Ploon2InnerRL
-  - first:
-      4: 400038
-    second: Ploon2InnerRR
-  - first:
-      4: 400040
-    second: Ploon2RL
-  - first:
-      4: 400042
-    second: Ploon2RL_end
-  - first:
-      4: 400044
-    second: Ploon2RootBone
-  - first:
-      4: 400046
-    second: Ploon2RR
-  - first:
-      4: 400048
-    second: Ploon2RR_end
-  - first:
-      43: 4300000
-    second: ArrowheadPloonModel
-  - first:
-      95: 9500000
-    second: //RootNode
-  - first:
-      137: 13700000
-    second: ArrowheadPloonModel
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ArrowheadPloonModel
+    100004: Ploon2Armature
+    100006: Ploon2Armature|Ploon2FL
+    100008: Ploon2Armature|Ploon2FR
+    100010: Ploon2Armature|Ploon2InnerFL
+    100012: Ploon2Armature|Ploon2InnerFR
+    100014: Ploon2Armature|Ploon2InnerRL
+    100016: Ploon2Armature|Ploon2InnerRR
+    100018: Ploon2Armature|Ploon2RL
+    100020: Ploon2Armature|Ploon2RootBone
+    100022: Ploon2Armature|Ploon2RR
+    100024: Ploon2FL
+    100026: Ploon2FL_end
+    100028: Ploon2FR
+    100030: Ploon2FR_end
+    100032: Ploon2InnerFL
+    100034: Ploon2InnerFR
+    100036: Ploon2InnerRL
+    100038: Ploon2InnerRR
+    100040: Ploon2RL
+    100042: Ploon2RL_end
+    100044: Ploon2RootBone
+    100046: Ploon2RR
+    100048: Ploon2RR_end
+    400000: //RootNode
+    400002: ArrowheadPloonModel
+    400004: Ploon2Armature
+    400006: Ploon2Armature|Ploon2FL
+    400008: Ploon2Armature|Ploon2FR
+    400010: Ploon2Armature|Ploon2InnerFL
+    400012: Ploon2Armature|Ploon2InnerFR
+    400014: Ploon2Armature|Ploon2InnerRL
+    400016: Ploon2Armature|Ploon2InnerRR
+    400018: Ploon2Armature|Ploon2RL
+    400020: Ploon2Armature|Ploon2RootBone
+    400022: Ploon2Armature|Ploon2RR
+    400024: Ploon2FL
+    400026: Ploon2FL_end
+    400028: Ploon2FR
+    400030: Ploon2FR_end
+    400032: Ploon2InnerFL
+    400034: Ploon2InnerFR
+    400036: Ploon2InnerRL
+    400038: Ploon2InnerRR
+    400040: Ploon2RL
+    400042: Ploon2RL_end
+    400044: Ploon2RootBone
+    400046: Ploon2RR
+    400048: Ploon2RR_end
+    4300000: ArrowheadPloonModel
+    9500000: //RootNode
+    13700000: ArrowheadPloonModel
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 1
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -196,65 +78,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 30
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

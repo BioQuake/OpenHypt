@@ -1,0 +1,30 @@
+var EmissionRate : float = 100;
+var EmissionAcceleration : float = 5;
+var Vessel : GameObject;
+var Running: boolean;
+var Broken: boolean;
+
+function Update () {
+
+if(Broken){
+GetComponent.<ParticleSystem>().emissionRate -= EmissionAcceleration;
+return;
+}
+
+if(WorldInformation.playerCar == transform.parent.name)
+if(CameraScript.InInterface == false){
+if(Input.GetKeyDown("w") || Input.GetKeyDown("s"))
+Running = true;
+if(Input.GetKeyUp("w") || Input.GetKeyUp("s"))
+Running = false;
+}
+
+if(Running){
+if(GetComponent.<ParticleSystem>().emissionRate < EmissionRate)
+   GetComponent.<ParticleSystem>().emissionRate += EmissionAcceleration;
+}else{
+if(GetComponent.<ParticleSystem>().emissionRate > 0)
+   GetComponent.<ParticleSystem>().emissionRate -= EmissionAcceleration;
+}
+
+}

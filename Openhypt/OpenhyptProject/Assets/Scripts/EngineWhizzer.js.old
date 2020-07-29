@@ -1,0 +1,70 @@
+#pragma strict
+
+var WhizzSpeed : float = 100;
+var audioClipSpeed = 20.0;
+var MaxVolume : float = 0.2;
+var MinPitch : float = 0.0;
+var incrementValue: float = 0.05;
+var decrementValue: float = 0.02;
+
+private var lastspeed : int = 1;
+private var state: String;
+
+var RunningF : boolean;
+var RunningR : boolean;
+
+function Update () {
+if(WorldInformation.playerCar == transform.parent.name){
+if(CameraScript.InInterface == false){
+if(Input.GetKeyDown("w"))
+			RunningF = true;
+if(Input.GetKeyUp("w"))
+			RunningF = false;
+if(Input.GetKeyDown("s"))
+			RunningR = true;
+if(Input.GetKeyUp("s"))
+			RunningR = false;
+}
+}
+}
+
+function FixedUpdate () {
+
+var p = GetComponent.<Rigidbody>().angularVelocity.magnitude / audioClipSpeed;
+GetComponent.<AudioSource>().pitch = Mathf.Clamp( p * 1 , MinPitch, 2.0);
+
+lastspeed = GetComponent.<Rigidbody>().angularVelocity.magnitude;
+
+if(RunningF || RunningR)
+			GetComponent.<Rigidbody>().AddTorque(transform.up * WhizzSpeed);
+
+	if(RunningF || RunningR)
+		state = "increment";
+		
+	if(!RunningF && !RunningR)
+		state = "decrement";
+		
+	if(state == "increment"){
+		increment();
+	} else if(state == "decrement") {
+		decrement();
+	}
+}
+
+function decrement () {
+	if(GetComponent.<AudioSource>().volume > 0){
+		GetComponent.<AudioSource>().volume -= decrementValue;
+	} else {
+		GetComponent.<AudioSource>().Stop();
+		state = "";
+	}
+}
+
+function increment () {
+	if(!GetComponent.<AudioSource>().isPlaying)
+		GetComponent.<AudioSource>().Play();
+	if(GetComponent.<AudioSource>().volume < MaxVolume)
+		GetComponent.<AudioSource>().volume += incrementValue;
+	else
+		state = "";
+}

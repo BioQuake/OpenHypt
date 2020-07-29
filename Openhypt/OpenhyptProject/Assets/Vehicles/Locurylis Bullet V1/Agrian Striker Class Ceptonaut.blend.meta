@@ -1,245 +1,93 @@
 fileFormatVersion: 2
 guid: 44f300a86cae18e4ebce8d1b1bceed9e
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: AgrianSCCchassis
-  - first:
-      1: 100004
-    second: AgrianSCCchassisCol
-  - first:
-      1: 100006
-    second: AgrianSCCmissile
-  - first:
-      1: 100008
-    second: AgrianSCCthruster
-  - first:
-      1: 100010
-    second: PiriEstimate
-  - first:
-      1: 100012
-    second: AgrianSCCFragment
-  - first:
-      1: 100014
-    second: Locurylis1Chassis
-  - first:
-      1: 100016
-    second: Locurylis1Col
-  - first:
-      1: 100018
-    second: Locurylis2chassis
-  - first:
-      1: 100020
-    second: Locurylis2Col
-  - first:
-      1: 100022
-    second: LocurylisFragment
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: AgrianSCCchassis
-  - first:
-      4: 400004
-    second: AgrianSCCchassisCol
-  - first:
-      4: 400006
-    second: AgrianSCCmissile
-  - first:
-      4: 400008
-    second: AgrianSCCthruster
-  - first:
-      4: 400010
-    second: PiriEstimate
-  - first:
-      4: 400012
-    second: AgrianSCCFragment
-  - first:
-      4: 400014
-    second: Locurylis1Chassis
-  - first:
-      4: 400016
-    second: Locurylis1Col
-  - first:
-      4: 400018
-    second: Locurylis2chassis
-  - first:
-      4: 400020
-    second: Locurylis2Col
-  - first:
-      4: 400022
-    second: LocurylisFragment
-  - first:
-      23: 2300000
-    second: AgrianSCCchassis
-  - first:
-      23: 2300002
-    second: AgrianSCCchassisCol
-  - first:
-      23: 2300004
-    second: AgrianSCCmissile
-  - first:
-      23: 2300006
-    second: AgrianSCCthruster
-  - first:
-      23: 2300008
-    second: PiriEstimate
-  - first:
-      23: 2300010
-    second: AgrianSCCFragment
-  - first:
-      23: 2300012
-    second: Locurylis1Chassis
-  - first:
-      23: 2300014
-    second: Locurylis1Col
-  - first:
-      23: 2300016
-    second: Locurylis2chassis
-  - first:
-      23: 2300018
-    second: Locurylis2Col
-  - first:
-      23: 2300020
-    second: LocurylisFragment
-  - first:
-      33: 3300000
-    second: AgrianSCCchassis
-  - first:
-      33: 3300002
-    second: AgrianSCCchassisCol
-  - first:
-      33: 3300004
-    second: AgrianSCCmissile
-  - first:
-      33: 3300006
-    second: AgrianSCCthruster
-  - first:
-      33: 3300008
-    second: PiriEstimate
-  - first:
-      33: 3300010
-    second: AgrianSCCFragment
-  - first:
-      33: 3300012
-    second: Locurylis1Chassis
-  - first:
-      33: 3300014
-    second: Locurylis1Col
-  - first:
-      33: 3300016
-    second: Locurylis2chassis
-  - first:
-      33: 3300018
-    second: Locurylis2Col
-  - first:
-      33: 3300020
-    second: LocurylisFragment
-  - first:
-      43: 4300000
-    second: AgrianSCCchassisCol
-  - first:
-      43: 4300002
-    second: AgrianSCCthruster
-  - first:
-      43: 4300004
-    second: PiriEstimate
-  - first:
-      43: 4300006
-    second: AgrianSCCchassis
-  - first:
-      43: 4300008
-    second: AgrianSCCmissile
-  - first:
-      43: 4300010
-    second: AgrianSCCFragment
-  - first:
-      43: 4300012
-    second: Locurylis2Col
-  - first:
-      43: 4300014
-    second: Locurylis2chassis
-  - first:
-      43: 4300016
-    second: LocurylisFragment
-  - first:
-      43: 4300018
-    second: Locurylis1Col
-  - first:
-      43: 4300020
-    second: Locurylis1Chassis
-  - first:
-      64: 6400000
-    second: AgrianSCCchassis
-  - first:
-      64: 6400002
-    second: AgrianSCCchassisCol
-  - first:
-      64: 6400004
-    second: AgrianSCCFragment
-  - first:
-      64: 6400006
-    second: AgrianSCCmissile
-  - first:
-      64: 6400008
-    second: AgrianSCCthruster
-  - first:
-      64: 6400010
-    second: PiriEstimate
-  - first:
-      64: 6400012
-    second: Locurylis1Chassis
-  - first:
-      64: 6400014
-    second: Locurylis1Col
-  - first:
-      64: 6400016
-    second: Locurylis2chassis
-  - first:
-      64: 6400018
-    second: Locurylis2Col
-  - first:
-      64: 6400020
-    second: LocurylisFragment
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: AgrianSCCchassis
+    100004: AgrianSCCchassisCol
+    100006: AgrianSCCmissile
+    100008: AgrianSCCthruster
+    100010: PiriEstimate
+    100012: AgrianSCCFragment
+    100014: Locurylis1Chassis
+    100016: Locurylis1Col
+    100018: Locurylis2chassis
+    100020: Locurylis2Col
+    100022: LocurylisFragment
+    400000: //RootNode
+    400002: AgrianSCCchassis
+    400004: AgrianSCCchassisCol
+    400006: AgrianSCCmissile
+    400008: AgrianSCCthruster
+    400010: PiriEstimate
+    400012: AgrianSCCFragment
+    400014: Locurylis1Chassis
+    400016: Locurylis1Col
+    400018: Locurylis2chassis
+    400020: Locurylis2Col
+    400022: LocurylisFragment
+    2300000: AgrianSCCchassis
+    2300002: AgrianSCCchassisCol
+    2300004: AgrianSCCmissile
+    2300006: AgrianSCCthruster
+    2300008: PiriEstimate
+    2300010: AgrianSCCFragment
+    2300012: Locurylis1Chassis
+    2300014: Locurylis1Col
+    2300016: Locurylis2chassis
+    2300018: Locurylis2Col
+    2300020: LocurylisFragment
+    3300000: AgrianSCCchassis
+    3300002: AgrianSCCchassisCol
+    3300004: AgrianSCCmissile
+    3300006: AgrianSCCthruster
+    3300008: PiriEstimate
+    3300010: AgrianSCCFragment
+    3300012: Locurylis1Chassis
+    3300014: Locurylis1Col
+    3300016: Locurylis2chassis
+    3300018: Locurylis2Col
+    3300020: LocurylisFragment
+    4300000: AgrianSCCchassisCol
+    4300002: AgrianSCCthruster
+    4300004: PiriEstimate
+    4300006: AgrianSCCchassis
+    4300008: AgrianSCCmissile
+    4300010: AgrianSCCFragment
+    4300012: Locurylis2Col
+    4300014: Locurylis2chassis
+    4300016: LocurylisFragment
+    4300018: Locurylis1Col
+    4300020: Locurylis1Chassis
+    6400000: AgrianSCCchassis
+    6400002: AgrianSCCchassisCol
+    6400004: AgrianSCCFragment
+    6400006: AgrianSCCmissile
+    6400008: AgrianSCCthruster
+    6400010: PiriEstimate
+    6400012: Locurylis1Chassis
+    6400014: Locurylis1Col
+    6400016: Locurylis2chassis
+    6400018: Locurylis2Col
+    6400020: LocurylisFragment
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -247,65 +95,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

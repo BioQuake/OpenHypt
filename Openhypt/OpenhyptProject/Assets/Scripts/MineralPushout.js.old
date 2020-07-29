@@ -1,0 +1,3 @@
+function Start () {
+		GetComponent.<Rigidbody>().AddForce (transform.up * 50 * GetComponent.<Rigidbody>().mass);
+	}

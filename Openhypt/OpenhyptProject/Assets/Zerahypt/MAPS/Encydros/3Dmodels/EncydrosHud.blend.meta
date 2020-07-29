@@ -1,173 +1,68 @@
 fileFormatVersion: 2
 guid: d0adc4ee98ba5f942a15b8585fc1da5e
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: Cube
-  - first:
-      1: 100002
-    second: //RootNode
-  - first:
-      1: 100004
-    second: HUD
-  - first:
-      1: 100006
-    second: AttackIcon
-  - first:
-      1: 100008
-    second: DozerIcon
-  - first:
-      1: 100010
-    second: PowerIcon
-  - first:
-      1: 100012
-    second: TimeplusIcon
-  - first:
-      1: 100014
-    second: TimeplusIcon2
-  - first:
-      4: 400000
-    second: Cube
-  - first:
-      4: 400002
-    second: //RootNode
-  - first:
-      4: 400004
-    second: HUD
-  - first:
-      4: 400006
-    second: AttackIcon
-  - first:
-      4: 400008
-    second: DozerIcon
-  - first:
-      4: 400010
-    second: PowerIcon
-  - first:
-      4: 400012
-    second: TimeplusIcon
-  - first:
-      4: 400014
-    second: TimeplusIcon2
-  - first:
-      23: 2300000
-    second: Cube
-  - first:
-      23: 2300002
-    second: HUD
-  - first:
-      23: 2300004
-    second: AttackIcon
-  - first:
-      23: 2300006
-    second: DozerIcon
-  - first:
-      23: 2300008
-    second: PowerIcon
-  - first:
-      23: 2300010
-    second: TimeplusIcon
-  - first:
-      23: 2300012
-    second: TimeplusIcon2
-  - first:
-      33: 3300000
-    second: Cube
-  - first:
-      33: 3300002
-    second: HUD
-  - first:
-      33: 3300004
-    second: AttackIcon
-  - first:
-      33: 3300006
-    second: DozerIcon
-  - first:
-      33: 3300008
-    second: PowerIcon
-  - first:
-      33: 3300010
-    second: TimeplusIcon
-  - first:
-      33: 3300012
-    second: TimeplusIcon2
-  - first:
-      43: 4300000
-    second: Cube
-  - first:
-      43: 4300002
-    second: HUD
-  - first:
-      43: 4300004
-    second: DozerIcon
-  - first:
-      43: 4300006
-    second: PowerIcon
-  - first:
-      43: 4300008
-    second: AttackIcon
-  - first:
-      43: 4300010
-    second: TimeplusIcon2
-  - first:
-      43: 4300012
-    second: TimeplusIcon
-  - first:
-      64: 6400000
-    second: Cube
-  - first:
-      64: 6400002
-    second: HUD
-  - first:
-      64: 6400004
-    second: AttackIcon
-  - first:
-      64: 6400006
-    second: DozerIcon
-  - first:
-      64: 6400008
-    second: PowerIcon
-  - first:
-      64: 6400010
-    second: TimeplusIcon
-  - first:
-      64: 6400012
-    second: TimeplusIcon2
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Cube
+    100002: //RootNode
+    100004: HUD
+    100006: AttackIcon
+    100008: DozerIcon
+    100010: PowerIcon
+    100012: TimeplusIcon
+    100014: TimeplusIcon2
+    400000: Cube
+    400002: //RootNode
+    400004: HUD
+    400006: AttackIcon
+    400008: DozerIcon
+    400010: PowerIcon
+    400012: TimeplusIcon
+    400014: TimeplusIcon2
+    2300000: Cube
+    2300002: HUD
+    2300004: AttackIcon
+    2300006: DozerIcon
+    2300008: PowerIcon
+    2300010: TimeplusIcon
+    2300012: TimeplusIcon2
+    3300000: Cube
+    3300002: HUD
+    3300004: AttackIcon
+    3300006: DozerIcon
+    3300008: PowerIcon
+    3300010: TimeplusIcon
+    3300012: TimeplusIcon2
+    4300000: Cube
+    4300002: HUD
+    4300004: DozerIcon
+    4300006: PowerIcon
+    4300008: AttackIcon
+    4300010: TimeplusIcon2
+    4300012: TimeplusIcon
+    6400000: Cube
+    6400002: HUD
+    6400004: AttackIcon
+    6400006: DozerIcon
+    6400008: PowerIcon
+    6400010: TimeplusIcon
+    6400012: TimeplusIcon2
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 1
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -175,65 +70,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 20
+    splitTangentsAcrossUV: 1
     normalImportMode: 1
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

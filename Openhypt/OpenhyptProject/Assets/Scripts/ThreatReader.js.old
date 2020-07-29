@@ -1,0 +1,7 @@
+﻿var IgnoreThis : String = "PersonMcPersonface";
+
+function OnTriggerEnter (other : Collider) {
+if(other.GetComponent.<Collider>().name.Contains ("TC"))
+if(!other.GetComponent.<Collider>().name.Contains (IgnoreThis))
+Destroy(gameObject);
+}

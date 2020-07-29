@@ -1,0 +1,22 @@
+var Vessel: GameObject;
+
+var audioClipSpeed = 20.0;
+var MaxVol : float = 1.0;
+var MaxPitch : float = 1.0;
+var MinPitch : float = 0.0;
+
+function Start () {
+
+}
+
+function FixedUpdate () {
+var p = Vessel.GetComponent.<Rigidbody>().angularVelocity.magnitude / audioClipSpeed;
+GetComponent.<AudioSource>().pitch = Mathf.Clamp(p * 1 , MinPitch, MaxPitch);
+
+if(Vessel.GetComponent.<Rigidbody>().angularVelocity.magnitude < 1) {
+GetComponent.<AudioSource>().volume -= 0.02;
+} else if(Vessel.GetComponent.<Rigidbody>().angularVelocity.magnitude > 1) {
+if(GetComponent.<AudioSource>().volume < MaxVol)
+GetComponent.<AudioSource>().volume += 0.02;
+}
+}

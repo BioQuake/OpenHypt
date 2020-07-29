@@ -1,203 +1,79 @@
 fileFormatVersion: 2
 guid: 095d652b3d8c5f84d908afd93c369a30
 ModelImporter:
-  serializedVersion: 20101
-  internalIDToNameTable:
-  - first:
-      1: 100000
-    second: //RootNode
-  - first:
-      1: 100002
-    second: PiriComparison
-  - first:
-      1: 100004
-    second: Vessel
-  - first:
-      1: 100006
-    second: Vessel_001
-  - first:
-      1: 100008
-    second: Corsudra2Axel
-  - first:
-      1: 100010
-    second: Corsudra2Chassis
-  - first:
-      1: 100012
-    second: Corsudra2Gun
-  - first:
-      1: 100014
-    second: Corsudra2GunBase
-  - first:
-      1: 100016
-    second: Corsudra2Turret
-  - first:
-      1: 100018
-    second: Corsudra2Wheel
-  - first:
-      4: 400000
-    second: //RootNode
-  - first:
-      4: 400002
-    second: PiriComparison
-  - first:
-      4: 400004
-    second: Vessel
-  - first:
-      4: 400006
-    second: Vessel_001
-  - first:
-      4: 400008
-    second: Corsudra2Axel
-  - first:
-      4: 400010
-    second: Corsudra2Chassis
-  - first:
-      4: 400012
-    second: Corsudra2Gun
-  - first:
-      4: 400014
-    second: Corsudra2GunBase
-  - first:
-      4: 400016
-    second: Corsudra2Turret
-  - first:
-      4: 400018
-    second: Corsudra2Wheel
-  - first:
-      23: 2300000
-    second: PiriComparison
-  - first:
-      23: 2300002
-    second: Vessel
-  - first:
-      23: 2300004
-    second: Vessel_001
-  - first:
-      23: 2300006
-    second: Corsudra2Axel
-  - first:
-      23: 2300008
-    second: Corsudra2Chassis
-  - first:
-      23: 2300010
-    second: Corsudra2Gun
-  - first:
-      23: 2300012
-    second: Corsudra2GunBase
-  - first:
-      23: 2300014
-    second: Corsudra2Turret
-  - first:
-      23: 2300016
-    second: Corsudra2Wheel
-  - first:
-      33: 3300000
-    second: PiriComparison
-  - first:
-      33: 3300002
-    second: Vessel
-  - first:
-      33: 3300004
-    second: Vessel_001
-  - first:
-      33: 3300006
-    second: Corsudra2Axel
-  - first:
-      33: 3300008
-    second: Corsudra2Chassis
-  - first:
-      33: 3300010
-    second: Corsudra2Gun
-  - first:
-      33: 3300012
-    second: Corsudra2GunBase
-  - first:
-      33: 3300014
-    second: Corsudra2Turret
-  - first:
-      33: 3300016
-    second: Corsudra2Wheel
-  - first:
-      43: 4300000
-    second: Vessel_001
-  - first:
-      43: 4300002
-    second: Vessel
-  - first:
-      43: 4300004
-    second: PiriComparison
-  - first:
-      43: 4300006
-    second: Corsudra2Gun
-  - first:
-      43: 4300008
-    second: Corsudra2GunBase
-  - first:
-      43: 4300010
-    second: Corsudra2Axel
-  - first:
-      43: 4300012
-    second: Corsudra2Wheel
-  - first:
-      43: 4300014
-    second: Corsudra2Turret
-  - first:
-      43: 4300016
-    second: Corsudra2Chassis
-  - first:
-      64: 6400000
-    second: Corsudra2Axel
-  - first:
-      64: 6400002
-    second: Corsudra2Chassis
-  - first:
-      64: 6400004
-    second: Corsudra2Gun
-  - first:
-      64: 6400006
-    second: Corsudra2GunBase
-  - first:
-      64: 6400008
-    second: Corsudra2Turret
-  - first:
-      64: 6400010
-    second: Corsudra2Wheel
-  - first:
-      64: 6400012
-    second: PiriComparison
-  - first:
-      74: 7400000
-    second: Default Take
-  - first:
-      95: 9500000
-    second: //RootNode
-  externalObjects: {}
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: PiriComparison
+    100004: Vessel
+    100006: Vessel_001
+    100008: Corsudra2Axel
+    100010: Corsudra2Chassis
+    100012: Corsudra2Gun
+    100014: Corsudra2GunBase
+    100016: Corsudra2Turret
+    100018: Corsudra2Wheel
+    400000: //RootNode
+    400002: PiriComparison
+    400004: Vessel
+    400006: Vessel_001
+    400008: Corsudra2Axel
+    400010: Corsudra2Chassis
+    400012: Corsudra2Gun
+    400014: Corsudra2GunBase
+    400016: Corsudra2Turret
+    400018: Corsudra2Wheel
+    2300000: PiriComparison
+    2300002: Vessel
+    2300004: Vessel_001
+    2300006: Corsudra2Axel
+    2300008: Corsudra2Chassis
+    2300010: Corsudra2Gun
+    2300012: Corsudra2GunBase
+    2300014: Corsudra2Turret
+    2300016: Corsudra2Wheel
+    3300000: PiriComparison
+    3300002: Vessel
+    3300004: Vessel_001
+    3300006: Corsudra2Axel
+    3300008: Corsudra2Chassis
+    3300010: Corsudra2Gun
+    3300012: Corsudra2GunBase
+    3300014: Corsudra2Turret
+    3300016: Corsudra2Wheel
+    4300000: Vessel_001
+    4300002: Vessel
+    4300004: PiriComparison
+    4300006: Corsudra2Gun
+    4300008: Corsudra2GunBase
+    4300010: Corsudra2Axel
+    4300012: Corsudra2Wheel
+    4300014: Corsudra2Turret
+    4300016: Corsudra2Chassis
+    6400000: Corsudra2Axel
+    6400002: Corsudra2Chassis
+    6400004: Corsudra2Gun
+    6400006: Corsudra2GunBase
+    6400008: Corsudra2Turret
+    6400010: Corsudra2Wheel
+    6400012: PiriComparison
+    7400000: Default Take
+    9500000: //RootNode
   materials:
-    materialImportMode: 0
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -205,65 +81,35 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 1
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
-    importVisibility: 0
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    keepQuads: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
-    bakeAxisConversion: 0
-    preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
-    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
-    secondaryUVMinLightmapResolution: 40
-    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
+    tangentImportMode: 1
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
-    hasExtraRoot: 0
-    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
-  humanoidOversampling: 1
-  avatarSetup: 1
   additionalBone: 0
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

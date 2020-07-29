@@ -1,0 +1,7 @@
+﻿#pragma strict
+
+function OnCollisionStay(collision : Collision){
+var contact : ContactPoint = collision.contacts[0];
+if(collision.gameObject.GetComponent.<Rigidbody>().velocity.magnitude < 0.5)
+collision.gameObject.GetComponent.<Rigidbody>().AddForceAtPosition (transform.forward * 0.2, contact.point);
+}
