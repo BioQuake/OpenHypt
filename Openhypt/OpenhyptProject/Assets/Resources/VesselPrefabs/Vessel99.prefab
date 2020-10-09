@@ -5390,8 +5390,10 @@ GameObject:
   - component: {fileID: 11491142}
   - component: {fileID: 11491140}
   - component: {fileID: 11491138}
-  - component: {fileID: 6491108}
   - component: {fileID: 11491136}
+  - component: {fileID: 6491108}
+  - component: {fileID: 2200936586021506938}
+  - component: {fileID: 105926593723877866}
   m_Layer: 0
   m_Name: Volvo
   m_TagString: Metal
@@ -6031,20 +6033,6 @@ MonoBehaviour:
   COMFix: 1
   Configuring: 0
   WeightFix: 0
---- !u!64 &6491108
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191196}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300008, guid: 62091a3c60e5a524fb0877dfbd36a389, type: 3}
 --- !u!114 &11491136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6071,6 +6059,62 @@ MonoBehaviour:
   Page: 
   RandomPage: 0
   NumberOfPages: 2
+--- !u!64 &6491108
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1211152359235122691, guid: 62091a3c60e5a524fb0877dfbd36a389, type: 3}
+--- !u!64 &2200936586021506938
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191196}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4468948202126399869, guid: 62091a3c60e5a524fb0877dfbd36a389, type: 3}
+--- !u!114 &105926593723877866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b58292c1c6e764190ab75cb3736920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignoreColliders:
+  - {fileID: 13590582}
+  - {fileID: 13591106}
+  - {fileID: 13591104}
+  - {fileID: 13590580}
+  - {fileID: 13591102}
+  - {fileID: 13591100}
+  - {fileID: 13590584}
+  - {fileID: 13591098}
+  - {fileID: 13591096}
+  - {fileID: 13590586}
+  - {fileID: 13591094}
+  - {fileID: 13591092}
+  localColliders:
+  - {fileID: 6491108}
+  - {fileID: 2200936586021506938}
 --- !u!1 &191198
 GameObject:
   m_ObjectHideFlags: 0

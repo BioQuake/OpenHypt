@@ -15350,8 +15350,11 @@ GameObject:
   - component: {fileID: 11442856}
   - component: {fileID: 8242892}
   - component: {fileID: 11420516}
-  - component: {fileID: 6446472}
   - component: {fileID: 11446472}
+  - component: {fileID: 1302794945406887539}
+  - component: {fileID: 4586846847944830202}
+  - component: {fileID: 4887024645510811762}
+  - component: {fileID: 83843491377738478}
   m_Layer: 0
   m_Name: Carbondyle Spiffer C.200
   m_TagString: Metal
@@ -15993,20 +15996,6 @@ MonoBehaviour:
   MtargetLayers:
     serializedVersion: 2
     m_Bits: 0
---- !u!64 &6446472
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142828}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300010, guid: 5797a8cd6fe18804cba599f455f46b3c, type: 3}
 --- !u!114 &11446472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16028,6 +16017,77 @@ MonoBehaviour:
   Page: 
   RandomPage: 0
   NumberOfPages: 2
+--- !u!64 &1302794945406887539
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2841943736417059719, guid: 5797a8cd6fe18804cba599f455f46b3c, type: 3}
+--- !u!64 &4586846847944830202
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1415252621117154727, guid: 5797a8cd6fe18804cba599f455f46b3c, type: 3}
+--- !u!64 &4887024645510811762
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1387057286082303569, guid: 5797a8cd6fe18804cba599f455f46b3c, type: 3}
+--- !u!114 &83843491377738478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95b58292c1c6e764190ab75cb3736920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignoreColliders:
+  - {fileID: 6412846}
+  - {fileID: 13563038}
+  - {fileID: 13512842}
+  - {fileID: 6412844}
+  - {fileID: 13563040}
+  - {fileID: 13512840}
+  - {fileID: 6412842}
+  - {fileID: 13563042}
+  - {fileID: 13512844}
+  - {fileID: 6412840}
+  - {fileID: 13563044}
+  - {fileID: 13512846}
+  localColliders:
+  - {fileID: 1302794945406887539}
+  - {fileID: 4586846847944830202}
+  - {fileID: 4887024645510811762}
 --- !u!1 &142836
 GameObject:
   m_ObjectHideFlags: 0
